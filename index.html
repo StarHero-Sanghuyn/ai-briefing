@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>AI 데일리 브리핑</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=IBM+Plex+Sans+KR:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: 신호 수신 대시보드 — 상단 날짜 다이얼 + 오늘의 한 줄, 아래 카테고리 필터와 단일 컬럼 피드 */
+:root {
+  --bg: #f3f5f9; --surface: #ffffff; --fg: #141a26; --muted: #5d6779; --line: #dde2ec;
+  --accent: #2f4fe0;
+  --c-company: #4a3fd6; --c-product: #0b8a7a; --c-buzz: #b46a07; --hot: #d2363a;
+  --tint-company: #ecebfd; --tint-product: #e3f4f1; --tint-buzz: #fbf0de;
+  --display: "Do Hyeon", "IBM Plex Sans KR", system-ui, sans-serif;
+  --body: "IBM Plex Sans KR", system-ui, -apple-system, "Apple SD Gothic Neo", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0e121b; --surface: #161c28; --fg: #e8ecf4; --muted: #95a0b5; --line: #262f40;
+  --accent: #7d95ff;
+  --c-company: #a49cff; --c-product: #4fd1bd; --c-buzz: #f0b257; --hot: #ff6b6e;
+  --tint-company: #221f45; --tint-product: #10302c; --tint-buzz: #33260f;
+  color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0e121b; --surface: #161c28; --fg: #e8ecf4; --muted: #95a0b5; --line: #262f40;
+  --accent: #7d95ff;
+  --c-company: #a49cff; --c-product: #4fd1bd; --c-buzz: #f0b257; --hot: #ff6b6e;
+  --tint-company: #221f45; --tint-product: #10302c; --tint-buzz: #33260f;
+  color-scheme: dark; }
+
+body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 15px; line-height: 1.6; }
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 28px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; gap: 22px; }
+
+header { display: grid; gap: 14px; }
+.top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.brand { font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.brand b { color: var(--accent); font-weight: 500; }
+.dial { display: flex; align-items: center; gap: 6px; }
+.dial button { font: 500 13px var(--mono); background: var(--surface); color: var(--fg); border: 1px solid var(--line);
+  border-radius: 6px; padding: 4px 10px; cursor: pointer; }
+.dial button:disabled { opacity: .35; cursor: default; }
+.dial button:focus-visible, .chip:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+h1 { font-family: var(--display); font-weight: 400; font-size: clamp(30px, 6vw, 44px); line-height: 1.15; margin: 0; text-wrap: balance; }
+.date { font-family: var(--mono); font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.lede { margin: 0; font-size: 16px; max-width: 62ch; }
+
+.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+.chip { font: 500 13px var(--body); border: 1px solid var(--line); background: var(--surface); color: var(--fg);
+  border-radius: 999px; padding: 5px 12px; cursor: pointer; display: inline-flex; gap: 6px; align-items: center; }
+.chip .n { font-family: var(--mono); font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+.chip[aria-pressed="true"] .n { color: inherit; opacity: .7; }
+
+.feed { display: grid; gap: 10px; list-style: none; margin: 0; padding: 0; }
+.item { background: var(--surface); border: 1px solid var(--line); border-left: 3px solid var(--cat); border-radius: 8px;
+  padding: 14px 16px; display: grid; gap: 6px; min-width: 0; }
+.item[data-cat="company"] { --cat: var(--c-company); --tint: var(--tint-company); }
+.item[data-cat="product"] { --cat: var(--c-product); --tint: var(--tint-product); }
+.item[data-cat="buzz"] { --cat: var(--c-buzz); --tint: var(--tint-buzz); }
+.meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-size: 12px; }
+.tag { background: var(--tint); color: var(--cat); font-weight: 700; border-radius: 4px; padding: 1px 7px; }
+.hot { color: var(--hot); font-family: var(--mono); font-weight: 500; letter-spacing: .06em; }
+.who { color: var(--muted); font-family: var(--mono); }
+.item h2 { font-size: 16.5px; line-height: 1.4; margin: 0; font-weight: 700; text-wrap: balance; }
+.item p { margin: 0; color: var(--muted); }
+.src { font-size: 12.5px; }
+.src a { color: var(--accent); text-decoration: none; word-break: break-all; }
+.src a:hover { text-decoration: underline; }
+
+.empty { background: var(--surface); border: 1px dashed var(--line); border-radius: 8px; padding: 28px 20px; color: var(--muted); text-align: center; }
+footer { font-size: 12px; color: var(--muted); font-family: var(--mono); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="top">
+      <span class="brand"><b>●</b> AI Daily Briefing</span>
+      <div class="dial">
+        <button id="prev" type="button" aria-label="이전 날짜" disabled>◀ 이전</button>
+        <button id="next" type="button" aria-label="다음 날짜" disabled>다음 ▶</button>
+      </div>
+    </div>
+    <div class="date" id="date">—</div>
+    <h1 id="headline">오늘의 AI 소식을 불러오는 중</h1>
+    <p class="lede" id="lede">AI 회사 동향, AI 제품 출시, 업계 화제를 매일 아침 한 페이지로 정리합니다.</p>
+  </header>
+
+  <div class="chips" id="chips" role="group" aria-label="카테고리 필터"></div>
+  <ul class="feed" id="feed"></ul>
+  <footer id="foot">매일 오전 자동 업데이트 · 출처 링크는 원문으로 연결됩니다</footer>
+</div>
+
+<script>
+const CATS = { all: "전체", company: "AI 회사", product: "AI 제품", buzz: "화제·이슈" };
+const $ = id => document.getElementById(id);
+let days = [], idx = 0, filter = "all";
+try { filter = localStorage.getItem("filter") || "all"; } catch {}
+
+function fmtDate(s) {
+  const d = new Date(s + "T00:00:00");
+  return d.toLocaleDateString("ko-KR", { year: "numeric", month: "long", day: "numeric", weekday: "short" });
+}
+
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+function render() {
+  const feed = $("feed"), chips = $("chips");
+  feed.replaceChildren(); chips.replaceChildren();
+  $("prev").disabled = idx >= days.length - 1;
+  $("next").disabled = idx <= 0;
+  const day = days[idx];
+  if (!day) {
+    $("date").textContent = "—";
+    $("headline").textContent = "아직 브리핑이 없습니다";
+    feed.append(el("li", "empty", "첫 브리핑이 올라오면 여기에 AI 회사·제품·화제 소식이 카테고리별로 표시됩니다."));
+    return;
+  }
+  $("date").textContent = fmtDate(day.date) + (idx === 0 ? " · 최신" : "");
+  $("headline").textContent = day.headline || "오늘의 AI 브리핑";
+  $("lede").textContent = day.summary || "";
+  const items = Array.isArray(day.items) ? day.items : [];
+  for (const [k, label] of Object.entries(CATS)) {
+    const n = k === "all" ? items.length : items.filter(i => i.cat === k).length;
+    const b = el("button", "chip"); b.type = "button"; b.setAttribute("aria-pressed", String(filter === k));
+    b.append(label, el("span", "n", n));
+    b.onclick = () => { filter = k; try { localStorage.setItem("filter", k); } catch {} render(); };
+    chips.append(b);
+  }
+  const shown = items.filter(i => filter === "all" || i.cat === filter)
+    .sort((a, b) => (b.hot ? 1 : 0) - (a.hot ? 1 : 0));
+  if (!shown.length) feed.append(el("li", "empty", "이 카테고리에는 오늘 소식이 없습니다."));
+  for (const it of shown) {
+    const li = el("li", "item"); li.dataset.cat = CATS[it.cat] ? it.cat : "buzz";
+    const meta = el("div", "meta");
+    meta.append(el("span", "tag", CATS[li.dataset.cat]));
+    if (it.hot) meta.append(el("span", "hot", "HOT"));
+    if (it.who) meta.append(el("span", "who", it.who));
+    li.append(meta, el("h2", null, it.title || ""));
+    if (it.body) li.append(el("p", null, it.body));
+    if (it.url && /^https?:\/\//.test(it.url)) {
+      const s = el("div", "src"), a = el("a", null, (it.source || new URL(it.url).hostname) + " ↗");
+      a.href = it.url; a.target = "_blank"; a.rel = "noopener";
+      s.append(a); li.append(s);
+    }
+    feed.append(li);
+  }
+}
+
+// data/index.json = 날짜 배열(최신순), data/<날짜>.json = 그날 브리핑
+const cache = {};
+async function load(i) {
+  const date = dates[i];
+  if (!cache[date]) cache[date] = await fetch(`data/${date}.json`, { cache: "no-cache" }).then(r => r.json());
+  days[i] = cache[date]; idx = i; render();
+}
+let dates = [];
+$("prev").onclick = () => { if (idx < dates.length - 1) load(idx + 1); };
+$("next").onclick = () => { if (idx > 0) load(idx - 1); };
+
+fetch("data/index.json", { cache: "no-cache" }).then(r => r.json()).then(list => {
+  dates = list; days = new Array(list.length);
+  return list.length ? load(0) : render();
+}).catch(() => { $("headline").textContent = "브리핑을 불러오지 못했습니다"; });
+</script>
+</body>
+</html>
