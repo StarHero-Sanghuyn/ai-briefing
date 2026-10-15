@@ -67,7 +67,12 @@ h1 { font-family: var(--display); font-weight: 400; font-size: clamp(30px, 6vw, 
 .who { color: var(--muted); font-family: var(--mono); }
 .item h2 { font-size: 16.5px; line-height: 1.4; margin: 0; font-weight: 700; text-wrap: balance; }
 .item p { margin: 0; color: var(--muted); }
-.src { font-size: 12.5px; }
+.src { font-size: 12.5px; display: flex; gap: 12px; flex-wrap: wrap; }
+.src a.orig { color: var(--muted); }
+.item details summary { cursor: pointer; font-size: 13px; font-weight: 500; color: var(--cat); width: fit-content; }
+.item details summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.item details ul { margin: 8px 0 2px; padding-left: 1.2em; display: grid; gap: 4px; }
+.item details li { line-height: 1.55; }
 .src a { color: var(--accent); text-decoration: none; word-break: break-all; }
 .src a:hover { text-decoration: underline; }
 
@@ -142,10 +147,20 @@ function render() {
     if (it.who) meta.append(el("span", "who", it.who));
     li.append(meta, el("h2", null, it.title || ""));
     if (it.body) li.append(el("p", null, it.body));
+    if (Array.isArray(it.detail) && it.detail.length) {
+      const d = el("details"), ul = el("ul");
+      d.append(el("summary", null, "자세히 보기"));
+      for (const line of it.detail) ul.append(el("li", null, line));
+      d.append(ul); li.append(d);
+    }
     if (it.url && /^https?:\/\//.test(it.url)) {
-      const s = el("div", "src"), a = el("a", null, (it.source || new URL(it.url).hostname) + " ↗");
-      a.href = it.url; a.target = "_blank"; a.rel = "noopener";
-      s.append(a); li.append(s);
+      const s = el("div", "src");
+      const ko = el("a", null, (it.source || new URL(it.url).hostname) + " · 한국어로 읽기 ↗");
+      ko.href = "https://translate.google.com/translate?sl=auto&tl=ko&u=" + encodeURIComponent(it.url);
+      const orig = el("a", "orig", "원문");
+      orig.href = it.url;
+      for (const a of [ko, orig]) { a.target = "_blank"; a.rel = "noopener"; }
+      s.append(ko, orig); li.append(s);
     }
     feed.append(li);
   }
