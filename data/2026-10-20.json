@@ -1,0 +1,308 @@
+{
+  "date": "2026-10-20",
+  "headline": "美, DeepSeek 연방기관 퇴출·中은 AI 수출통제 초안… OpenAI 도청 혐의자 구금",
+  "summary": "미국 국토안보부가 연방 민간기관에서 DeepSeek 제품을 모두 빼라고 명령했고, 중국은 대형 AI 모델 가중치 등 23개 AI 기술을 수출통제 목록에 넣는 초안을 내놓아 미·중 AI 기술 장벽이 양쪽에서 높아졌습니다. OpenAI 회의실 도청 혐의 엔지니어는 사우디 측 보석 지원 제안에도 구금이 결정됐습니다. Amazon은 PyTorch 코드를 한 줄만 바꿔 자사 AI 칩에서 돌리는 TorchNeuron으로 Nvidia의 소프트웨어 장벽에 도전했고, Meta의 AI 에이전트가 판매자 집 주소를 넘기거나 OpenCode 해킹으로 API 요금이 털리는 등 에이전트 시대의 사고도 이어졌습니다.",
+  "items": [
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "OpenAI · 압둘라흐만 알포잔",
+      "title": "OpenAI 임원 회의실 도청 혐의 전 엔지니어, 보석 불허… 판사 \"사우디 보석금 제안은 백지수표\"",
+      "body": "OpenAI 본사 임원 회의실에 녹음 장치를 숨긴 혐의로 체포된 사우디 국적 전 엔지니어가 재판 전까지 구금됩니다. 판사는 사우디 정부가 보석을 돕겠다고 나선 점을 문제 삼았습니다.",
+      "detail": [
+        "샌프란시스코 연방법원 알렉스 체 치안판사는 10월 19일 약 1시간 심리 끝에 구금을 결정하며, 사우디 영사관의 보석 지원 제안이 \"백지수표\" 같다며 \"문제가 있다\"고 말했고 \"그가 떠나면 사건은 끝난다는 실질적 위협이 있다\"고 밝혔습니다.",
+        "검찰에 따르면 그는 9월 28일 임원 회의실 TV 뒤 USB 포트에 암호화된 녹음기를 꽂았고, 아내의 AI 챗봇 계정으로 녹음기 제작법을 조사했으며, 다른 회의실에도 장치를 설치하려 한 정황이 있습니다. 녹음 데이터가 암호화돼 무엇이 녹음됐는지는 불분명합니다.",
+        "검찰은 그가 2025~2026년 사우디 왕실 인사와 WhatsApp으로 자주 연락했고, 이 인사가 \"사우디는 미국보다 당신이 더 필요하다\"며 사우디 AI 사업 합류를 권했다고 주장했습니다. 그는 연봉 38만 5천 달러, 입사 시 220만 달러 주식 보상을 받았습니다.",
+        "변호인은 회의실이 누구나 쓸 수 있는 곳이었고 집에서 나온 전자부품은 고양이용 스마트 화장실 등 개인 프로젝트용이라고 반박했습니다. 그는 최대 징역 5년에 처해질 수 있고 추가 기소 가능성도 있으며, 다음 재판 기일은 11월 6일입니다."
+      ],
+      "source": "InfoSec Today",
+      "url": "https://www.infosectoday.io/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody"
+    },
+    {
+      "cat": "company",
+      "who": "Tenstorrent · 짐 켈러",
+      "title": "짐 켈러의 AI 칩 회사 Tenstorrent, 15억 달러 투자 유치… 기업가치 62억 달러",
+      "body": "Intel·AMD·Apple·Tesla 칩 설계로 유명한 짐 켈러가 이끄는 캐나다 AI 하드웨어 회사가 대규모 투자를 받았습니다. 공개 규격인 RISC-V 기반 칩으로 Nvidia와 경쟁합니다.",
+      "detail": [
+        "토론토의 Tenstorrent는 10월 19일 Trace Capital과 Innovation X가 공동 주도한 시리즈 E에서 15억 달러를 조달해 기업가치 62억 달러를 인정받았습니다. Morgan Stanley, Fidelity, ARK Invest, T. Rowe Price 등도 참여했습니다.",
+        "가장 많이 팔리는 제품은 대형 AI 모델 학습·실행용 'Galaxy' 서버이며, 수냉식 데스크톱 워크스테이션 'TT-QuietBox', RISC-V 코어를 넣은 'Blackhole' 카드도 판매합니다.",
+        "Virtu Financial이 Galaxy 서버로 사내 AI 트레이딩 에이전트를 돌리고, Equinix가 데이터센터에서 이 서버를 기업에 제공합니다. 컴파일러 TT-Forge 등 소프트웨어는 오픈소스로 공개돼 있습니다.",
+        "투자금은 Galaxy 서버 증산, RISC-V 연구, 인력 확대에 씁니다. 켈러는 \"하나의 아키텍처를 만들어 모든 크기로 판다\"고 말했습니다."
+      ],
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/10/19/chip-legend-jim-kellers-tenstorrent-raises-1-5b-to-expand-its-open-compute-ecosystem/"
+    },
+    {
+      "cat": "company",
+      "who": "Nvidia · Modal",
+      "title": "Nvidia, CPU 시장도 공략… AI 클라우드 Modal이 Intel·AMD 대신 'Vera' 첫 도입",
+      "body": "그동안 Intel과 AMD 서버 칩만 쓰던 AI 클라우드 스타트업 Modal이 Nvidia가 새로 내놓은 중앙처리장치(CPU) 'Vera'로 AI 에이전트를 돌리기로 했다고 Reuters가 보도했습니다.",
+      "detail": [
+        "Modal은 AI 개발자에게 컴퓨팅을 빌려주는 회사로, Vera를 처음으로 오래 걸리는 AI 에이전트 작업 호스팅에 씁니다. 초기 테스트에서 Vera가 에이전트 처리량을 두 배로 늘렸다고 회사는 밝혔습니다(현재 시판 중인 Intel·AMD 칩과 비교).",
+        "에릭 베른하르드손 CEO는 Intel·AMD를 버리는 것이 아니라 혼합해서 쓰며, 작업마다 가장 잘 맞는 칩에 배정할 것이라고 말했습니다.",
+        "Modal은 발표 전주 Accel 주도로 시리즈 D 7억 5천만 달러를 기업가치 157억 5천만 달러에 유치했으며, 향후 1년 매출 10억 달러를 예상합니다. 매출은 전년 대비 15배 넘게 늘었습니다.",
+        "Nvidia는 이번 회계연도 Vera 판매로 최소 200억 달러를 기대하며 시장 규모를 약 2천억 달러로 보고 있고, OpenAI·Anthropic·Oracle·Perplexity도 이 칩을 쓸 계획이라고 앞서 밝혔습니다. 계약 금액은 공개되지 않았습니다."
+      ],
+      "source": "Global Banking & Finance (Reuters)",
+      "url": "https://www.globalbankingandfinance.com/nvidia-wins-fast-growing-ai-startup-modal-new-central/"
+    },
+    {
+      "cat": "company",
+      "who": "Town",
+      "title": "출시 4개월 된 기업용 AI 비서 Town, 1억 800만 달러 투자로 유니콘 등극",
+      "body": "직원 한 명마다 AI 비서를 붙여주는 샌프란시스코 스타트업 Town이 기업가치 10억 달러 이상을 인정받았습니다.",
+      "detail": [
+        "Plaid CTO 출신 장드니 그레즈가 세운 2년 차 회사로, 10월 19일 Forerunner Ventures와 Menlo Ventures가 공동 주도한 시리즈 B 1억 800만 달러를 발표했습니다. a16z, Serena Ventures, First Round Capital도 참여했습니다.",
+        "6월 시리즈 A 5,500만 달러를 포함해 지금까지 최소 1억 6천만 달러를 모았고, 공개 출시 몇 주 만에 연간 반복매출(ARR) 수백만 달러를 달성했다고 회사는 밝혔습니다.",
+        "'Townie'라 불리는 비서는 이메일·캘린더 등 업무 도구와 연결되고, 서로 승인된 정보를 주고받으며, 이제 사외 고객과도 일할 수 있습니다.",
+        "새 회사 정보를 모든 직원의 Townie에 자동 반영하는 공유 워크플로 기능도 함께 발표했습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/"
+    },
+    {
+      "cat": "company",
+      "who": "Anthropic · Google · OpenAI",
+      "title": "\"Anthropic, 사용자 의도 더 잘 읽는 새 모델 준비\" 보도… Google·OpenAI도 신모델 대기",
+      "body": "말하지 않은 목표까지 알아채는 Anthropic의 새 AI 모델이 출시를 앞두고 있다고 The Information이 보도했습니다. 모델을 써본 한 사람의 전언에 기반한 단일 출처 보도이며, Anthropic의 공식 발표는 없습니다.",
+      "detail": [
+        "디지털투데이가 전한 The Information 보도(10월 19일)에 따르면 이 모델은 현재 모델보다 추론력과 직관이 강하고, 명확히 말하지 않은 사용자의 목표를 추론하는 데 특히 뛰어납니다.",
+        "예를 들어 버그 수정을 요청하면 근본 원인을 찾고 관련 문제도 함께 고칠지 묻으며, 뻔한 해법 대신 색다른 방법을 제안한다고 합니다. 최상위 'Fable' 계열인지 그 아래 'Opus' 계열인지는 불분명합니다.",
+        "Google은 최근 출시한 'Gemini 4 Argon'보다 한 단계 위인 'Gemini 4 Carbon'(코드명)을, OpenAI는 'GPT-6.1 Sol'보다 싸고 성능 좋은 중간급 'Terra' 계열 모델을 몇 주 안에 낼 것으로 보도됐습니다.",
+        "보도는 세 회사가 지난 한 달간 10개 넘는 새 모델을 냈으며, 기업·개발자들이 더는 무조건 최고 성능 모델을 고르지 않는다고 전했습니다."
+      ],
+      "source": "디지털투데이",
+      "url": "https://www.digitaltoday.co.kr/en/view/116605/anthropic-readies-new-ai-model-to-better-grasp-user-intent"
+    },
+    {
+      "cat": "company",
+      "who": "Meta · Anthropic · No Kings 연합",
+      "title": "Meta \"반트럼프 단체 인스타 정지, Claude 연동 도구 때문\"… 투표 독려 행사 중 90분 먹통",
+      "body": "중간선거 사전투표 독려 행사가 열리던 날 반트럼프 연합체 'No Kings'의 인스타그램 계정이 정지됐고, Meta는 Anthropic Claude와 연결된 도구의 접속 패턴을 봇으로 오인했다고 해명했습니다.",
+      "detail": [
+        "Meta 커뮤니케이션 부사장 앤디 스톤은 10월 18일, Claude 관련 도구가 프로필·게시물·해시태그를 일반인보다 약 4배 빠르게 짧은 폭발적 간격으로 읽어 자동화된 봇 트래픽처럼 보였다고 설명하고 사과했습니다.",
+        "어떤 Claude 도구였는지, 누가 썼는지, 계정에서 무엇을 했는지는 밝히지 않았습니다. 정지 약 1시간 뒤 자동 재검토에서 오류로 판정됐다고 Meta는 밝혔습니다.",
+        "페이지는 약 90분간 내려갔고, 그동안 미국 전역에서 11월 3일 중간선거 사전투표 독려 행사 약 3,000건이 진행 중이었습니다. 관리자 접근은 미 동부시간 오후 5시 33분에야 완전히 복구됐습니다.",
+        "No Kings 연합에는 Indivisible, Common Cause, ACLU 등 수백 개 단체가 참여하며, 주최 측은 인스타그램이 지지자와 소통하는 핵심 통로라며 Meta를 비판했습니다."
+      ],
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/meta-claude-no-kings-instagram-suspension"
+    },
+    {
+      "cat": "product",
+      "hot": true,
+      "who": "Amazon(AWS) · PyTorch",
+      "title": "Amazon, PyTorch 코드 한 줄만 바꾸면 자사 AI 칩에서 실행… 'TorchNeuron'으로 Nvidia에 도전",
+      "body": "AI 개발에 가장 많이 쓰는 도구 PyTorch로 만든 프로그램을 Amazon의 AI 칩 Trainium에서 거의 그대로 돌릴 수 있게 해주는 오픈소스 소프트웨어입니다. Nvidia를 사실상 기본값으로 만든 소프트웨어 장벽(CUDA)을 겨냥했습니다.",
+      "detail": [
+        "PyTorch 블로그에 따르면 TorchNeuron은 Apache 2.0 오픈소스로 10월 20일 PyTorch 콘퍼런스에서 공개 베타로 나오며, 코드에서 장치를 .to('neuron')으로 바꾸기만 하면 Trainium2·3에서 학습할 수 있습니다.",
+        "즉시 실행(eager) 모드와 torch.compile, 맞춤 커널 도구(NKI), 분산 학습(FSDP2 등)을 지원하며, Hugging Face Transformers·Diffusers와 TorchTitan도 Trainium을 기본 장치로 인식합니다.",
+        "Amazon은 AI 앱의 약 85%가 PyTorch로 만들어진다고 밝혔고, AWS 칩 부문 콜린 브레이스 부사장은 \"진짜 핵심은 개발자의 선택권을 막아온 종속을 없애는 것\"이라고 말했습니다.",
+        "음성 AI 기업 Deepgram은 Trainium이 기존 GPU보다 달러당 처리 오디오가 약 60% 많다고 블로그에 밝혔는데, TechCrunch는 AWS 설명을 인용해 70%라고 전해 수치가 다릅니다.",
+        "TechCrunch는 PyTorch로 AMD GPU나 Apple 칩에 옮기는 것도 이미 가능해 Amazon이 처음은 아니라고 짚었습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/"
+    },
+    {
+      "cat": "product",
+      "who": "Nvidia",
+      "title": "Nvidia, 기업용·PC용 공개 AI 모델 'Nemotron 3.5' 출시… \"특정 업무에선 Claude·GPT보다 빠르다\"",
+      "body": "Nvidia가 기업 데이터센터와 개인 PC에서 직접 돌릴 수 있는 공개 가중치(오픈웨이트) AI 모델들을 내놨습니다. 클라우드에 데이터를 보내지 않고 에이전트를 쓰려는 수요를 겨냥했습니다.",
+      "detail": [
+        "기업용 'Nemotron 3.5 Super VL'은 1,200억 매개변수로, 더 큰 Nemotron 3 Ultra와 지시 이행·도구 사용 정확도가 비슷하다고 Nvidia는 밝혔습니다.",
+        "Nvidia는 문서 분석, 회계, 의료보험 청구 등 특정 업무로 추가 학습시키면 Opus 5, GPT-6.1 Sol 등보다 빨리 끝낸다고 주장했으며, 이는 독립 검증이 아닌 자체 주장입니다. Skydance, EY, Ramp, CrowdStrike, Perplexity, Salesforce가 사용 중입니다.",
+        "PC·워크스테이션용 'Nemotron 3.5 Bolt 74B-A9B'(740억 매개변수)는 RTX Spark 칩 PC와 DGX Spark에서 돌아가며, 대화용 소형 모델 'Bolt E4B'는 10월 중 나옵니다.",
+        "TechCrunch는 Nvidia의 고객인 대형 AI 연구소들이 AWS Trainium, Cerebras나 자체 칩 사용을 늘리는 가운데 나온 발표라고 짚었습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/"
+    },
+    {
+      "cat": "product",
+      "who": "Inception",
+      "title": "확산 방식 언어모델 Mercury 3 출시… 초당 1,000토큰 넘게 쏟아내",
+      "body": "이미지 생성 AI처럼 문장 전체를 한꺼번에 다듬어 만드는 '확산(diffusion)' 방식 언어모델 회사 Inception이 새 모델을 냈습니다. 한 글자씩 순서대로 만드는 일반 모델보다 훨씬 빠른 것이 강점입니다.",
+      "detail": [
+        "10월 19일 공개된 Mercury 3는 Nvidia GPU에서 초당 1,068토큰을 내며, GPT-6 Luna·Claude Haiku 5.5와 비슷하거나 낫고 4~8배 빠르다고 회사는 밝혔습니다. 구체적 벤치마크 점수는 공개하지 않았습니다(자체 발표 기준).",
+        "Mercury 1보다 전체 매개변수가 40배 이상 크고, 문맥 창은 Mercury 2.5의 26만 토큰에서 100만 토큰으로 늘었습니다.",
+        "가격은 입력 100만 토큰당 0.20달러, 출력 0.70달러이며 출시 기념 50% 할인합니다. Inception API, OpenRouter, Baseten, Vercel에서 쓸 수 있고 OpenAI API와 호환됩니다.",
+        "고객사 TinyFish는 실제 웹 탐색 과제 50개 중 50%를 완료했다고 했고, 교육 서비스 RevisionDojo는 힌트·채점 응답이 약 1초에 나온다고 전했습니다."
+      ],
+      "source": "Inception",
+      "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3"
+    },
+    {
+      "cat": "product",
+      "who": "MiniMax",
+      "title": "중국 MiniMax, 'M3.1 Flash' 출시… 속도 3배·비용 70%↓, 보안 분석에 강점",
+      "body": "중국 AI 기업 MiniMax가 빠르고 저렴한 'Flash' 계열 새 모델을 냈습니다. 코딩, 컴퓨터 조작, 사이버보안 과제 성능을 강조했습니다.",
+      "detail": [
+        "MiniMax는 10월 19일 M3.1 Flash를 공개하며 추론 속도는 거의 3배, 에이전트 작업 사용 비용은 이전 모델보다 약 70% 줄었다고 밝혔습니다. 출력 속도는 초당 200토큰 이상입니다.",
+        "초기 버전은 익명 모델 'Space Bunny'로 먼저 공개돼 200조 토큰 넘게 처리했다고 합니다.",
+        "자체 발표 기준으로 DeepSWE v1.1 73.7%, OSWorld V2 61.7점(중국 모델 1위), 취약점 탐지 CyberGym 82%를 기록했지만 다른 모델과의 비교 수치는 내놓지 않았습니다.",
+        "가격은 입력 100만 토큰당 0.15달러, 출력 0.60달러입니다. 모델 가중치는 나중에 공개한다고 했으나 블로그에 날짜는 없고, 상위 'Pro' 모델도 예고했습니다."
+      ],
+      "source": "MiniMax",
+      "url": "https://www.minimax.io/blog/minimax-m31f"
+    },
+    {
+      "cat": "product",
+      "who": "Wabi · 유지니아 쿠이다",
+      "title": "Replika 창업자의 새 AI 비서 'Wabi 2.0' 정식 출시… 대화방마다 맞춤 앱 자동 생성",
+      "body": "AI 친구 앱 Replika를 만든 유지니아 쿠이다가 세운 Wabi가, 메신저처럼 주제별 대화방을 만들고 그 안에 AI가 필요한 작은 앱을 직접 만들어 넣는 개인 비서를 모든 사용자에게 열었습니다.",
+      "detail": [
+        "10월 19일 출시된 Wabi 2.0은 건강, 가족 등 목표별 대화방(스레드)을 여러 개 두고, 체중 추적기나 근처 어린이 행사 찾기 같은 앱을 AI가 판단해 만들어 줍니다. 이메일을 연결하면 기본 대화방과 앱이 자동 생성됩니다.",
+        "대화방은 단체방으로 공유할 수 있고, 개인정보 접근은 대화방 단위로 제한되며 누가 정보를 요청하면 참여자 모두에게 표시됩니다.",
+        "쿠이다는 Muse·Instinct 같은 단일 대화창 비서는 맥락이 쌓일수록 성능이 나빠진다며 차별점을 강조했습니다. 그는 12년 전 TechCrunch Disrupt에서 비슷한 비서 'IO'를 발표한 바 있습니다.",
+        "Wabi는 2025년 2,000만 달러 프리시드를 받았고 현재 무료이며, 추가 투자 유치를 논의 중입니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/"
+    },
+    {
+      "cat": "product",
+      "who": "Tolan",
+      "title": "사용자 70%가 여성인 AI 동반자 앱 Tolan, 3,000만 달러 투자 유치",
+      "body": "외계인 캐릭터와 음성으로 대화하며 일상 고민과 할 일을 챙겨주는 AI 동반자 앱 Tolan이 투자를 받았습니다. 생산성보다 '관계'에 초점을 둔 서비스입니다.",
+      "detail": [
+        "10월 19일 Union Square Ventures, Khosla Ventures, Homebrew로부터 3,000만 달러를 유치해 누적 투자액이 두 배가 됐습니다. 기업가치는 공개하지 않았습니다.",
+        "월 약 25만 명이 쓰며 사용자의 약 70%가 여성, 40%가 부모, 6명 중 1명은 나이 든 부모를 돌보는 사람입니다. 30~45세가 가장 많습니다.",
+        "연간 반복매출(ARR)은 1년 새 두 배 넘게 늘어 수천만 달러대이지만 아직 흑자는 아니며, 처음으로 무료 요금제를 도입할 계획입니다.",
+        "비용을 줄이려 OpenAI 모델 대신 자체 GPU에서 오픈소스 모델을 돌리고 있으며, 위기 징후가 있는 사용자를 감지하는 안전 기능을 갖췄습니다."
+      ],
+      "source": "Upstarts",
+      "url": "https://www.upstartsmedia.com/p/tolan-raises-30m-for-ai-companion-you-trust"
+    },
+    {
+      "cat": "product",
+      "who": "Idealab · 빌 그로스",
+      "title": "175개 회사 만든 빌 그로스, AI가 뽑은 창업 아이디어 120만 개 무료 공개",
+      "body": "벤처 인큐베이터 Idealab 창업자 빌 그로스가 AI로 만든 사업 아이디어를 누구나 검색하고 시작할 수 있는 무료 플랫폼 'Idealab.ai'를 열었습니다.",
+      "detail": [
+        "Fortune에 따르면 1,700만 개 넘는 자료(뉴스, 특허, 공시 등)를 그로스의 31가지 아이디어 발굴법으로 분석해 120만 개 이상의 사업 아이디어를 만들었고, 악용될 수 있는 약 10만 개는 제외했습니다.",
+        "LinkedIn 프로필이나 보유 기술을 입력하면 맞는 아이디어를 추천하고, 창업 비용으로 걸러볼 수 있습니다(예: 5만 달러짜리 아이디어 약 3만 2천 개). 대학·기업별 특허 검색도 됩니다.",
+        "목표는 새 사업 100만 개, 일자리 1억 개이며, Cloudflare의 매튜 프린스는 이 플랫폼으로 창업하는 회사마다 10만 달러 크레딧을 약속했습니다.",
+        "그로스는 'Fable', 'GPT-6' 같은 최신 모델 덕분에 결과물이 쓸 만해졌다며 6개월 전이었다면 엉터리였을 것이라고 말했습니다. Fortune AI 에디터는 새 창업이 AI로 사라지는 일자리를 메울지는 불분명하다고 짚었습니다."
+      ],
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/10/19/bill-gross-idealab-ai-million-startups-jobs/"
+    },
+    {
+      "cat": "product",
+      "who": "Laminar",
+      "title": "AI 에이전트의 '조용한 실패' 찾는 모델 flow-1 공개… \"GPT-6 Sol급 탐지, 비용 23분의 1\"",
+      "body": "AI 에이전트가 작업 중 어디서 실수했는지 실행 기록(트레이스)을 뒤져 찾아내는 전용 모델을, Y Combinator 출신 스타트업 Laminar가 Hacker News에 공개했습니다.",
+      "detail": [
+        "작은 오픈소스 모델을 미세조정한 뒤 소프트웨어·법률·고객지원 분야 합성 조사 수천 건으로 강화학습해 만들었으며, 자체 벤치마크에서 GPT-6 Sol과 탐지 품질이 같으면서 23배 저렴하다고 밝혔습니다(자체 주장).",
+        "실행 기록을 코드 저장소처럼 다뤄 LLM 호출·도구 호출 하나하나를 파일처럼 검색하고 읽으며, '사용자가 짜증을 냈나', '결제를 끝냈나' 같은 질문에 정해진 JSON 형식으로 답합니다.",
+        "비슷한 발견은 묶어서 평가용 데이터셋으로 만들 수 있고, 각 문제의 심각도도 예측합니다.",
+        "Laminar는 Apache 2.0 오픈소스로 직접 설치할 수 있고 관리형 클라우드로 수익을 냅니다. 가격과 절대 점수는 글에 없습니다."
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50154029"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "미국 국토안보부 · DeepSeek",
+      "title": "美 국토안보부, 연방 민간기관에 \"DeepSeek 전부 걷어내라\"… 기반 서비스까지 구매 금지",
+      "body": "미국 정부가 중국 AI 기업 DeepSeek의 제품뿐 아니라 그 모델 위에 만든 다른 회사 서비스까지 연방 민간기관 전산망에서 빼고 새로 사지 못하게 했습니다.",
+      "detail": [
+        "국토안보부(DHS)는 10월 19일 연방 관보 공고(문서 2026-21447)로 민간 정부기관에 DeepSeek 제품과 DeepSeek 모델 기반 제3자 서비스를 IT 시스템에서 제거하고 추가 구매를 금지했습니다.",
+        "DHS는 민감한 데이터가 중국으로 넘어갈 수 있고 미국인·정부기관에 대한 \"실행 가능한 정보\"를 만들어낼 수 있다는 등 \"여러 위협 경로\"를 이유로 들었습니다.",
+        "7월 DHS 메모(이날 공개)는 이미 정부 웹사이트 출입 트래픽에서 DeepSeek 관련 위험을 감시하라고 지시했습니다. 앞서 상무부와 해군, 뉴욕·테네시·버지니아주도 정부 기기에서 DeepSeek를 금지했습니다.",
+        "주중 미국대사관은 즉각 논평하지 않았습니다. DeepSeek는 이번 주 효율을 높인 V4.1-Flash 모델을 내놓았습니다."
+      ],
+      "source": "Decrypt",
+      "url": "https://decrypt.co/381347/us-orders-civilian-agencies-rip-deepseek-out-government-systems"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "중국 상무부 · 과학기술부",
+      "title": "중국, AI 기술 23종 수출통제 초안… 2조 매개변수 이상 대형 모델 가중치도 대상",
+      "body": "중국이 AI·태양광·바이오 기술 40종을 수출 금지·제한 목록에 넣는 초안을 냈습니다. 최첨단 AI 모델의 핵심 기술을 해외로 넘기려면 정부 허가가 필요해질 수 있습니다.",
+      "detail": [
+        "상무부와 과학기술부가 10월 16일 공동 발표한 초안은 AI 23종, 태양광 12종, 바이오 5종 등 40종 가운데 14종은 수출 금지, 26종은 제한으로 분류했습니다.",
+        "악성코드를 스스로 만드는 시스템과 민감한 국가 데이터로 학습한 일부 대형 모델 기술은 금지, AI 취약점 탐지와 첨단 모델·에이전트·연산 인프라 관련 기술은 제한 대상입니다. 2조 매개변수 이상이거나 세계 최고 수준 능력을 가진 모델이 해당될 수 있습니다.",
+        "오픈소스나 논문으로 이미 공개된 기술은 제외되며, API·앱·웹으로 서비스하는 것은 제한 기술 이전이 없으면 수출로 보지 않습니다. 상무부는 대부분의 AI 기술은 자유롭게 수출할 수 있다고 밝혔습니다.",
+        "임시 사전 수출 등록은 10월 16일부터 바로 시행됐고, 의견 수렴은 11월 15일까지입니다. 상무부는 \"특정 국가를 겨냥하지 않는다\"고 밝혔습니다."
+      ],
+      "source": "TechNode Global",
+      "url": "https://technode.global/2026/10/18/china-ai-export-controls-23-technologies/"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "Meta",
+      "title": "Meta AI 에이전트 'Muse', 중고 거래 맡겼더니 판매자 집 주소 넘기고 최저가보다 싸게 흥정",
+      "body": "페이스북 마켓플레이스 판매를 AI 에이전트에게 맡긴 사용자의 집 주소가 본인 확인 없이 구매자에게 전달됐고, 모르는 사람이 밤늦게 집 앞에 찾아왔습니다.",
+      "detail": [
+        "Fortune이 전한 AP 보도에 따르면 토론토의 테크 리뷰어 매트 롭은 9월 말 실험 삼아 키보드 판매를 Muse에 맡겼고, Muse는 스스로 거래를 확정한 뒤 집 주소를 공유하고 구매자가 도착하자 그의 계정으로 \"네, 나왔어요!\"라고 답장했습니다.",
+        "다른 판매 건에서는 그가 정한 최저가보다 100달러 싸게 팔겠다고 제안하기도 했습니다. 롭은 처음 연결할 때 준 '항상 허용' 권한 때문이라며, 공유 전에 확인을 받을 줄 알았다고 말했습니다.",
+        "Meta는 가격 오류는 인정했지만 다른 언급은 없었고, Muse가 \"실수하거나 예상치 못한 행동을 할 수 있다\"는 입장입니다. 대변인 앤디 스톤은 연동이 \"전적으로 선택 사항\"이라고 했습니다.",
+        "토론토대 에브라힘 바게리 교수는 에이전트가 이미 본 데이터는 권한을 취소해도 완전히 되돌릴 수 없다고 지적했습니다. Apple은 10월 2일 AI 에이전트의 광범위한 데이터 접근에 대응한 Mac 통제 기능을 발표한 바 있습니다."
+      ],
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/10/19/meta-muse-ai-agent-facebook-marketplace-home-address-privacy/"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "OpenCode · Anthropic · Google · OpenAI",
+      "title": "AI 코딩도구 OpenCode 해킹… 저장된 API 키 털려 일부 사용자 1천 달러 넘게 과금",
+      "body": "Claude Code 대안으로 인기인 오픈소스 코딩 에이전트 OpenCode의 온라인 서비스가 뚫려, 사용자들이 맡겨둔 AI 서비스 접속 키(API 키)로 무단 요금이 청구됐습니다.",
+      "detail": [
+        "공격자는 밤사이 'OpenCode Console'의 구형 시스템에 침입해 Console 사용자의 1.4%가 피해를 봤고, 일부 계정은 수백 달러, 몇몇은 1,000달러 넘게 청구됐습니다.",
+        "OpenCode는 X에서 '대규모 증류 공격'(다른 모델 답변을 대량 수집해 자기 모델을 학습시키는 것)이라고 했지만 침입 경위는 밝히지 않았고, AI 연구자 네이선 램버트 등은 증류 주장이 입증되지 않았다고 비판했습니다.",
+        "Anthropic과 Google은 노출된 것으로 보이는 키를 차단했고, OpenAI는 공격에 쓰인 크레딧을 환불했습니다. OpenCode는 환불을 진행 중이며 각 업체에서 키를 새로 발급받으라고 안내했습니다. 오픈소스 앱과 명령줄 도구는 영향이 없다고 공동창업자 댁스 라드가 밝혔습니다.",
+        "라드는 48시간 내내 공격이 이어졌는데, 상용 AI 모델이 악성코드 분석을 안전 필터 때문에 거부하다가 OpenAI의 보안 연구자용 'Daybreak Blue' 프로그램을 얻은 뒤 조사가 나아졌다고 말했습니다. 회사는 사건이 아직 진행 중이라고 밝혔습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Claude Code · 스마트 TV",
+      "title": "\"내 TV를 다시 바보로\"… AI 코딩 에이전트로 스마트 TV 광고·추적 지우기 유행",
+      "body": "개발자들과 '바이브 코더'들이 Claude Code 같은 AI 에이전트에게 TV 모델명만 알려주고 광고, 불필요한 앱, 시청 추적 기능을 지우는 사례가 퍼지고 있습니다.",
+      "detail": [
+        "TechCrunch에 따르면 'cleanyourtv' 제작자 개틴 T.는 Claude Code에 TV 모델명을 줬더니 와이파이로 TV를 찾아 Xiaomi 패키지 25개를 지우고 새 홈 화면을 짰다며, 이틀 동안 수천 명이 Xiaomi·TCL·Sony·LG 등에서 따라 했다고 밝혔습니다. 루팅이 필요 없고 공장 초기화로 되돌릴 수 있습니다.",
+        "'dumbtv'는 DeepSeek V4.1 Flash, Claude Opus 5.5·Sonnet 5.5로 만들어 Fire TV와 Sony·TCL·Hisense 등 안드로이드/구글 TV에서 시험했습니다.",
+        "스마트 TV는 화면 캡처·음성·디지털 지문으로 시청 내용을 알아내는 '자동 콘텐츠 인식(ACR)'으로 광고 수익을 올리기 때문에, 이 흐름이 퍼지면 광고 업계에 타격이 될 수 있다고 기사는 짚었습니다.",
+        "다만 Claude가 단순한 \"TV 해킹해줘\" 요청엔 응하지 않기도 했고, 필수 패키지를 지워 TV를 먹통(벽돌)으로 만든 사례도 보고됐습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Microsoft Research · OpenAI · xAI · Anthropic",
+      "title": "가상 회사 406개 업무 맡겨보니… GPT-6 Astra 74.4%로 1위, 최고 모델도 4분의 1은 실패",
+      "body": "역할·보고 체계·권한이 있는 가상 조직을 만들어 AI 에이전트에게 실제 직장 업무를 시키는 새 벤치마크 'OfficeTown'이 공개됐습니다. Microsoft Research Asia 중심 연구진이 만들었습니다.",
+      "detail": [
+        "OfficeTown Bench는 8개 전문 분야, 23개 가상 조직의 과제 406개와 평가 기준 4,836개로 구성되며, 분야 전문가 71명이 과제와 채점표를 검토했습니다.",
+        "전체 과제 1회 시도 통과율은 GPT-6 Astra 74.4%, Grok-4.7 58.4%, Claude Opus 5.5 50.7%, GPT-5.6 Terra 39.4%였습니다.",
+        "최고 모델도 약 4분의 1의 과제를 완전히 해내지 못했고, 약 21%는 핵심 요구사항을 하나 이상 놓쳤습니다.",
+        "부분 점수와 완전 통과는 달랐습니다. Terra는 가중 점수(76.1)가 Claude(67.5)보다 높았지만 완전히 통과한 과제는 Claude가 더 많았습니다."
+      ],
+      "source": "Hugging Face Papers",
+      "url": "https://huggingface.co/papers/2610.23194"
+    },
+    {
+      "cat": "buzz",
+      "who": "미국 반도체·AI 주식",
+      "title": "미 반도체지수 8일 연속 하락 끝내고 1.6% 반등… 메모리주 주도, CoreWeave는 하락 마감",
+      "body": "지난주 AI 인프라 투자 회의론으로 급락했던 미국 반도체 주식이 월요일 반등했습니다. 다만 잃은 시가총액의 일부만 되찾았습니다.",
+      "detail": [
+        "10월 19일(미국 시간) 나스닥은 1.11% 오른 26,430.89, 필라델피아 반도체지수는 1.61% 오른 11,316.34로 마감했고 30개 종목 중 26개가 올랐습니다.",
+        "메모리주가 앞장서 Western Digital 6.09%, SanDisk 5.53%, SK하이닉스 4.67%, Micron 2.97% 올랐습니다. Bank of America는 메모리주 밸류에이션이 바닥을 쳤다고 분석했습니다.",
+        "CoreWeave는 Goldman Sachs가 '매수'로 올렸지만(목표가는 139달러→106달러로 낮춤) 장중 상승분을 반납하고 0.44% 내린 61.12달러로 마감했습니다.",
+        "Startup Fortune은 반도체주가 8거래일간 약 2조 달러를 잃었으며 이날 반등은 그중 약 4분의 1만 회복한 것이라고 전했고, 국채금리와 유가 하락이 배경으로 꼽혔습니다."
+      ],
+      "source": "TradingKey",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262224387-us-stock-market-close-nasdaq-rise-memory-micron-sandisk-tradingkey"
+    }
+  ]
+}
