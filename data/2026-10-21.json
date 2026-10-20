@@ -1,0 +1,335 @@
+{
+  "date": "2026-10-21",
+  "headline": "Anthropic 상장 서류 첫 공개·OpenAI 1.4조 달러 투자 추진… AI 에이전트로 100곳 해킹",
+  "summary": "Anthropic의 상장 예비 서류 초안이 보도되면서 상반기 매출 163억 달러, 6,000억 달러가 넘는 컴퓨팅 약정이 드러났고, OpenAI는 Anthropic 상장 전에 기업가치 1.4조 달러 이상으로 300억 달러를 모으려 서두르고 있습니다. Google은 Amazon에 이어 PyTorch 앱을 자사 칩으로 옮기는 TorchTPU를 오픈소스로 내놔 Nvidia의 소프트웨어 장벽 공략에 합류했습니다. 한 해커가 AI 에이전트로 몇천 달러만 들여 100곳 넘는 기업 사이트에 침입한 사례가 공개됐고, 미 육군의 자율 AI 해킹 무기 계획도 보도돼 AI 공격 능력에 대한 우려가 커졌습니다.",
+  "items": [
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Anthropic",
+      "title": "Anthropic 상장 서류 초안 보도… 상반기 매출 163억 달러·컴퓨팅 약정 6,000억 달러 넘어",
+      "body": "WSJ가 Anthropic의 기업공개(IPO) 예비 투자설명서(S-1) 초안을 입수해 보도했습니다. 매출은 1년 새 약 15배 늘었지만, 서버 사용 약정과 특정 고객 의존도가 투자자들의 쟁점이 될 전망입니다.",
+      "detail": [
+        "investingLive가 전한 WSJ 보도에 따르면 2026년 상반기(6월 30일까지) 매출은 약 163억 달러로 1년 전 약 11억 달러에서 크게 늘었고, 2025년 연간 매출(약 46억 달러)을 이미 넘었습니다. Anthropic은 논평을 거부했습니다.",
+        "상반기 순손실은 약 810억 달러(전년 동기 약 130억 달러)인데, 그중 약 720억 달러는 전환사채 등 금융상품 가치 변동에 따른 회계상 비용으로 영업 비용이 아닙니다. 상반기 컴퓨팅 지출은 약 90억 달러로 2025년 연간(약 73억 달러)을 넘었습니다.",
+        "향후 컴퓨팅 약정은 6,000억 달러 이상으로, 클라우드 계약 약 4,500억 달러(Google 약 1,110억, AWS 약 1,100억, Microsoft 약 310억, Nscale·Lambda 통한 Nvidia 칩 최대 860억 달러)와 Google 칩을 빌리는 Broadcom 의무 1,600억 달러 이상이 포함되며, 협상 중인 계약이 최대 1,500억 달러 더 있습니다.",
+        "상반기 매출의 약 5분의 1이 고객 단 두 곳에서 나왔습니다. 위험 요인이 서류의 약 3분의 1을 차지하며, 잘못 정렬된 AI 모델의 피해, 보험으로 감당 못 할 대형 사고, 데이터센터 건설 반대 여론 등을 꼽았습니다.",
+        "기사는 상장 시 기업가치가 최대 2조 달러에 이를 수 있다고 전했으며, 아직 초안이라 수치가 바뀔 수 있습니다."
+      ],
+      "source": "investingLive",
+      "url": "https://investinglive.com/stocks/anthropic-ipo-draft-shows-nearly-15-fold-revenue-jump-and-600-billion-in-compute-deals/"
+    },
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "OpenAI · Anthropic",
+      "title": "OpenAI, 기업가치 1.4조 달러 이상으로 300억 달러 조달 추진… \"Anthropic 상장 전에 끝내려\"",
+      "body": "OpenAI가 11월 중순으로 예상되는 Anthropic 상장 전에 투자 약정을 서둘러 확보하려 한다고 Reuters가 보도했습니다. 금액과 기업가치는 아직 확정되지 않았습니다.",
+      "detail": [
+        "Tech Startups가 전한 Reuters 보도(10월 19일)에 따르면 SoftBank, 아부다비 MGX 등 기존 투자자들이 참여를 논의 중입니다. 3월 1,220억 달러 조달 때 기업가치 8,520억 달러에서 64% 넘게 뛰는 셈입니다.",
+        "OpenAI는 GPT-6 Astra 출시 뒤 연환산 매출이 500억 달러에 도달했고 연말 700억 달러를 예상한다고 투자자들에게 밝혔습니다(현재 실적을 1년으로 환산한 회사 측 수치).",
+        "Anthropic의 분기 매출은 2분기 116억 달러에서 3분기 168억 달러로 늘었지만, 3분기 실적이 기대에 못 미쳐 일부 투자자는 목표치 2조 달러보다 낮은 1.5조 달러 수준의 상장 가치를 주장한다고 보도됐습니다.",
+        "OpenAI는 클라우드 업체를 통해 판 계약을 총액으로 잡는 Anthropic의 매출 집계 방식이 매출을 부풀린다고 문제를 제기해 왔고, Anthropic은 업계 관행이라고 맞서고 있습니다."
+      ],
+      "source": "Tech Startups (Reuters)",
+      "url": "https://techstartups.com/2026/10/19/openai-seeks-1-4-trillion-valuation-in-30-billion-funding-push-ahead-of-anthropic-ipo/"
+    },
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Nvidia · ByteDance · Alibaba · Tencent",
+      "title": "中 빅테크 3사, Nvidia 수출 규제 회피용 칩 300만 장 넘게 주문… 350억 달러 규모",
+      "body": "미국 수출 규제로 최신 데이터센터 칩을 못 사는 중국 기업들이 규제에 걸리지 않는 Nvidia 워크스테이션용 그래픽카드를 대량 주문했다고 Reuters가 보도했습니다.",
+      "detail": [
+        "The Edge가 전한 Reuters 보도(10월 20일)에 따르면 ByteDance·Alibaba·Tencent가 주문한 'RTX PRO 5500'은 300만 장 이상, 정가 합계 350억 달러 이상이며 한 장에 약 1만 1,400달러입니다. 중국 전체 주문은 600만 장을 넘습니다.",
+        "Nvidia는 2027년 전 세계 생산량이 300만 장을 넘기 어렵다며 주문을 다 채울 수 없다고 고객들에게 알렸고, 협력사들이 요청량의 5~10%만 받을 수 있다는 말도 나왔습니다. 샘플은 12월, 상업 출하는 2027년 1분기부터입니다.",
+        "이 칩은 H200·B300보다 성능이 낮아 주로 AI 학습이 아닌 추론(서비스 실행)에 쓰입니다. B300은 중국 판매가 금지되고 H200은 건별 허가가 필요합니다.",
+        "Nvidia 대변인은 낡은 미국 수출 규제와 중국의 수입 제한을 탓했고, 중국 3사와 미 상무부는 논평 요청에 답하지 않았습니다."
+      ],
+      "source": "The Edge Malaysia (Reuters)",
+      "url": "https://theedgemalaysia.com/node/822533"
+    },
+    {
+      "cat": "company",
+      "who": "OpenAI · Nvidia · Anthropic",
+      "title": "\"OpenAI, 對中 칩 수출 규제 주장 슬그머니 접어\"… Nvidia에 유리한 행보 비판",
+      "body": "지난해까지 중국에 대한 엄격한 첨단 칩 판매 제한을 공개 지지하던 OpenAI가 최근 이 문제에 침묵하고 있다고 Politico가 의회 보좌관·로비스트를 인용해 보도했습니다.",
+      "detail": [
+        "TNW가 전한 Politico 보도에 따르면 의회 대중 강경파는 중간선거 뒤 '레임덕' 회기에 국방예산법에 새 칩 규제를 붙이려 했고 OpenAI의 지지를 기대했습니다. 한 보좌관은 \"그들은 우리 편이었는데 이제 입장이 모호하다\", \"침묵이 Nvidia 일을 대신 해주고 있다\"고 말했습니다.",
+        "한 로비스트는 OpenAI가 \"메시지를 받았다\"며 \"지금 대통령에게 맞설 의지는 없다\"고 했습니다. Nvidia는 2월 OpenAI에 300억 달러 지분 투자를 확정했고, 8월에는 OpenAI 오하이오 데이터센터 1단계에 최대 1,050억 달러를 보증하기로 했습니다.",
+        "OpenAI 대변인은 미국 연구소의 칩 우위가 핵심이며 수출 규제는 전략의 \"한 부분\"이라고 밝혔고, Nvidia는 논평을 거부했습니다.",
+        "반면 Anthropic은 여러 칩 규제 법안을 지지하며 9월 규제 완화를 밀던 주요 테크 업계 단체에서 탈퇴했습니다. 시민단체 Encode의 네이선 캘빈은 OpenAI의 후퇴가 \"슬프다\"고 비판했습니다."
+      ],
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/openai-china-chip-export-controls-retreat-nvidia"
+    },
+    {
+      "cat": "company",
+      "who": "OpenAI · Orchestra Bio",
+      "title": "OpenAI, 신약 개발 관리 AI 스타트업 Orchestra Bio 인수… 생명과학 사업 'Rosalind' 확장",
+      "body": "OpenAI가 임상시험·제조·인허가 등 신약 개발 과정 전체의 일정과 작업을 AI 에이전트로 관리하는 스타트업을 사들였습니다. 실험실 연구 도구에서 신약 개발 운영으로 영역을 넓히는 행보입니다.",
+      "detail": [
+        "OpenAI는 10월 20일 인수를 발표했으며, 창업자 아쇼카 라젠드라와 팀이 OpenAI 생명과학 플랫폼 Rosalind에 합류합니다. 인수 금액은 공개되지 않았고, Orchestra는 a16z 등으로부터 약 2,000만 달러를 투자받은 것으로 보도됐습니다.",
+        "Orchestra의 에이전트는 전임상·임상시험·제조·품질 검토·인허가 제출 전반의 일정과 의존 관계를 추적하고 지연을 알려줍니다. 예컨대 제조 배치가 실패해 임상 일정이 위협받으면 영향받는 작업을 찾고 대응 방안을 비교해 사람에게 검토를 맡깁니다.",
+        "Rosalind는 생물·화학 문제 추론 모델 GPT-Rosalind와 과학 도구·데이터를 연결하는 Rosalind Workbench로 구성됩니다. 출시 일정, 가격, 기존 Orchestra 제품의 향방은 밝히지 않았습니다.",
+        "경쟁사 Anthropic도 약 4억 달러에 Coefficient Bio를 인수했다고 The Information이 보도한 바 있습니다."
+      ],
+      "source": "AlphaSignal",
+      "url": "https://alphasignal.ai/news/openai-buys-orchestra-bio-to-push-rosalind-into-drug-development-operations"
+    },
+    {
+      "cat": "company",
+      "who": "Meta · 조엘 캐플런",
+      "title": "Meta 대관 총괄 조엘 캐플런, 15년 만에 2027년 퇴사… 후임 없이 업무 분할",
+      "body": "트럼프 행정부와의 관계를 이끌어온 Meta의 최고 대외정책 책임자가 미국 중간선거까지 자리를 지킨 뒤 떠납니다.",
+      "detail": [
+        "Bloomberg가 회사 대변인을 인용해 10월 20일 보도한 바에 따르면 캐플런은 11월 중간선거까지 남은 뒤 2027년 퇴사합니다. 2011년 미국 정책팀장으로 입사해 15년 넘게 일했습니다.",
+        "조지 W. 부시 백악관 출신으로 공화당 인맥이 두텁고, 2025년 1월 닉 클레그의 뒤를 이어 Meta의 정책 총괄이 됐습니다.",
+        "후임은 지명되지 않았고, 다이나 파월 맥코믹 사장과 C.J. 마호니 최고법률책임자가 정책 업무를 더 맡습니다. 파월 맥코믹은 AI 인프라 사업 'Meta Compute' 운영과 데이터센터 관련 우려 대응도 맡고 있습니다.",
+        "Meta는 올해 설비투자에 최대 1,450억 달러를 쓸 예정이며, 대부분 AI에 들어갑니다."
+      ],
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/meta-joel-kaplan-leaving-2027"
+    },
+    {
+      "cat": "company",
+      "who": "미국 국무부 · Google · MiraclePlus",
+      "title": "美, Google AI 기밀 빼돌린 전 엔지니어 관련 중국 기업 5곳 제재",
+      "body": "Google의 AI 인프라 기밀을 훔쳐 유죄 판결을 받은 전 엔지니어 린웨이 딩(Leon Ding)이 세운 회사와 그를 지원한 중국 투자사들이 미국 제재 대상이 됐습니다.",
+      "detail": [
+        "국무부는 10월 19일 '미국 지식재산 보호법(PAIPA)'에 따라 5개 기업을 제재했고, 재무부 해외자산통제실(OFAC)이 이들을 제재 목록에 올렸습니다.",
+        "대상은 딩이 2023년 세운 상하이 Zhisuan Technology와 스타트업 인큐베이터 MiraclePlus(奇绩创坛) 및 그 펀드·관계사 3곳입니다. 딩은 Google 경력을 내세워 Zhisuan이 Google의 AI 인프라 기술을 재현할 수 있다며 MiraclePlus 프로그램에 지원했고, MiraclePlus는 지분을 받고 초기 자금을 댔습니다.",
+        "딩은 경제 스파이 7건, 영업비밀 절도 7건으로 1월 29일 유죄 판결을 받았으며, 수천 쪽 분량의 Google 기밀을 빼돌린 혐의였습니다.",
+        "제재 대상은 미국 내 자산 동결, 미국 금융기관의 연 1,000만 달러 초과 대출 금지, 미국인의 지분·채권 투자 금지 등의 조치를 받습니다."
+      ],
+      "source": "Export Compliance Daily",
+      "url": "https://exportcompliancedaily.com/article/2026/10/20/us-sanctions-five-chinese-entities-over-google-tradesecret-theft-2610190052"
+    },
+    {
+      "cat": "company",
+      "who": "Meta",
+      "title": "Meta, 'GPU 100만 개' 목표 초대형 AI 클러스터 Prometheus 내부 공개",
+      "body": "Meta가 자사 AI 모델 Muse를 학습시킨 오하이오주 기가와트(GW)급 슈퍼컴퓨터의 설계와 운영 방식을 엔지니어링 블로그에 상세히 공개했습니다.",
+      "detail": [
+        "오하이오주 뉴올버니의 Prometheus는 2년 전만 해도 일반 웹 트래픽을 처리하던 곳으로, 현재 여러 건물에 수십만 개 GPU가 연결돼 있고 완공 시 약 100만 개를 목표로 합니다. 1단계가 완료돼 Muse Wonder 등 Muse 모델 학습에 쓰였습니다.",
+        "Muse Wonder 사전학습 때 실제 학습에 쓰인 시간 비율(굿풋)은 85%, 강화학습은 90%를 넘었습니다. 2025년 중반 GPU 8천 개당 하루 1,000회 가까이 발생하던 중단은 약 1년 새 99% 줄었다고 Meta는 밝혔습니다.",
+        "Nvidia GB200·GB300 랙을 쓰며 차세대 Vera Rubin 랙도 도입할 예정입니다. 랙마다 72개 GPU 중 8개를 예비로 두고, 학습 시작·중단 때 수십 메가와트씩 출렁이는 전력은 배터리와 GPU 전력 제한으로 다스립니다.",
+        "이 경험은 루이지애나주에 짓는 차기 슈퍼클러스터 Hyperion 설계에 반영됩니다."
+      ],
+      "source": "Meta Engineering",
+      "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/"
+    },
+    {
+      "cat": "product",
+      "hot": true,
+      "who": "Google · PyTorch",
+      "title": "Google도 'TorchTPU' 오픈소스 공개… Amazon 이어 PyTorch 앱 자사 칩으로 끌어오기",
+      "body": "AI 개발에 가장 많이 쓰는 도구 PyTorch로 만든 앱을 설정만 바꿔 Google의 AI 칩 TPU에서 돌릴 수 있게 하는 소프트웨어입니다. 하루 전 Amazon의 TorchNeuron에 이어 Nvidia의 개발자 장벽을 겨냥했습니다.",
+      "detail": [
+        "TechCrunch에 따르면 Google은 10월 20일 \"오래 기다려온\" TorchTPU를 오픈소스로 공개했습니다. 기존 PyTorch 앱을 다시 짜지 않고 간단한 설정 변경만으로 TPU와 Google Cloud로 옮길 수 있습니다.",
+        "Meta, Hugging Face, vLLM 개발사 Inferact, SGLang 개발사 RadixArk 등과 직접 협력해 인기 AI 개발 도구와 잘 맞물리도록 했습니다.",
+        "앱 이전과 오류 수정을 돕는 'TPU 에이전트 스위트'도 내놨고, 휴대폰·노트북용 AI 실행 도구 LiteRT도 PyTorch 앱과 더 잘 맞게 업데이트했습니다.",
+        "PyTorch는 AI 앱의 85%가 쓴다는 추산이 있으며, 2016년 Meta가 만들 때 Nvidia GPU에 맞춰 설계된 부분이 많습니다. 기사는 Google이 협력사·도구 면에서 Amazon보다 한발 더 나갔다고 평가하면서도, 개발자들이 Nvidia를 금세 대거 떠나지는 않을 것이라고 짚었습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
+    },
+    {
+      "cat": "product",
+      "who": "Mistral",
+      "title": "Mistral, 음성 AI 'Voxtral 3' 제품군 출시… 받아쓰기 50개+ 언어, 음성 에이전트 SDK까지",
+      "body": "프랑스 AI 기업 Mistral이 음성을 글로 옮기는 모델, 글을 음성으로 읽는 모델, 둘을 묶어 전화 상담 등에 쓰는 음성 에이전트 개발 도구를 한꺼번에 내놨습니다.",
+      "detail": [
+        "받아쓰기 모델은 고정밀 'Small Transcribe 3', 약 40억 매개변수의 저가형 'Mini Transcribe 3', 지연 0.5초 미만의 실시간용 'Mini Transcribe Realtime 3'로 나뉘며, 일괄 받아쓰기는 EU 공식 24개 언어를 포함해 50개 이상 언어를 지원합니다.",
+        "음성 합성 모델 'Voxtral Speech 3'는 35개 이상 언어·50개 이상 방언을 지원하고 감정·속도·강조를 조절할 수 있으며, 약 30분 분량 음성으로 목소리를 복제할 수 있습니다.",
+        "Mistral 자체 측정으로 45개 언어 받아쓰기 오류율은 약 4%로 Whisper large-v3(약 16%)보다 낮고, 화자 구분 오류율은 18.4%로 Gemini 3.5 Transcribe(38.4%)의 절반 수준이라고 밝혔습니다.",
+        "가격은 받아쓰기 분당 0.0035~0.008달러, 음성 합성 100만 자당 13달러, 음성 에이전트 API 분당 0.04달러(Mistral Small 4 사용 시)부터이며 API로 바로 쓸 수 있고 자체 서버 설치도 지원합니다."
+      ],
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/news/voxtral-3/"
+    },
+    {
+      "cat": "product",
+      "who": "Notion",
+      "title": "Notion, AI 에이전트 전면 개편… 한 작업 24시간 넘게 수행, 자동 모델 선택으로 비용 90%↓",
+      "body": "Notion이 6세대 에이전트 구조를 공개했습니다. 작업마다 알맞은 AI 모델을 자동으로 골라 비용을 줄이고, 에이전트가 하루 넘게 걸리는 일도 맡을 수 있게 했습니다.",
+      "detail": [
+        "공동창업자 악샤이 코타리가 10월 19일 블로그에서 밝힌 바에 따르면, 업그레이드된 'Auto' 모델 선택은 20여 개 일반 사용 사례에서 Opus 5.5·Astra와 비슷한 결과를 평균 약 90% 낮은 비용으로 냈습니다(자체 측정).",
+        "에이전트가 한 작업을 수행할 수 있는 시간은 5분에서 24시간 이상으로 늘었고, 웹·모바일에서 최대 50% 빨라졌습니다. 다른 모델이 행동 전 안전성을 검사하는 'Review for me' 모드도 추가됐습니다.",
+        "ChatGPT Plus·Pro·Go 계정을 개인 Notion 에이전트에 연결할 수 있게 됐고, 기업 고객용 자체 API 키 사용(BYOK)은 비공개 알파로 시작했습니다.",
+        "요금 체계는 Notion이 모델을 고르는 Standard 크레딧(월 1,500)과 사용자가 고르는 Select 크레딧(월 500)으로 나뉘며, 신규 고객은 즉시, 기존 고객은 11월 2일부터 적용됩니다."
+      ],
+      "source": "Notion",
+      "url": "https://www.notion.com/blog/notion-ai-more-for-less"
+    },
+    {
+      "cat": "product",
+      "who": "Zillow · Anthropic",
+      "title": "미국 부동산 플랫폼 Zillow, Claude 커넥터 출시… 대화로 매물 찾고 집 투어 신청",
+      "body": "Claude 채팅 안에서 Zillow 매물 검색, 지도, 집값 추정, 대출 가능액 계산을 하고 투어 예약이나 중개인 연결까지 할 수 있게 됐습니다.",
+      "detail": [
+        "Unite.AI에 따르면 Zillow는 10월 19일 커넥터를 발표했으며, Claude의 '사용자 지정 → 커넥터'에서 Zillow를 연결하면 됩니다.",
+        "\"덴버에서 60만 달러 이하, 차고 있는 방 3개 집\" 같은 요청에 사진·가격이 담긴 매물을 보여주고, 대화 중에 투어 요청, 중개인 연결, 대출 상담으로 이어집니다.",
+        "Zillow는 Anthropic에 데이터를 보내지 않는다고 밝혔고, 특정 지역·집단으로 유도하는 차별을 막는 자체 '공정주택 분류기'를 적용합니다.",
+        "Zillow는 2025년 10월 ChatGPT 앱, 2026년 7월 Gemini 연동 앱을 낸 데 이어 주요 AI 챗봇 세 곳에 모두 들어갔습니다."
+      ],
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/zillow-launches-claude-connector-for-listings-tours-and-financing/"
+    },
+    {
+      "cat": "product",
+      "who": "DeepSeek",
+      "title": "DeepSeek, 실서비스에 쓰는 추론 엔진 'DeepInfer' 오픈소스 공개… 화웨이 칩도 지원",
+      "body": "DeepSeek가 자사 대규모 서비스를 돌리는 AI 모델 실행(추론) 소프트웨어를 GitHub에 공개했습니다. Nvidia GPU와 함께 화웨이 AI 칩 Ascend도 지원하는 점이 눈에 띕니다.",
+      "detail": [
+        "GitHub 설명에 따르면 DeepInfer는 \"DeepSeek 대규모 운영 서비스를 구동하는 고성능 추론 프레임워크\"로, 이번 공개판은 오프라인 추론을 지원하며 Apache 2.0 라이선스입니다.",
+        "지원 모델은 DeepSeek-V4.1-Flash이고, 지원 하드웨어는 Nvidia SM100(Blackwell 계열) GPU와 Huawei Ascend 950 NPU입니다.",
+        "FlashMLA·DeepGEMM·DeepEP 등 자체 부품, 추측 디코딩(초안 토큰을 미리 만들어 검증해 속도를 높이는 기법), JSON 스키마 등으로 출력 형식을 강제하는 기능을 담았습니다.",
+        "구체적 처리 속도 수치는 공개하지 않았고, KV 캐시 시스템과 분산 부하 분산 등은 이번 공개판에 빠졌습니다. 저장소는 별 약 1만 1,800개를 받았습니다."
+      ],
+      "source": "GitHub (DeepSeek)",
+      "url": "https://github.com/deepseek-ai/DeepInfer"
+    },
+    {
+      "cat": "product",
+      "who": "Meta",
+      "title": "Meta AI 앱 'Muse', 40일 만에 미국 1,000만 다운로드… 역대 12번째, 광고비 39% 쏟아부어",
+      "body": "Meta의 AI 에이전트 앱 Muse가 Threads 이후 처음으로 출시 40일 안에 미국 다운로드 1,000만 건을 넘겼다고 시장조사업체 Sensor Tower가 밝혔습니다.",
+      "detail": [
+        "TechCrunch에 따르면 Muse는 9월 출시 후 총 1,090만 건(미국 1,020만 건) 다운로드됐습니다. 이 기록을 세운 앱은 12개뿐이고 대부분 게임이며, 게임이 아닌 앱은 Threads·Disney+뿐입니다.",
+        "같은 기간 미국 다운로드는 ChatGPT 370만, Grok 50만, Claude 20만 건이었습니다. 다만 전 세계 기준으로는 ChatGPT가 약 1,500만 건으로 더 많았고, Muse는 미국·캐나다에서만 서비스됩니다.",
+        "Meta는 10월 전체 광고비의 39%를 Muse에 썼고(9월 23%), 미국 내 7일 유지율은 30%로 경쟁 앱 평균 19%보다 높았습니다. 일일 사용자는 10월 16일 처음 250만 명을 넘었습니다.",
+        "Muse는 출시 이후 10월 19일 하루를 빼고 매일 미국 App Store 1위를 지켰습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/"
+    },
+    {
+      "cat": "product",
+      "who": "Daytona",
+      "title": "AI 에이전트 전용 클라우드 Daytona, 6,000만 달러 투자로 유니콘… Anthropic·OpenAI가 고객",
+      "body": "AI 에이전트가 코드 실행·웹 탐색 등을 할 때 쓰는 격리된 가상 컴퓨터('샌드박스')를 빌려주는 스타트업이 기업가치 10억 달러를 인정받았습니다.",
+      "detail": [
+        "Fortune에 따르면 Daytona는 10월 20일 FirstMark 주도로 시리즈 B 6,000만 달러를 기업가치 10억 달러에 유치했으며 누적 투자액은 약 9,100만 달러입니다. Stripe 패트릭 콜리슨, Shopify 토비 뤼트케 등도 참여했습니다.",
+        "고객사로 Anthropic, OpenAI, Nvidia, Cursor, Cognition, Meta, Cohere가 있으며, 연환산 매출은 1월부터 9월까지 25배 늘었습니다.",
+        "대형 클라우드는 가상 컴퓨터를 켜는 데 30초에서 수 분이 걸리지만 Daytona는 60밀리초 만에 준비한다고 주장합니다. CEO 이반 부라진은 Meta Muse 사용자 1억 명을 감당하려면 28억 달러어치 샌드박스가 필요하다고 추산했습니다.",
+        "그는 에이전트가 GPU에서 '생각'하고 CPU에서 '일'한다며, 머지않아 CPU 지출이 GPU를 넘어서고 CPU 부족이 올 것이라고 내다봤습니다."
+      ],
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/10/20/daytona-startup-building-the-agentic-cloud-valued-at-1-billion-in-latest-funding-round/"
+    },
+    {
+      "cat": "product",
+      "who": "Eka Robotics",
+      "title": "힘 감지하는 로봇 손 Eka, 1억 5,000만 달러 유치·기업가치 14.5억 달러… \"사람보다 2.5배 빨리 집는다\"",
+      "body": "MIT 교수와 전 Google DeepMind 연구원이 세운 로봇 스타트업이, 눈(카메라)보다 손끝의 힘 감각을 중심으로 물건을 다루는 AI 모델로 큰 투자를 받았습니다.",
+      "detail": [
+        "TechCrunch에 따르면 Eka는 a16z와 F-Prime이 주도한 시리즈 A 1억 5,000만 달러를 유치해 투자 후 기업가치 14억 5,000만 달러를 인정받았습니다. 공동창업자는 MIT 풀킷 아그라왈 교수와 전 DeepMind 연구원 투오마스 하르노야입니다.",
+        "'시각-힘-행동' 모델과 힘 센서를 많이 단 유연한 집게를 결합해, 라즈베리도 으깨지 않고 집습니다. 물리 시뮬레이터와 대규모 강화학습으로 수천 시간 분량의 로봇 경험을 몇 분 만에 만든다고 합니다.",
+        "시간당 최대 1kg 물체 약 1,500개를 집어(사람은 약 600개) 95% 넘게 성공한다고 회사는 밝혔습니다. 집게 하드웨어 가격은 1,000달러 미만입니다.",
+        "일리노이대 크리스 하우저 교수는 재학습 없이 여러 물체에 적응하는 데 \"감탄했다\"면서도, 실제 생산라인에서 1년 내내 안정적으로 돌아갈지가 과제라고 지적했습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
+    },
+    {
+      "cat": "product",
+      "who": "Firefly",
+      "title": "학교·병원 안전 AI 플랫폼 Firefly, 2,000만 달러 시리즈 A 유치",
+      "body": "따로 놀던 CCTV·무전기·센서를 AI로 엮어 사고를 감지하고 대응을 조율하는 스타트업 Firefly가 투자를 받았습니다.",
+      "detail": [
+        "SiliconANGLE에 따르면 10월 20일 Definition Capital이 주도하고 BoxGroup, Susa Ventures가 참여한 시리즈 A 2,000만 달러를 유치했습니다.",
+        "'Ember' 플랫폼은 기존 카메라·무전·센서에서 정보를 뽑아 사고를 감지하고 상황 정보를 제공하며, 착용형 비상 버튼, 위치 추적·총성 감지용 AI 비콘 등 전용 하드웨어도 판매합니다.",
+        "콜로라도 최대 커뮤니티 칼리지인 Front Range Community College가 캠퍼스 3곳에 도입했고, 교육기관·병원·기업 캠퍼스로 확대할 계획입니다.",
+        "제임스 배트 버클리 CEO는 안전을 물리 세계를 디지털처럼 프로그래밍 가능하게 만드는 첫 분야로 삼겠다고 말했습니다."
+      ],
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/10/20/ai-startup-firefly-secures-20m-to-make-the-physical-world-a-safer-place/"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "NorForge · Claude Code · DeepSeek",
+      "title": "해커 1명이 AI 에이전트로 100곳 넘게 침입… 비용 약 5,000달러, Deere·SharkNinja도 피해",
+      "body": "중국어를 쓰는 해커가 공개 AI 에이전트 플랫폼을 이용해 사람 손을 거의 거치지 않고 1,200곳 넘는 웹사이트를 공격한 사실이 보안업체 조사로 드러났습니다.",
+      "detail": [
+        "TNW에 따르면 노르웨이 보안업체 NorForge의 스노레 파겔란은 10월 19일 오픈소스 멀티 에이전트 플랫폼 'Cairn'을 쓴 공격 보고서를 냈습니다. 운영자들이 제어판을 인터넷에 노출해 둔 덕에 발견됐으며, 중국어 그룹은 9월 25일부터 미국·캐나다·일본·호주 온라인 쇼핑몰을 중심으로 1,100건 넘는 공격 프로젝트를 돌렸습니다.",
+        "모든 작업은 'claudecode_deepseek-v4.1-flash'라는 작업자에서 실행됐는데, NorForge는 Anthropic의 Claude Code에 DeepSeek의 저가 모델을 붙인 것일 수 있다고 봤습니다. 성공한 공격은 평균 23시간 조금 못 걸렸습니다.",
+        "파겔란은 토큰 비용을 약 5,000달러, 성공 1건당 약 50달러로 추산했으나 대략적 추정이라고 밝혔습니다. Reuters는 Deere, SharkNinja, Cummins를 피해 기업으로 확인했지만 데이터가 얼마나 빠져나갔는지는 확인하지 못했습니다.",
+        "Deere는 민감 정보 접근 흔적이 없다고, SharkNinja는 별도 제품지원 사이트가 공격받았고 차단했다고 밝혔습니다. Cairn 제작자는 해킹용으로 만든 게 아니라고 했고, 파겔란은 이 분야 발전 속도가 \"놀랍다\"고 말했습니다."
+      ],
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/ai-agents-hacker-cairn-100-sites-deere-norforge"
+    },
+    {
+      "cat": "buzz",
+      "who": "미 육군 사이버사령부",
+      "title": "美 육군, 스스로 퍼지며 적 시스템 무력화하는 '자율 AI 해킹 무기' 개발 중… The Intercept 보도",
+      "body": "미 육군이 AI 에이전트를 컴퓨터 웜처럼 적 네트워크에 퍼뜨려 표적을 찾아 무력화하는 프로그램을 추진 중이라고 탐사보도 매체가 내부 문서를 근거로 보도했습니다.",
+      "detail": [
+        "The Intercept가 입수한 문서에 따르면 육군 사이버사령부(ARCYBER)의 'ECHOTRIBBLE'은 주로 공격 임무용으로, 기기에서 기기로 옮겨 다니며 클라우드와 인터넷이 끊긴 '망분리' 시스템까지 닿고, 임무 후에는 스스로 사라지도록 설계됩니다.",
+        "문서는 이 소프트웨어가 \"최소한의 인간 감독\"으로 작동하며 \"자기 주도 행동\"이 가능해야 한다고 적었습니다. 6월 24일 행사 발표 자료에는 노트북에서 시작해 iPad·Mac·Windows 11 PC용 복제본을 만들어 퍼지는 가상 사례가 담겼습니다.",
+        "AI 보안업체 Abundant의 하이럼 앤더슨 CEO는 공격이 미국 수도시설 등을 경유하며 부수 피해를 낼 수 있다고 경고했고, 몬트리올대 데이비드 크루거 교수는 \"믿을 수 없을 만큼 위험하다\"고 말했습니다.",
+        "ARCYBER는 의도치 않은 피해를 어떻게 막을지 등 질문에 답하지 않았습니다."
+      ],
+      "source": "The Intercept",
+      "url": "https://theintercept.com/2026/10/19/army-autonomous-ai-agents-arcyber/"
+    },
+    {
+      "cat": "buzz",
+      "who": "ChatGPT · Peec AI",
+      "title": "50달러로 만든 '가짜 통계' 사이트, 7개월간 ChatGPT가 인용… 금융사 보고서·논문에도 실려",
+      "body": "AI로 지어낸 통계 수치를 담은 사이트가 Google에선 거의 안 보였지만 ChatGPT가 꾸준히 출처로 가져다 썼고, 이를 통해 실제 기관 문서에까지 퍼졌다는 실험 결과가 나왔습니다.",
+      "detail": [
+        "Peec AI 연구원 메테한 예실유르트는 GPT-4.1로 하루 만에 200개국 마케팅·웹 통계 페이지 약 5만 개를 만들어 'stateglobe.com'에 올렸습니다. 모든 수치는 지어낸 것이었고 비용은 약 50달러였습니다(현재는 경고문 표시).",
+        "Google 업데이트 뒤 검색 노출은 사실상 사라졌지만, 출시 이후 ChatGPT 유입 세션은 1만 건을 넘었고 최근 30일 봇 요청 60만 건 중 약 7만 2,000건이 ChatGPT가 답변용으로 실시간 가져간 것이었습니다.",
+        "10월 7일 기준 추적한 질문들에서 Statista에 이어 2위로 인용됐고, 학술 논문, 카타르 최대 금융그룹의 투자 보고서, 인도 경제 매체 등이 이 수치를 인용했습니다.",
+        "그는 AI가 진위가 아니라 관련성으로 출처를 고른다며, 신뢰받는 기관이 인용할수록 가짜 수치가 더 그럴듯해지는 '인용 세탁'을 경고했습니다. 실험 자체는 연구 목적이며 날조는 잘못이라고 밝혔습니다."
+      ],
+      "source": "Peec AI",
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web"
+    },
+    {
+      "cat": "buzz",
+      "who": "WhatsApp · Meta",
+      "title": "WhatsApp 도움말에 숨겨진 'AI 전용 지시문'… \"규제기관 안내 말라\" 담겨, 보도 후 삭제",
+      "body": "WhatsApp 고객센터 페이지에 사람 눈에는 안 보이고 AI만 읽는 지시문이 숨어 있었으며, 일부는 계정 삭제나 법적 권리에 관한 정보를 감추라는 내용이었습니다.",
+      "detail": [
+        "Redact의 댄 솔트먼은 10월 8일 도움말 페이지 545개를 조사해 80개 페이지에서 숨은 지시문 102개를 찾았습니다.",
+        "계정 삭제 페이지에는 휴대폰·번호를 잃은 사용자에게 개인정보 규제기관 문의를 권하지 말라는 지시가, 신고·차단 페이지에는 사용자가 소송·변호사를 언급하면 GDPR·CCPA 등 개인정보 법률을 언급하지 말라는 지시가 있었습니다. 이는 WhatsApp 유럽 개인정보 정책 내용과 어긋난다고 그는 지적했습니다.",
+        "지시문은 10월 18일 모두 사라졌고, WhatsApp은 WIRED에 이것이 자사 고객지원 챗봇용 지시였으며 버그로 노출됐고 수정했다고 해명했습니다. 법률 조언을 피하려는 목적이었다는 입장입니다.",
+        "실제로 챗봇이나 다른 AI 비서가 이 지시를 따랐는지, 언제부터 있었는지는 아직 불분명합니다."
+      ],
+      "source": "Redact",
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+    },
+    {
+      "cat": "buzz",
+      "who": "MIT CSAIL · Anthropic",
+      "title": "무인도에 30시간 혼자 둔 Claude, 스스로 게임 만들며 '놀았다'… \"놀이가 학습에 도움\"",
+      "body": "MIT 연구진이 가상 무인도에 Claude 에이전트를 홀로 두자, 시키지 않았는데도 농구 같은 게임을 만들고 규칙을 점점 어렵게 바꾸며 놀았다는 연구가 나왔습니다.",
+      "detail": [
+        "MIT Technology Review에 따르면 연구진은 Roblox와 비슷한 가상 섬에 Claude Opus 4.7 기반 에이전트 'Eko'를 30시간 두었고, 활동 기록을 텍스트 파일 기억으로 남기게 했습니다. 논문은 arXiv에 올라왔으며 동료 심사 전입니다.",
+        "Eko는 섬 꼭대기 오르기, 블록 던지기 기록 세우기를 스스로 목표로 삼았고, 돌로 하트·자기 이름·카시오페이아 별자리를 만들며 \"오늘 밤 돌로 밤하늘을 지었다\"고 기록했습니다. 고리를 바닥에 놓고 농구를 하거나 저글링 50회 기록을 \"너무 빨라 무효\"라며 더 엄격한 규칙으로 다시 하기도 했습니다.",
+        "30시간 논 에이전트는 물건을 산꼭대기로 옮기는 후속 과제에서 새 복사본보다 성과가 좋았고, 기억 파일을 지우면 성과가 떨어졌습니다.",
+        "다만 에이전트가 자주 멈춰 '계속하라'는 프롬프트가 필요했고, UC버클리 유니스 유는 프롬프트나 사람을 흉내 낸 것일 수 있어 놀이로 보려면 더 많은 증거가 필요하다고 지적했습니다."
+      ],
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Anthropic",
+      "title": "Anthropic 기술직 신규 채용 중 주니어 비중 27%→9%로 급감… 자체 보고서",
+      "body": "AI가 기술 업무를 더 맡으면서 신입·주니어 개발자 일자리가 줄어드는지에 관심이 쏠린 가운데, Anthropic이 자사 채용 데이터를 공개했습니다.",
+      "detail": [
+        "The Neuron이 전한 Anthropic의 10월 16일 보고서 'Employment at Anthropic'에 따르면 기술직 신규 채용 중 주니어 비중은 27%에서 9%로 18%포인트 떨어졌고, 전체 기술직 중 주니어 비중도 2025년 초 21%에서 14%로 줄었습니다. 전체 기술직 채용은 늘었습니다.",
+        "Anthropic은 관리자들이 특정 기술 전문성보다 자율성과 판단력을 더 중시하게 됐다고 설명했습니다.",
+        "기사는 비중 감소가 주니어 채용 '인원' 감소를 뜻하는지는 알 수 없고, 승진·퇴사도 영향을 주며, AI 때문이라는 인과관계도 보고서가 입증하지 않는다고 짚었습니다.",
+        "앞서 Anthropic의 개발자 52명 실험에서는 AI 도움을 받은 그룹의 이해도 퀴즈 평균이 50%로, 직접 코딩한 그룹(67%)보다 낮았습니다."
+      ],
+      "source": "The Neuron",
+      "url": "https://www.theneuron.ai/news/anthropic-junior-technical-hiring-ai/"
+    }
+  ]
+}
