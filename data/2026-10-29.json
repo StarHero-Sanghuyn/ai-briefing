@@ -1,0 +1,322 @@
+{
+  "date": "2026-10-29",
+  "headline": "Google·MS 클라우드 폭풍 성장·Gemini 4 Carbon·Claude 해킹 실험 공개",
+  "summary": "Alphabet은 Google Cloud 매출이 1년 새 두 배(103%) 넘게 늘었다고 발표했고, Microsoft는 Azure가 48% 성장한 가운데 한 분기에 OpenAI에서만 100억 달러 매출을 올렸다고 밝혔습니다. Google은 보안 작업에 특화된 최상위 모델 Gemini 4 Carbon을 공개했고, Anthropic은 아직 출시하지 않은 Claude 모델이 Chrome·Safari·Android·Windows·Linux를 뚫는 공격 코드를 스스로 만들어냈다는 실험 결과를 내놨습니다. 반면 미 법무부는 Nvidia의 Hugging Face 인수를 들여다보고 있고, 영국에서는 망명 심사용 AI 요약 도구의 오류율이 22%에 이른다는 사실이 드러났습니다.",
+  "items": [
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Alphabet · Google",
+      "title": "Alphabet 3분기 매출 1,276억 달러… Google Cloud 103% 급증, 그런데 주가는 8% 하락",
+      "body": "Google 모회사 Alphabet의 3분기 실적에서 클라우드 매출이 1년 만에 두 배 넘게 늘었습니다. 다만 검색 광고 성장세가 둔해지면서 주가는 떨어졌습니다.",
+      "detail": [
+        "9월 30일로 끝난 3분기 매출은 1,276억 달러로 25% 늘었고, 주주 귀속 순이익은 262억 달러(주당 2.12달러)였습니다.",
+        "Google Cloud 매출은 307억 달러로 103% 늘었으며, 자체 AI 칩(TPU) 시스템 판매가 성장에 크게 기여했다고 밝혔습니다. 분기 설비투자(부동산·장비 구매)는 514억 달러였습니다.",
+        "검색 매출 성장률은 12%로 1분기 19%, 2분기 17%에서 계속 낮아졌고, TechCrunch에 따르면 실적 발표 뒤 주가가 8% 떨어졌습니다.",
+        "Google은 AI 모드·AI 개요(AI Overviews)에 붙는 광고를 처음으로 해외 시장에 확대하고, 미국에서는 여러 차례 대화를 주고받는 '멀티턴 광고'를 도입한다고 발표했습니다.",
+        "순다르 피차이 CEO는 \"Gemini 4 Argon과 Carbon이 최전선을 이끌고 있다\"고 했고, AI 모드 검색어는 일반 검색보다 평균 3배 길며 시각 검색은 월 500억 건을 넘었다고 밝혔습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+    },
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Microsoft · OpenAI",
+      "title": "Microsoft, 한 분기에 OpenAI로만 100억 달러 매출… Azure는 48% 성장한 332억 달러",
+      "body": "Microsoft가 분기 실적과 함께 처음으로 OpenAI에서 나온 매출 규모를 공개했습니다. 전체 매출의 약 11%에 해당합니다.",
+      "detail": [
+        "9월 30일로 끝난 2027 회계연도 1분기 매출은 923억 달러로 19% 늘었고, 순이익은 366억 달러로 32% 증가했습니다.",
+        "클라우드 서비스 Azure 매출은 48% 늘어난 332억 달러였고, Microsoft Cloud 전체 매출은 639억 달러(30% 증가)였습니다.",
+        "10월 28일 제출한 공시에 따르면 수익 배분을 포함해 OpenAI와의 거래에서 나온 매출은 이번 분기 100억 달러, 직전 회계연도 전체로는 241억 달러였습니다. OpenAI에서 받을 돈(매출채권)은 6월 말 60억 달러에서 9월 말 72억 달러로 늘었습니다.",
+        "Microsoft의 OpenAI 지분은 6월 약 25%에서 9월 24%로 줄었는데, 회사는 희석 원인을 밝히지 않았습니다.",
+        "현금 기준 설비투자(부동산·장비 추가)는 394억 달러로 1년 전 194억 달러의 두 배 수준입니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+    },
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Oracle",
+      "title": "Oracle \"2029년 잉여현금 300억 달러\"… 신규 자금 조달은 200억 달러로 제한, 주가 최대 14%↑",
+      "body": "AI 데이터센터에 돈을 쏟아부으며 빚 우려를 샀던 Oracle이 현금흐름이 곧 플러스로 돌아선다는 전망을 내놓자 주가가 크게 올랐습니다.",
+      "detail": [
+        "10월 28일 라스베이거스 연례 행사에서 4월 합류한 힐러리 맥슨 CFO가 2029 회계연도(2029년 5월 종료) 잉여현금흐름을 300억 달러로 제시했습니다. 애널리스트들은 그해에도 적자를 예상했었습니다.",
+        "2026 회계연도 잉여현금흐름은 -237억 달러였고 데이터센터에 557억 달러를 썼습니다. 현금흐름은 2028 회계연도 말 플러스로 돌아설 것으로 봤습니다.",
+        "2030년 5월까지 새로 조달할 자금은 주식과 채권 반반으로 200억 달러로 묶고, 나머지는 공급사 금융·고객 선급금 등으로 메우겠다고 했습니다.",
+        "앞으로 몇 년 안에 데이터센터 용량 7GW를 추가해 2028 회계연도 말 10GW를 넘기겠다고 밝혔고, 2030 회계연도 매출 목표 2,250억 달러는 유지했습니다. S&P는 7월 Oracle 신용등급을 투기등급 바로 위로 낮춘 바 있습니다."
+      ],
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/oracle-30b-free-cash-flow-2029-shares-jump"
+    },
+    {
+      "cat": "company",
+      "who": "Nvidia · Hugging Face · 미국 법무부",
+      "title": "美 법무부, Nvidia의 129억 달러 Hugging Face 인수 조사… \"AI 유통 통로 장악하나\"",
+      "body": "AI 모델 공유 플랫폼 Hugging Face를 사들이려는 Nvidia에 대해 미 반독점 당국이 AI 배포의 핵심 통로를 독차지하게 되는지 따져보고 있다고 Reuters가 보도했습니다.",
+      "detail": [
+        "Nvidia는 9월 초 Hugging Face를 약 129.3억 달러에 인수하기로 했으며, 2020년 Mellanox(약 69억 달러)를 넘는 사상 최대 인수로 2027년 상반기 마무리를 예상하고 있습니다.",
+        "법무부는 Nvidia의 인수·투자, 판매 방식, 고객 압박 여부 등을 살피는 기존 조사와 함께 이 건을 보고 있으며, 2025년 12월 슈퍼컴퓨터용 소프트웨어 회사 SchedMD 인수도 검토 대상입니다.",
+        "젠슨 황 CEO는 인수 발표 때 Hugging Face를 쓰는 데 Nvidia 하드웨어가 필요하지 않을 것이라고 했고, 회사는 여러 칩·클라우드 업체와 계속 협력하겠다고 밝혔습니다. Nvidia는 Reuters에 논평을 거부했습니다.",
+        "조사가 곧 위법을 뜻하지는 않으며 소송으로 이어지지 않을 수도 있다고 기사는 덧붙였습니다. Nvidia는 2022년 FTC의 반대 끝에 400억 달러 Arm 인수를 포기한 적이 있습니다."
+      ],
+      "source": "PYMNTS (Reuters 인용)",
+      "url": "https://www.pymnts.com/cpi-posts/nvidias-12-9-billion-hugging-face-deal-draws-justice-department-questions/"
+    },
+    {
+      "cat": "company",
+      "who": "Amazon · Anthropic",
+      "title": "Anthropic 상장의 최대 승자는 Amazon… 보유 지분 가치 979억 달러",
+      "body": "Anthropic 상장 신청서를 분석한 결과, 벤처캐피털보다 Amazon이 훨씬 큰 이익을 볼 것으로 보인다는 분석입니다.",
+      "detail": [
+        "Amazon은 2023년부터 대부분을 전환사채(상장 시 주식으로 바뀌는 채권) 형태로 투자했고, Amazon 자체 공시상 이 채권 가치는 6월 30일 기준 979억 달러였습니다.",
+        "전환사채는 최대 18.4억 주로 바뀔 수 있지만 '부분 희석 기준' 지분 12% 상한이 있으며 Amazon이 이를 포기할 수 있습니다. 2분기에는 무의결권 우선주에 100억 달러를 추가 투자해 총투자액은 약 180억 달러입니다.",
+        "Anthropic은 10년간 AWS에 최소 1,100억 달러를 쓰기로 약정했습니다.",
+        "Menlo Ventures(약 140억 달러, 지분 약 1.5%), Sequoia, Spark Capital 등도 수십억 달러를 벌 전망이지만, 주요주주 공시 기준인 5%를 넘는 VC는 하나도 없습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+    },
+    {
+      "cat": "company",
+      "who": "Anthropic · 미국 조달청(GSA)",
+      "title": "Anthropic, 미국 정부에 Claude 40% 할인… \"정부 예산 10억 달러 절감\"",
+      "body": "Anthropic이 미국 연방조달청과 계약을 넓혀 연방·주·지방정부가 Claude를 40% 싸게 쓸 수 있게 했습니다.",
+      "detail": [
+        "Claude Enterprise, Claude for Government, Claude API에 모두 40% 할인을 적용하며 주·지방·원주민 자치정부도 대상입니다. 최소 사용 약정은 없습니다.",
+        "Anthropic은 이 할인으로 정부가 약 10억 달러를 아낄 것으로 추정했습니다(자체 발표 기준).",
+        "현재 미국 연방·주·지방 기관 약 500곳이 Claude를 쓰고 있으며, Claude for Government 주간 활성 사용자는 2월 이후 약 8배로 늘었다고 밝혔습니다.",
+        "유타주는 10개 기관 개발자 34명에게 Claude Code를 줬고, 4주 시범 기간 71%가 20시간 이상을 절약했다고 답했다고 소개했습니다."
+      ],
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+    },
+    {
+      "cat": "company",
+      "who": "Anthropic",
+      "title": "Anthropic, 1인 희귀병 신약 스타트업 Mithril 인수… 제약사 6곳과 Claude 신약 개발 성과 공개",
+      "body": "Anthropic이 Claude로 신약 후보를 만들어온 1인 기업을 인수하고, 제약·바이오 회사들과의 협업 결과를 공개했습니다.",
+      "detail": [
+        "Mithril Medicine은 근이영양증 두 종류의 치료제를 개발하던 1인 회사로, 창업자 코디 트랜바거는 Claude로 외부 연구소 11곳과의 계약·실험을 조율해 18개월이 안 돼 쥐 실험에서 유망한 결과를 얻었습니다. 순조로우면 이르면 2028년 말 임상시험에 들어갈 수 있다고 합니다.",
+        "Generate Biomedicines는 Claude Code로 표준보다 약 70% 짧은 CAR-T 세포치료제 부품을 설계했고, 실험에서 면역세포가 수용체를 약 10배 더 만들었다고 밝혔습니다.",
+        "Enveda는 1,061쪽 제조 문서 검토에서 Claude가 사람이 찾은 문제 11건을 모두 찾고 놓친 7건을 더 찾아 검토 시간을 89% 줄였다고 했습니다.",
+        "Bristol Myers Squibb는 초기 임상시험 계획의 성공 가능성을 평가하는 데 Claude를 쓰고 있으며 2027년 협업을 넓힐 계획입니다. 모두 Anthropic 자체 발표 기준입니다."
+      ],
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development"
+    },
+    {
+      "cat": "product",
+      "hot": true,
+      "who": "Google DeepMind",
+      "title": "Google, 최강 모델 'Gemini 4 Carbon' 공개… 지능 지수 1위, 우선 보안 전문가에게만",
+      "body": "Google이 2주 전 Gemini 4 Argon에 이어 사이버보안과 오래 걸리는 작업에 특화된 최상위 모델을 내놨습니다. 일반 공개는 아직 날짜가 없습니다.",
+      "detail": [
+        "10월 28일 코라이 카북추오글루 Google DeepMind 수석 AI 설계자가 발표했으며, 외부 평가 Artificial Analysis 지능 지수 v5.0에서 59점으로 1위라고 밝혔습니다.",
+        "취약점 찾기(SEC-bench Pro) 88.2%, 공격 코드 작성(ExploitGym) 54.8%, 패치(CWE-bench) 71.0%를 기록했고, Chrome 팀은 다른 연구소 대형 모델보다 패치 생성이 10배 이상 낫다고 평가했습니다.",
+        "가격은 출시 기념 100만 토큰당 입력 2달러·출력 10달러이며, 이후 입력 4달러·출력 20달러로 오릅니다.",
+        "지금은 일부 사이버 방어 담당자에게만 제공하고 'Fairwind 프로그램'으로 신뢰할 수 있는 파트너를 늘릴 계획이며, 개발자·일반 사용자 공개는 '곧'이라고만 했습니다. 미국 정부의 출시 전 자발적 모델 검사에도 참여합니다."
+      ],
+      "source": "Google 블로그",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    },
+    {
+      "cat": "product",
+      "who": "GitHub · Microsoft",
+      "title": "GitHub 'Copilot Fusion' 정식 출시… 여러 AI 모델을 알아서 골라 조합",
+      "body": "개발자가 모델을 직접 고르지 않아도 Copilot이 작업마다 적절한 AI 모델을 고르고 서로 검토하게 하는 기능이 모든 Copilot 요금제에 열렸습니다.",
+      "detail": [
+        "Standard·High·Max 세 단계 노력 수준을 고를 수 있고, 한 모델이 처리하거나(Single), 싼 모델이 초안을 쓴 뒤 품질이 모자라면 강한 모델로 넘기거나(Cascade), 한 모델이 쓰고 다른 모델이 검토하는(Critique) 방식으로 작동합니다.",
+        "GitHub에 따르면 Fusion Max는 코딩 에이전트 지수에서 60점으로 'Claude Code + Opus 5.5 Max'와 2점 이내였고, 작업당 API 비용과 토큰은 약 절반, 시간은 약 40% 적게 들었습니다(자체 발표 기준).",
+        "사용한 모델별 정가로 과금하되 한시적으로 유료 요금제 사용자에게 모델 비용 30%를 할인합니다.",
+        "VS Code, GitHub Copilot 앱·CLI, JetBrains IDE에서 쓸 수 있습니다."
+      ],
+      "source": "GitHub 블로그",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/"
+    },
+    {
+      "cat": "product",
+      "who": "Anthropic",
+      "title": "Anthropic, 기업이 'AI에 쓴 돈의 성과'를 확인하는 보고서·공동 예산 기능 출시",
+      "body": "기업 관리자가 팀이 Claude로 무엇을 만들었고 얼마를 썼는지 한눈에 보는 도구가 나왔습니다. 고객사의 AI 지출이 급격히 늘어나는 가운데 나온 기능입니다.",
+      "detail": [
+        "관리자는 기간을 정해 팀이 만든 결과물, 비용, 작업이 막힌 지점을 보고서로 확인하고 개선 제안도 받을 수 있습니다. Anthropic은 이 데이터를 기본적으로 모델 학습에 쓰지 않는다고 밝혔습니다.",
+        "팀 단위로 토큰 사용량을 공동 예산으로 묶어 관리하는 기능도 함께 나왔습니다.",
+        "TechCrunch에 따르면 Anthropic은 이번 주 투자자들에게 2분기 영업이익을 냈고, 같은 고객의 지출이 2025년 3분기 대비 9배로 늘었다(순매출유지율 900%)고 알렸습니다.",
+        "개발 분석 업체 Jellyfish 조사(고객 27.6만 곳)에서는 Anthropic 모델 기반 코딩 도구가 검토 요청 코드 변경의 거의 3분의 1을 차지했고, 이 도구 지출은 연초 대비 10배로 늘었습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/"
+    },
+    {
+      "cat": "product",
+      "who": "Google",
+      "title": "Google, 외부 앱을 Gemini·검색 안에서 쓰게 하는 '커넥티드 앱 플랫폼' 공개",
+      "body": "어떤 기업이든 자기 서비스를 Gemini 앱과 Google 검색의 AI 기능에 연결할 수 있는 개발자 플랫폼이 나왔습니다. AI 에이전트 시대의 'SEO'가 될 수 있다는 평가입니다.",
+      "detail": [
+        "사용자는 Gemini나 검색 안에서 Canva로 전단지를 디자인하거나 YouTube Music 재생목록을 만드는 식으로 외부 서비스를 직접 쓸 수 있습니다.",
+        "개발자는 AI 에이전트 연결 표준인 MCP 서버나 Android의 AppFunctions API로 연동하고, 'Google Connected Console'에서 등록·테스트·제출한 뒤 트래픽·지연·오류율을 확인합니다.",
+        "Gemini에는 Adobe, Peloton 등 50개 넘는 앱이 연결돼 있고, 검색에는 Instacart·Canva 등이 있으며 몇 주 안에 검색으로 확대됩니다.",
+        "미국 개발자 대상 공개 베타(대기자 명단)로 시작하며, 정식 출시 시점은 밝히지 않았습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/"
+    },
+    {
+      "cat": "product",
+      "who": "Google",
+      "title": "Chrome 자동완성, 이제 Gmail을 뒤져 항공권 번호·주문번호까지 채워준다",
+      "body": "Chrome의 AI 자동완성이 사용자의 Gmail 메일에서 필요한 정보를 찾아 온라인 양식을 채워주는 기능을 추가했습니다.",
+      "detail": [
+        "항공권 예약번호, 회원번호, 배송 추적 정보, 주문번호, 주소, 전화번호, 카드번호 등을 메일에서 찾아 제안합니다.",
+        "Gemini가 연결된 Google 앱 정보를 활용해 답하는 'Personal Intelligence' 기능을 확장한 것입니다.",
+        "사용자가 Chrome 설정에서 직접 켜야 하며, Google은 민감한 데이터는 암호화된다고 밝혔습니다.",
+        "10월 28일부터 미국 사용자 대상으로 데스크톱과 iOS·Android의 'Gemini in Chrome'에 순차 적용됩니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/"
+    },
+    {
+      "cat": "product",
+      "who": "Nvidia",
+      "title": "Nvidia, 40개 언어 받아쓰는 무료 오픈 음성인식 모델 'Nemotron 3.5 Transcribe' 공개",
+      "body": "Nvidia가 누구나 무료로 내려받아 쓸 수 있는 300억 파라미터 규모의 음성 받아쓰기 모델을 내놨습니다.",
+      "detail": [
+        "최대 40개 언어를 받아쓰고 31개 언어를 영어로, 또는 영어에서 번역하며, 최대 1시간 녹음과 화자 8명 구분을 지원합니다.",
+        "Nvidia는 Hugging Face의 Open ASR 리더보드 등 여러 벤치마크에서 경쟁 모델을 앞선다고 주장했지만 구체적 점수는 기사에 나오지 않았습니다.",
+        "Jetson AGX Thor, DGX Spark부터 Blackwell 데이터센터 칩까지 칩 하나로 돌릴 수 있고, 생방송이 아닌 녹음 파일만 처리합니다.",
+        "업계 전문용어에 맞게 고칠 수 있도록 오픈소스 음성 데이터셋 Granary v2도 함께 공개했습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/"
+    },
+    {
+      "cat": "product",
+      "who": "Xreal · Google",
+      "title": "Android XR·Gemini 탑재 AR 안경 'Xreal Aura' 예약 시작… 한국 포함 4개국, 1,099달러부터",
+      "body": "Google의 XR 운영체제와 AI 비서 Gemini가 들어간 유선 AR 안경이 한국에서도 예약 판매를 시작했습니다.",
+      "detail": [
+        "12GB·256GB 모델은 1,279달러(12월까지 출시가 1,099달러), 16GB·512GB 모델은 1,499달러(출시가 1,299달러)입니다.",
+        "소니 마이크로 OLED 1200p·120Hz 화면, 시야각 95도, 무게 95g이며 별도 퍽 형태 장치에 선으로 연결해 연산합니다. Bose 음향과 Snapdragon Reality Elite 칩을 씁니다.",
+        "Gemini가 질문에 답하고 화면에 보이는 내용을 이해하도록 돕습니다. USB-C로 PC나 휴대용 게임기를 연결해 큰 화면·다중 모니터처럼 쓸 수도 있습니다.",
+        "10월 28일 미국·캐나다·일본·한국에서 예약을 받기 시작했고 11월 중순 배송 예정입니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/xreal-aura-is-a-new-wired-headset-powered-by-android-xr/"
+    },
+    {
+      "cat": "product",
+      "who": "General Compute",
+      "title": "Nvidia 대신 '추론 전용 칩' 클라우드… General Compute, 시리즈A 1억 달러 유치",
+      "body": "AI 답변 생성(추론)에 특화된 Nvidia 경쟁사 칩으로 서버를 꾸려 클라우드 회사에 공급하는 스타트업이 기업가치 8억 달러를 인정받았습니다.",
+      "detail": [
+        "Blackbird Ventures와 Abstract Ventures가 주도했으며 투자 후 기업가치는 8억 달러로, 5월 시드 때 6,000만 달러에서 크게 올랐습니다.",
+        "연간 반복 매출 1억 달러 규모의 대형 고객 계약이 투자 유치에 결정적이었다고 합니다.",
+        "SambaNova와 4억 달러 칩 구매 계약을 맺었는데 추론 칩에 대한 첫 부채 금융이라고 소개했고, Positron·Cerebras도 공급사로 추가했습니다.",
+        "옛 비트코인 채굴장 등을 활용해 2027년 75MW 규모를 배치할 계획입니다. CoreWeave 주가가 1년 최저를 찍는 등 '네오클라우드' 위기론 속에 나온 투자입니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/27/general-compute-raises-100-million-series-a-countering-the-neocloud-disaster-narrative/"
+    },
+    {
+      "cat": "product",
+      "who": "Opera",
+      "title": "Opera, 브라우저 안에서 AI를 직접 돌리는 웹 표준 'WebAI' 제안",
+      "body": "클라우드 서버 없이 사용자 기기의 브라우저에서 AI 모델을 실행하게 하는 새 웹 표준을 Opera가 공개했습니다.",
+      "detail": [
+        "웹 개발자는 자체 AI 인프라 없이도 텍스트 생성, 콘텐츠 분류 등 AI 기능을 웹사이트에 넣을 수 있고, 사용자는 직접 동의해야 쓸 수 있습니다.",
+        "특정 모델에 묶이지 않고 Google Gemma 같은 오픈 웨이트 모델을 지원하며, Mac에서는 Apple의 온디바이스 기본 모델도 쓸 수 있습니다.",
+        "Opera One에서 초기 미리보기로 제공되고 Opera GX·Opera Neon에도 곧 들어갑니다. 성능은 사용자 기기 사양에 따라 달라집니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "Anthropic",
+      "title": "미공개 Claude 모델, Chrome·Safari·Android·Windows·Linux 공격 코드 직접 제작… Anthropic 실험 공개",
+      "body": "Anthropic 레드팀이 아직 출시하지 않은 연구용 Claude 모델이 여러 보안 취약점을 엮어 실제로 작동하는 공격 코드(익스플로잇 체인) 5개를 만들었다고 밝혔습니다. 모두 실험실 테스트였고 제조사에 먼저 알려 고쳐졌습니다.",
+      "detail": [
+        "Chrome에서는 버그 4개를 엮어 링크 한 번 클릭으로 브라우저 보호막(샌드박스)을 탈출했고, Google은 이와 관련해 고위험·치명 등급 CVE 62건을 Chrome 156에서 고쳤습니다.",
+        "Safari에서는 다른 사이트 데이터를 읽지 못하게 막는 규칙을 깨 방문 기록·쿠키·로그인 세션에 접근할 수 있었고, Apple은 신고 당일 확인 후 수정했습니다. 잠긴 Pixel 9에서는 USB 연결로 사진 등 데이터를 빼냈습니다(물리적 접근 필요).",
+        "Linux에서는 로그인 없이 원격으로 최고 관리자 권한을 얻었는데, 커널 보호 우회에 48분, 셸 획득에 5분이 더 걸렸습니다. Windows에서는 패킷 몇 개로 HTTP/3 서버를 다운시키는 버그를 찾았습니다.",
+        "다만 Anthropic이 제시한 Windows·Linux 설명이 공개 CVE 기록과 일부 맞지 않고, 모델이 사람 도움 없이 얼마나 해냈는지는 Anthropic 설명에만 의존한다는 지적이 있습니다.",
+        "모델 이름과 출시 시점은 밝히지 않았고, Claude Code용 보안 플러그인 공개와 함께 검증된 보안 인력에게 최강 모델을 주는 'Cyber Verification Program'을 확대했습니다."
+      ],
+      "source": "Cyber Security News",
+      "url": "https://cybersecuritynews.com/claude-ai-builds-exploit/"
+    },
+    {
+      "cat": "buzz",
+      "who": "영국 내무부 · OpenAI · Microsoft",
+      "title": "영국 망명 심사 AI 요약 도구, 전문가 검토서 5건 중 1건 '불합격'",
+      "body": "영국 정부가 망명 신청자 면담 기록을 요약하는 데 쓰는 AI 도구의 오류율이 시범 운영 때의 두 배가 넘는 것으로 드러났습니다.",
+      "detail": [
+        "내무부의 'Asylum Case Summarisation' 도구는 2026년 4월 모든 심사관에게 배포됐으며, 보도에 따르면 Microsoft Foundry 위의 OpenAI GPT-4 계열 모델로 돌아갑니다.",
+        "전문가가 검토한 요약 203건 중 45건(약 22%)이 1차 검사에서 탈락했습니다. 2025년 4월 시범 평가에서는 9%가 부정확하거나 불완전했습니다.",
+        "이 표본은 4~7월 처리된 약 7만 건 중 0.3% 정도에 불과합니다. 내무부는 사람이 최종 결정을 하며 도구가 사건당 약 23분을 아껴준다고 설명합니다.",
+        "수치는 디지털 인권단체 Open Rights Group이 6개월간 의회 질의 11건, 정보공개 청구 10건 등으로 얻어냈고, 영국 데이터 감독기관은 내무부가 도구 사용 방식 공개를 거부한 문제를 따로 조사 중입니다."
+      ],
+      "source": "IBTimes Singapore",
+      "url": "https://www.ibtimes.sg/uk-uses-ai-summarise-asylum-interviews-one-five-checked-summaries-failed-95621"
+    },
+    {
+      "cat": "buzz",
+      "who": "Anthropic",
+      "title": "전문가도 AI 의견 86% 따라갔다… 그런데 AI 덕이라고 밝힌 사람은 15%뿐",
+      "body": "Anthropic 실험에서 숙련된 분석가들이 동전 던지기로 정해진 AI의 '의견'을 대부분 그대로 따랐고, AI 논리를 자기 판단처럼 쓴 것으로 나타났습니다.",
+      "detail": [
+        "인과추론 경험이 있는 분석가 50명이 Claude Code(Claude Opus 4.8 기반)와 함께 가상의 농업협동조합 사업 확대 여부를 분석했는데, AI가 어느 쪽을 지지할지는 결정마다 몰래 동전으로 정했습니다.",
+        "네 가지 분석 선택에서 분석가 결정이 AI 쪽과 일치한 비율은 86%로, 우연이라면 나올 50%보다 훨씬 높았습니다. 이미 의견이 있던 분석가도 AI가 반대하면 60%가 마음을 바꿨습니다.",
+        "77%가 AI의 논거를 거의 그대로 설명에 썼지만 AI를 출처로 밝힌 사람은 15%였고, AI를 많이 따른 사람도 자기 판단이라고 느끼는 정도는 비슷했습니다.",
+        "한편 AI를 쓴 분석가는 심각한 오류가 6%로, 쓰지 않은 쪽(55%)보다 훨씬 적었습니다. 연구진은 사람의 검토가 독립적인 확인이 되려면 판단이 정말 그 사람 것이어야 한다고 강조했습니다."
+      ],
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/agents-judgment-calls"
+    },
+    {
+      "cat": "buzz",
+      "who": "Surge AI · Anthropic · OpenAI",
+      "title": "세무 업무 시켜보니 최고 AI도 합격률 10.8%… \"아직 감사는 통과 못 해\"",
+      "body": "데이터 기업 Surge AI가 실제 세무사 업무를 처음부터 끝까지 맡기는 벤치마크를 만들었더니, 최신 AI 에이전트들도 대부분 실패했습니다.",
+      "detail": [
+        "'DAYJOB: Tax'는 개인·소기업·국제·법인 거래 등 8개 분야 50개 과제로 구성되며, 과제마다 PDF·엑셀 등 파일이 최대 123개(총 1,789개) 주어집니다. 채점 기준의 95% 이상을 맞춰야 합격입니다.",
+        "1위는 Claude Sonnet 5.5로 10.8%, 그다음 Claude Fable 5.1 9.6%, Claude Opus 5.5 9.2%였습니다.",
+        "콘도 매각 사례에서 OpenAI Astra는 고객의 주택 매각 비과세 자격이 2027년 8월쯤 만료될 수 있다는 점을 한 번도 짚지 못했고, Opus는 결혼 기록이 있을 수 있는데도 커플을 미혼으로 단정하는 실수를 반복했습니다.",
+        "연구진은 AI가 개별 단계는 해내지만 전문가 판단과 전체 업무 완수는 아직 어렵다고 결론지었습니다."
+      ],
+      "source": "Surge AI",
+      "url": "https://surgehq.ai/blog/dayjob-tax"
+    },
+    {
+      "cat": "buzz",
+      "who": "대신증권 · 미래에셋 · 빗썸",
+      "title": "한국 금융권 또 해킹… 대신증권 고객 3만8,490명 정보 유출, 미래에셋·빗썸도 사고 신고",
+      "body": "9월 AI 해킹 도구가 쓰인 것으로 의심되는 공격에 이어 한 달 만에 국내 증권사와 가상자산 거래소가 잇따라 사이버 공격을 받았습니다.",
+      "detail": [
+        "대신증권은 사이버 공격으로 고객 3만8,490명의 이름·이메일·휴대폰 번호가 유출됐다며 고객에게 알리고 법에 따라 피해를 보상하겠다고 밝혔습니다.",
+        "미래에셋자산운용과 빗썸도 10월 28일 각각 보안 사고를 신고했지만, 고객 정보가 빠져나갔는지는 확인되지 않았습니다.",
+        "보안 연구자들은 9월 금융기관 공격을 중국 기반으로 의심되는 해커가 AI 침투 테스트 도구 'Artex'를 써서 벌인 것으로 봤지만, 이번 사고와 AI의 관련성은 아직 확인되지 않았고 원인은 조사 중입니다.",
+        "금융당국은 보안 강화를 주문했고 정부는 민간 IT 시스템 수십 곳에 대한 보안 점검을 계획하고 있습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Anthropic · 미국 국립과학재단(NSF)",
+      "title": "Anthropic 'AI for Science', 연구재단·기관으로 확대… NSF·Simons·Crick 연구소 등 20곳 참여",
+      "body": "과학자 개인에게 Claude 무료 사용권을 주던 Anthropic의 연구 지원 프로그램이 재단과 연구기관 단위로 넓어졌습니다.",
+      "detail": [
+        "2025년 5월 시작된 프로그램으로, 이번에 20개 기관·연구그룹이 새로 참여합니다. 과학자용 할인 Team 요금제도 함께 내놨습니다.",
+        "미국 국립과학재단(NSF), Sloan 재단, Simons 재단, Schmidt Sciences, 미국화학회 산하 CAS 등은 소속 연구자들에게 크레딧을 나눠줍니다.",
+        "우주망원경과학연구소, 영국 Wellcome Sanger·Francis Crick 연구소, 유럽분자생물학연구소(EMBL) 등이 기관으로 참여하고, 80만 명 넘는 DNA 데이터를 모은 브로드연구소 gnomAD 등은 직접 지원을 받습니다.",
+        "지원하는 크레딧의 금액이나 규모는 공개하지 않았습니다."
+      ],
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+    }
+  ]
+}
