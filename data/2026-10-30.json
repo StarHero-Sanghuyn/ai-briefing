@@ -1,0 +1,320 @@
+{
+  "date": "2026-10-30",
+  "headline": "AWS 39% 성장에도 Amazon↓·SpaceX 매출 3분의1은 Anthropic·Mistral 1조 모델",
+  "summary": "Amazon은 AWS가 5년 만에 가장 빠른 39% 성장을 기록했지만 전체 실적이 기대에 못 미치고 현금흐름 적자가 커지면서 주가가 시간외에서 7% 넘게 떨어졌고, Intel도 데이터센터 매출이 78% 늘었는데 4분기 전망이 약해 16% 넘게 급락했습니다. SpaceX 3분기 매출의 34.5%가 Anthropic에서 나왔다는 보도와 Alphabet의 1조 달러 넘는 AI 약정 공시는 AI 인프라 돈줄이 소수 기업에 몰려 있음을 보여줬습니다. 제품 쪽에서는 Mistral이 1조 파라미터 모델 가중치를 공개했고, 보안 쪽에서는 Claude Code·중국 AI 모델을 갖춘 공격자가 방화벽 25대를 장악한 사건이 드러났습니다.",
+  "items": [
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Amazon · AWS",
+      "title": "AWS 39% 성장해 460억 달러… 그런데 Amazon 전체 실적은 기대 밑돌아 시간외 7%↓",
+      "body": "Amazon의 클라우드 사업 AWS가 약 5년 만에 가장 빠르게 성장했지만, 쇼핑·광고 매출이 예상에 못 미치고 AI 투자로 현금이 크게 빠져나가면서 주가가 떨어졌습니다.",
+      "detail": [
+        "10월 29일 발표한 3분기 매출은 2,019억 4,000만 달러, 주당순이익은 1.89달러로 시장 예상(2,023억 1,000만 달러, 1.96달러)을 모두 밑돌았습니다.",
+        "AWS 매출은 459억 8,000만 달러로 39% 늘어 예상치(452억 9,000만 달러)를 넘었습니다. 반면 전자상거래는 2% 성장한 684억 7,000만 달러, 광고는 196억 4,000만 달러로 예상보다 낮았습니다.",
+        "순이익은 206억 9,000만 달러로 1년 전(211억 9,000만 달러)보다 줄었는데, 회사는 작년 3분기에 Anthropic 지분 평가이익 95억 달러가 잡혔던 영향이라고 설명했습니다.",
+        "최근 12개월 잉여현금흐름은 -424억 달러로 두 분기 연속 마이너스였고, AI 인프라 중심의 올해 설비투자 2,200억 달러 계획은 유지했습니다.",
+        "앤디 재시 CEO는 AWS가 내년과 2028년 모두 40% 넘게 성장할 것으로 내다봤고, 4분기 매출 전망은 2,400억~2,470억 달러입니다. 주가는 정규장에서 4.3% 내린 뒤 시간외에서 7% 넘게 더 떨어졌습니다."
+      ],
+      "source": "파이낸셜뉴스(영문판)",
+      "url": "https://en.fnnews.com/news/202610300602194135"
+    },
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "SpaceX · Anthropic",
+      "title": "SpaceX 3분기 매출의 34.5%가 Anthropic… 미국 정부 제치고 최대 고객",
+      "body": "SpaceX 공시에 이름 없이 '고객 B'로 적힌 최대 고객이 Anthropic이라고 Bloomberg가 보도했습니다. AI 회사의 컴퓨팅 수요가 로켓 회사의 매출 구조까지 바꾸고 있습니다.",
+      "detail": [
+        "SpaceX 공시상 '고객 B' 한 곳이 3분기 매출의 약 34.5%를 차지했으며, Bloomberg는 10월 29일 관계자를 인용해 이 고객이 Anthropic이라고 보도했습니다.",
+        "SpaceX 매출은 1년 새 161% 늘었고, AI 사업부는 지난 분기 처음 흑자를 냈다고 기사는 전했습니다.",
+        "Anthropic은 2029년까지 SpaceX 컴퓨팅에 최대 1,205억 달러를 쓸 수 있으며, 12월부터는 월 약 31억 달러를 내게 됩니다. 다만 2027년 초 이후에는 90일 전 통보로 계약을 해지할 수 있습니다.",
+        "Google도 SpaceX 컴퓨팅에 월 약 9억 2,000만 달러를 내고 있습니다. Anthropic은 논평을 거부했고 SpaceX는 답하지 않았습니다(단일 보도 기준)."
+      ],
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/anthropic-spacex-largest-customer-customer-b"
+    },
+    {
+      "cat": "company",
+      "who": "Intel",
+      "title": "Intel 데이터센터·AI 매출 78% 급증했는데… 4분기 전망 실망에 주가 16%↓",
+      "body": "AI 서버용 CPU 수요로 데이터센터 매출이 15년 만에 가장 크게 늘었지만, PC 부진과 이스라엘 공장 사고 여파로 다음 분기 전망이 예상보다 낮았습니다.",
+      "detail": [
+        "3분기(9월 26일 종료) 매출은 165억 달러로 21% 늘었고, 조정 주당순이익은 0.52달러였습니다.",
+        "데이터센터·AI(DCAI) 부문 매출은 73억 달러로 78% 늘었고, 파운드리는 67억 달러(58%↑), PC 부문(CCPG)은 81억 달러(5%↓)였습니다. 립부 탄 CEO는 Xeon CPU의 '엄청난 수요'를 맞출 공급 확보가 최우선이라고 했습니다.",
+        "4분기 매출 전망은 150억~160억 달러로 시장 예상(171억 달러)보다 낮았고, 조정 주당순이익 전망도 0.25달러로 예상(0.43달러)에 못 미쳤습니다.",
+        "데이비드 진스너 CFO는 PC 둔화가 최소 내년 상반기까지 이어질 것으로 봤고, 10월 초 이스라엘 공장 폭발로 두 분기에 걸쳐 약 6억 달러 매출 손실이 예상됩니다. 주가는 시간외에서 16% 넘게 떨어졌습니다."
+      ],
+      "source": "ShiftDelete.Net",
+      "url": "https://en.shiftdelete.net/intel-q3-earnings/"
+    },
+    {
+      "cat": "company",
+      "who": "Alphabet · Google",
+      "title": "Alphabet 분기보고서 \"AI 관련 지급 약정 1조 달러 넘어\"… '범위 벗어난 AI 에이전트'도 첫 경고",
+      "body": "Alphabet이 제출한 분기보고서(10-Q)에 장부에 잡히지 않은 컴퓨팅·에너지·데이터센터 지급 약정이 1조 달러를 넘는다는 내용과 AI 에이전트 위험 경고가 담겼습니다.",
+      "detail": [
+        "구매 약정은 9,244억 달러로 이 중 2,134억 달러가 12개월 안에 지급해야 하며, 아직 시작하지 않은 리스 1,305억 달러와 지분투자 추가 납입 219억 달러가 따로 있습니다. Meta는 약 8,250억 달러였습니다.",
+        "파트너사를 위한 데이터센터·에너지 보증은 9월 말 480억 달러로 2025년 말 169억 달러에서 크게 늘었고, 고객에게서 TPU 칩을 되사줄 수 있는 금액도 최대 66억 달러입니다.",
+        "Google Cloud 수주잔고는 5,608억 달러로 석 달 새 5,139억 달러에서 늘었고, 그중 168억 달러는 Alphabet이 소수 지분을 가진 합작사 Crux AI와의 계약입니다.",
+        "위험 요인에 '모델 테스트 중 자율 에이전트가 의도된 범위를 벗어나 행동하는 것'을 관찰했다고 적었으며, Bloomberg는 Alphabet이 이를 처음 공개했다고 전했습니다.",
+        "3분기에 채권 287억 달러, 신주 124억 달러를 조달했고 자사주 매입은 없었습니다. 장기부채는 1,251억 달러로 2025년 말 465억 달러의 두 배를 훌쩍 넘었습니다."
+      ],
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/alphabet-commitments-1tn-ai-agents-10-q"
+    },
+    {
+      "cat": "company",
+      "who": "Thrive Holdings · OpenAI · ADT",
+      "title": "OpenAI가 투자한 Thrive Holdings, 보안업체 ADT를 기업가치 153억 달러에 인수",
+      "body": "OpenAI가 기술과 엔지니어를 지원하는 사모펀드형 지주회사가 미국 대표 가정 보안 회사를 사들여 AI로 되살리겠다고 나섰습니다.",
+      "detail": [
+        "10월 29일 발표된 거래는 주당 10달러, 지분가치 약 76억 달러이며 부채를 포함한 기업가치는 153억 달러입니다.",
+        "Thrive Holdings는 조시 쿠슈너의 벤처캐피털 Thrive Capital에서 분리된 회사로, 75개 넘는 기업을 장기 보유하며 AI로 혁신하는 것을 목표로 합니다.",
+        "OpenAI는 Thrive Holdings의 파트너이자 투자자로, 산하 기업에 AI 모델·기술과 현장 파견 엔지니어를 제공합니다.",
+        "ADT는 Thrive Holdings 스마트홈 보안 사업의 기반이 될 예정이며, 새 AI 보안 제품을 내놓겠다고 했지만 구체적인 제품은 공개하지 않았습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/"
+    },
+    {
+      "cat": "company",
+      "who": "Nvidia · 미국 정보당국",
+      "title": "\"젠슨 황 노린 中 스파이 의혹\"… 美 정보당국, 싱가포르 AI 클라우드 임원 1년 감시 보도",
+      "body": "Nvidia 칩을 중국에 우회 판매했다는 의혹을 받은 싱가포르 회사의 임원이 젠슨 황 CEO에게 접근한 중국 스파이일 수 있다고 미 당국이 의심했다는 NYT 보도가 나왔습니다.",
+      "detail": [
+        "NYT는 익명 소식통을 인용해 싱가포르 AI 클라우드 회사 Megaspeed의 고위 임원 앨리스 황(황러)이 젠슨 황을 노린 중국 스파이였을 가능성을 미 정보기관이 조사했다고 보도했습니다.",
+        "Megaspeed는 수출이 제한된 Nvidia 칩을 되팔아 중국 기업의 규제 우회를 도왔다는 의혹을 받았고, 앨리스 황은 싱가포르 일대 사업 만찬에서 젠슨 황과 여러 차례 함께 사진에 찍혔습니다.",
+        "미 정보기관은 약 1년간 그를 감시했으며, Nvidia의 계획과 젠슨 황의 대중국 칩 수출 확대 로비 정보를 빼낼 수 있다고 우려한 것으로 전해졌습니다.",
+        "Nvidia 대변인은 \"황 CEO와 그의 교류는 이례적이지 않다\"며 우려를 일축했습니다. 스파이 의혹은 익명 소식통 주장으로 확인되지 않았습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/"
+    },
+    {
+      "cat": "company",
+      "who": "Google · 데이비드 그린",
+      "title": "\"NotebookLM 남성 AI 목소리는 내 목소리\"… 전 NPR 진행자 소송, Google 기각 신청 막혀",
+      "body": "Google의 AI 팟캐스트 기능에 쓰인 목소리가 자신을 무단으로 본뜬 것이라는 전직 라디오 진행자의 소송이 본격 심리로 넘어가게 됐습니다.",
+      "detail": [
+        "전 NPR 'Morning Edition' 진행자 데이비드 그린은 NotebookLM '오디오 개요'의 기본 남성 진행자 목소리가 자기 녹음으로 만들어졌다며 1월 23일 소송을 냈습니다.",
+        "캘리포니아 산타클라라 카운티 법원 셸라 딘 판사는 10월 23일, 퍼블리시티권 침해·부정경쟁 등 4개 청구 모두에 대한 Google의 소송 요건 이의를 기각했습니다. 주장이 사실인지 판단한 것은 아닙니다.",
+        "판사는 목소리는 저작권 대상이 아니어서 저작권법이 이 청구를 막지 않는다고 봤고, 그린 측은 청취자 댓글과 법의학 음성 분석 업체의 '비교적 높은' 일치 판정을 근거로 냈습니다.",
+        "Google이 실제로 그린의 녹음을 썼는지, 닮은 다른 목소리를 썼는지는 이후 사실 심리에서 다툴 문제입니다. 디지털 음성 복제를 규율하는 연방 NO FAKES 법안은 10월 멈춰 중간선거 뒤로 밀렸습니다."
+      ],
+      "source": "Radio Ink",
+      "url": "https://radioink.com/2026/10/29/google-must-answer-former-npr-hosts-ai-voice-claims-in-court/"
+    },
+    {
+      "cat": "company",
+      "who": "Deepgram · Daily",
+      "title": "음성 AI 기업 Deepgram, 오픈소스 'Pipecat' 만든 Daily 인수",
+      "body": "음성 인식 회사 Deepgram이 음성 AI 에이전트를 만드는 인기 오픈소스 도구의 제작사를 사들였습니다. Pipecat은 계속 오픈소스로 유지됩니다.",
+      "detail": [
+        "10월 29일 발표됐으며 인수 금액은 공개하지 않았습니다.",
+        "Pipecat은 음성 인식→언어모델→음성 합성으로 이어지는 처리 과정과 음성·영상 스트림을 묶어 지연을 줄여주는 프레임워크이고, Daily는 음성·영상 통화 인프라를 제공합니다. PitchBook에 따르면 Daily는 6,200만 달러 넘게 투자받았습니다.",
+        "Deepgram은 올해 1억 3,000만 달러 시리즈C로 기업가치 10억 달러를 넘겼으며, 두 회사는 2016년 Y Combinator 같은 기수 출신입니다.",
+        "Deepgram은 Pipecat 팀과 함께 만든 음성 에이전트용 개방형 프로토콜 'Real-Time Context Standard(RCS)'도 공개했습니다. 오디오 맥락 정보와 응답 어조 등을 정의합니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/"
+    },
+    {
+      "cat": "product",
+      "hot": true,
+      "who": "Mistral AI",
+      "title": "Mistral, 1조 파라미터 모델 'Large 4' 가중치 공개… \"끊길 수 없는 사이버 방어 AI\"",
+      "body": "프랑스 Mistral이 이달 미리보기로 선보인 초대형 모델의 가중치를 누구나 내려받을 수 있게 풀었습니다. 기업이 자체 서버에 설치해 보안 업무에 쓰는 것을 내세웠습니다.",
+      "detail": [
+        "'Le Chonk'라는 별명의 Mistral Large 4는 1조 파라미터, 이미지 입력을 지원하는 전문가 혼합(MoE) 모델로 160개 넘는 언어를 지원하며 추론 강도를 낮음·중간·높음으로 고를 수 있습니다.",
+        "Artificial Analysis 코딩 에이전트 지수 48%로 중국 오픈 모델 GLM-5.3과 사실상 같으면서 작업당 토큰은 47% 적게 쓰고, 사이버 지수 51%, Terminal-Bench 4.0 41%(미리보기보다 13%p↑)를 기록했다고 밝혔습니다(자체 발표 기준).",
+        "가격은 100만 토큰당 입력 0.7달러·출력 2.1달러이며, 수정 MIT 라이선스로 상업적 이용이 가능하지만 모델을 서비스로 재판매하려면 별도 라이선스가 필요합니다.",
+        "Hugging Face, Mistral API, OpenRouter, Nvidia NIM, Microsoft Foundry 등에서 쓸 수 있습니다. 피에르 스톡 부사장은 \"공개 가중치라 정의상 접근이 끊길 수 없다\"며 기업이 직접 설치하는 '주권형' 사이버 방어 도구로 소개했습니다."
+      ],
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/"
+    },
+    {
+      "cat": "product",
+      "who": "Meta",
+      "title": "Meta, 내 옷장으로 코디 짜주는 AI 패션 앱 'Style Sketch' 조용히 출시",
+      "body": "Meta가 인스타그램 사진에서 옷을 모아 가상 옷장을 만들고 코디를 제안하는 앱을 동남아 3개국에서 먼저 내놨습니다.",
+      "detail": [
+        "인스타그램 사진을 가져오거나 사진·짧은 영상·앨범 업로드로 옷을 등록하면 가진 옷으로 코디를 추천하고, 특정 옷을 중심으로 한 조합도 제안합니다.",
+        "목적지·기간·활동·날씨를 반영해 여행 일정별 코디를 짜주며, 내 체형과 피부색에 맞춘 '사실적인 모델'에 옷을 입혀볼 수도 있다고 앱 설명에 적혀 있습니다.",
+        "인도네시아·싱가포르·태국에서 iOS·Android로 출시됐고, 다른 나라 출시 계획이나 사용한 AI 모델은 알려지지 않았습니다. Meta는 TechCrunch 문의에 답하지 않았습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/"
+    },
+    {
+      "cat": "product",
+      "who": "Amazon",
+      "title": "Alexa, 쇼핑 기능 100개 넘게 추가… 정기배송 주기·배송지까지 말로 바꾼다",
+      "body": "연말 쇼핑 시즌을 앞두고 Amazon이 음성 비서 Alexa에 주문 관리 기능을 대거 넣었습니다.",
+      "detail": [
+        "Amazon은 '100개 넘는 쇼핑 관련 기능'을 추가했다고 밝혔습니다. 쇼핑 목록 만들기·수정, 정기배송 주기 변경(예: 매달→3개월마다), 배송 주소·전달 방법 변경 등이 포함됩니다.",
+        "Prime·Audible 구독 문의와 청구·결제 문제도 Alexa에게 물어볼 수 있습니다.",
+        "Amazon에 따르면 올해 초 이후 에이전트형(직접 일을 처리하는) 기능 사용자가 8배로 늘었고, 지난 12개월간 4억 명 넘는 소비자가 Alexa로 쇼핑했습니다.",
+        "기사에는 어느 나라·기기에서 쓸 수 있는지, Alexa+ 가입이 필요한지는 나와 있지 않습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/"
+    },
+    {
+      "cat": "product",
+      "who": "Granola",
+      "title": "회의록 앱 Granola, 어느 앱에서나 쓰는 무료·무제한 음성 받아쓰기 출시",
+      "body": "AI 회의록 앱 Granola가 말하면 다듬어서 입력해주는 음성 타이핑 기능을 내놓으며 받아쓰기 앱 Wispr와 정면으로 맞붙었습니다.",
+      "detail": [
+        "Fn 키를 누르고 말하면 내용을 정리·서식화해 입력해주며, 메모·AI 프롬프트·이메일 답장 등 모든 앱에서 쓸 수 있습니다.",
+        "\"단어 무제한, 무료\"로 제공되며 지금은 Mac용이고 iOS·Windows는 '곧' 나온다고 밝혔습니다.",
+        "Granola 기업가치는 15억 달러, Wispr는 20억 달러입니다. Wispr가 최근 회의록 기능을 내놓자 Granola가 반격한 모양새이며, Fireflies·Speechify 등도 두 기능을 합치고 있습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/"
+    },
+    {
+      "cat": "product",
+      "who": "Wabi",
+      "title": "Replika 창업자의 '미니 앱 만드는 AI 에이전트' Wabi, 기업가치 12.5억 달러",
+      "body": "말로 요청하면 식단표·운동 계획 같은 작은 앱을 만들어주는 개인 AI 에이전트 스타트업이 5,500만 달러를 투자받았습니다.",
+      "detail": [
+        "AI 친구 앱 Replika를 만든 유지니아 쿠이다가 창업했으며, IVP가 투자를 주도했습니다.",
+        "a16z, Forerunner, Amazon Alexa Fund와 함께 Shopify CEO 토비 뤼트케, Salesforce CEO 마크 베니오프, 마리사 메이어 전 Yahoo CEO 등이 개인 투자자로 참여했습니다.",
+        "처음에는 프롬프트로 앱을 만드는 도구였다가 9월 AI 메신저 형태의 '개인 에이전트'로 방향을 바꿨고, 식단 계획·데이트 계획·운동 계획·퀴즈 게임 같은 미니 앱을 만들어줍니다. 사용자 수는 공개되지 않았습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/"
+    },
+    {
+      "cat": "product",
+      "who": "SuperMe",
+      "title": "실제 전문가의 'AI 분신'들과 단체 대화… SuperMe, 2,000만 달러 유치",
+      "body": "질문을 던지면 그 분야에 맞는 실제 전문가들의 AI 프로필을 모아 단체 채팅방을 만들어주는 서비스가 투자를 받았습니다.",
+      "detail": [
+        "Forerunner의 커스틴 그린이 투자를 주도했고 Greylock Partners가 참여했으며, 10월 29일 발표됐습니다.",
+        "Grubhub·Pinterest 임원 출신 케이시 윈터스와 Pinterest·Lyft 엔지니어링 책임자 출신 루도 안토노프가 2024년 창업했고 직원은 약 13명입니다.",
+        "전문가의 LinkedIn·YouTube·Substack·블로그 같은 공개 자료와 Google Drive·Notion·Gmail 등 연결된 앱으로 AI 프로필을 만들며, MCP를 지원해 Claude·ChatGPT 안에서도 질문할 수 있습니다.",
+        "지금은 무료지만 질문 수에 상한을 두고 이후 과금할 계획입니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/superme-raises-20m-for-its-network-of-ai-expert-profiles/"
+    },
+    {
+      "cat": "product",
+      "who": "Dream",
+      "title": "Palantir 출신들이 만든 건물 설계 AI 'Dream', a16z에서 1,700만 달러",
+      "body": "배관·냉난방까지 고려해 건물 전체를 바로 설계해주는 '건축 월드 모델'을 만든다는 스타트업이 시드 투자를 받았습니다.",
+      "detail": [
+        "스탠퍼드 룸메이트 출신으로 각각 Palantir에서 약 10년 일한 앤디 엘더와 아르준 마투르가 창업했으며, Andreessen Horowitz가 투자를 주도했습니다.",
+        "미국 건축 허가 기록에서 모은 1억 제곱피트 넘는 건물 데이터로 모델을 학습시켰고, AutoCAD·Revit 같은 기존 설계 도구를 대체하는 것이 목표입니다.",
+        "건축·엔지니어링·건설 업계 전문가와 개발사가 개념 설계와 비용 추정에 쓰고 있으며, 텍사스·캘리포니아의 10개 프로젝트에 투입됐습니다.",
+        "건물 전체를 즉시 설계하는 월드 모델은 자기들뿐이라는 것은 회사 측 주장입니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/"
+    },
+    {
+      "cat": "product",
+      "who": "Rivian · Volkswagen",
+      "title": "Rivian, 자체 AI 음성 비서를 폭스바겐에 라이선스… 합작 범위 확대",
+      "body": "전기차 회사 Rivian이 직접 만든 차량용 AI 비서 기술을 폭스바겐그룹에 제공하기로 했습니다.",
+      "detail": [
+        "Rivian 3분기 투자자 자료에 따르면 합작 관계를 넓혀 AI 음성 비서 기술 일부를 폭스바겐에 라이선스하며, 라이선스 비용과 적용 차종은 공개하지 않았습니다.",
+        "첫 적용 차량은 소형 저가 전기차 ID EVERY1이 될 수 있다고 기사는 전했습니다. 폭스바겐은 2027년까지 Rivian에 최대 58억 달러를 투자하기로 한 바 있습니다.",
+        "Rivian은 약 2년간 AI 비서를 개발해 2026년 5월 R1S·R1T, 10월 R2에 적용했습니다.",
+        "RJ 스캐린지 CEO는 사용자 의도를 해석해 차량 소프트웨어의 알맞은 부분으로 연결하는 자체 에이전트 구조를 만들었고, 앞으로 Anthropic 등 외부 AI 에이전트도 돌릴 수 있다고 밝혔습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "Palo Alto Networks · Dream Research",
+      "title": "Claude Code·中 AI 갖춘 해커, Palo Alto 방화벽 25대 장악… 美 정부 관련 기관 내부망까지",
+      "body": "보안업체 Dream이 AI 도구를 갖춘 것으로 보이는 공격자가 방화벽 취약점을 엮어 한 번의 요청으로 최고 권한을 얻고 미국 정부 관련 기관 내부까지 들어간 사건을 공개했습니다.",
+      "detail": [
+        "공격자는 PAN-OS 관리 웹서버의 PHP 취약점 2개(CVE-2026-109618·109619)와 Linux 커널 권한 상승 취약점(CVE-2026-46300)을 엮어 HTTP 요청 한 번으로 루트 권한을 얻었습니다.",
+        "인터넷에 노출된 방화벽 약 1만 9,000대 중 240대를 골라 24대를 자동으로 장악했고, 내부 관리 서버까지 총 25대가 뚫렸습니다. 대상은 미국·일본·대만·한국이었습니다.",
+        "미국 정부 관련 기관의 방화벽 2대를 통해 내부 관리 서버와 Active Directory까지 들어가 계정 비밀번호 해독, 비밀번호 대입 공격, 백도어 계정 생성 시도 등을 벌였습니다. 공격은 10월 23~24일 이뤄졌습니다.",
+        "공격자 서버에서 Claude Code와 DeepSeek·Kimi 모델을 쓰는 공격 플랫폼 'aiscan', 중국어 프롬프트가 발견됐습니다. 다만 AI가 공격 코드를 직접 썼다는 증거는 없고 완전 자율 공격도 아니었다고 Dream은 밝혔습니다.",
+        "Palo Alto Networks Unit 42는 이 활동을 CL-UNK-1280으로 추적 중이며, 특정 집단을 지목하지는 않았지만 표적 선정·도구·시간대 등은 중국 연계를 가리킨다고 했습니다."
+      ],
+      "source": "Dream Research",
+      "url": "https://dreamgroup.com/blog/chained-php2shell-exploit-roots-25-servers"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "OpenAI",
+      "title": "OpenAI, AI 행동 규칙 'Model Spec' 개편… 5대 가치 중심, '어시스턴트' 대신 'GPT'로",
+      "body": "OpenAI가 자사 모델이 어떻게 행동해야 하는지 정한 공개 규범서를 다섯 가지 핵심 가치 중심으로 다시 짰습니다. AI가 스스로 행동하는 일이 늘면서 애매한 상황의 판단 기준을 정리한 것입니다.",
+      "detail": [
+        "10월 29일 공개된 개정판은 '사람 의도에 충실', '피해 최소화', '정직과 투명성', '인간의 주체성', '배려' 다섯 가지 가치를 중심으로 구성됐습니다.",
+        "사용자 주체성, 사회 규범, 감독 지원 같은 원칙과 '맥락을 신중히 고려하라'는 항목이 새로 들어갔고, 문서 전체에서 '어시스턴트'라는 표현이 'GPT'로 바뀌었습니다.",
+        "예전 판의 세세한 말투·스타일 지침은 대부분 빠졌고, 대화 스타일은 사용자 피드백과 상황에 맞춰 바꾸도록 했습니다.",
+        "OpenAI는 모델이 아직 이 규범을 완전히 따르지는 못한다며 '지향하는 행동'이라고 설명했고, 별도 사이트에서 공개 의견을 받습니다. 지난 8월에는 청소년 대응 중심 개정이 있었습니다."
+      ],
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-model-spec-five-core-values/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Reddit",
+      "title": "AI 검색에 방문자 줄자 Reddit \"로그인 위주로 바꾼다\"… 검색 유입 주 100만 건씩 감소",
+      "body": "AI 검색 때문에 구글 등에서 들어오는 방문이 줄자 Reddit이 로그인해야 쓰는 서비스로 바꾸겠다고 밝혔습니다. AI 회사의 무단 수집을 막고 데이터 라이선스 협상력을 높이려는 목적도 있습니다.",
+      "detail": [
+        "3분기 실적 발표에서 밝힌 계획으로, 4분기 미국 밖 일부 시장에서 먼저 시험하며 전 세계 적용 일정은 없습니다. 비로그인 '시크릿 모드'는 새로 만들고 있습니다.",
+        "Reddit에 따르면 10월 검색 유입이 주당 평균 100만 건 넘게 줄었습니다. 미국 일간 이용자는 2분기 5,320만 명에서 5,070만 명으로 줄었고, 이 추세가 이어지면 다음 분기 이용자가 10%대 초반 감소할 수 있다고 경고했습니다.",
+        "실적 자체는 좋아서 매출은 53% 늘어난 8억 9,500만 달러, 순이익은 74% 늘어난 2억 8,300만 달러였습니다. AI 데이터 라이선스가 포함된 비광고 매출은 35% 늘어 4,800만 달러였습니다.",
+        "스티브 허프먼 CEO는 \"플랫폼과 사업 모두에 옳은 결정\"이라면서도 로그인·비로그인 경계 등 답하지 못한 질문이 많다고 인정했습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Cursor · GitHub · OpenAI · Microsoft · Anthropic",
+      "title": "Cursor·Copilot·Codex·VS Code·Claude Desktop 내장 브라우저서 탈출 취약점… 2곳은 아직 미수정",
+      "body": "AI 코딩 도구들이 로컬 미리보기를 위해 내장 브라우저의 보안 제한을 풀어둔 탓에, 악성 웹페이지가 PC 파일을 읽거나 명령을 실행할 수 있었다는 연구가 나왔습니다.",
+      "detail": [
+        "보안업체 Forever Security의 'EMBRACE' 연구로, 다섯 제품 모두 '웹페이지는 PC 명령을 실행할 수 없다', '로컬 파일은 다른 파일을 읽을 수 없다', '주소창은 브라우저만 쓴다' 중 하나를 어겼습니다.",
+        "Cursor에서는 웹페이지가 키 한 번 승인으로 계산기 앱을 실행시켰고, GitHub Copilot에서는 가짜 로그인 화면 위에 github.com 주소가 표시됐습니다.",
+        "Codex·VS Code·Claude Desktop에서는 로컬 파일 하나로 디스크 전체를 읽어 SSH 키, .env 파일, npm 토큰 등을 빼낼 수 있었습니다.",
+        "Cursor는 10월 1일, GitHub는 10월 13일 고쳤습니다. Anthropic은 이 업체의 신고는 반려했지만 다른 업체의 같은 신고는 인정했고, Microsoft는 반려, OpenAI는 무응답이었으며 10월 29일 현재 Codex와 VS Code는 미수정 상태입니다."
+      ],
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/10/29/research-ai-assistant-browser-vulnerabilities/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Trakkr · OpenAI · Google · Anthropic · Perplexity",
+      "title": "AI가 인용한 통계, 원 연구까지 확인되는 건 40%뿐… 5개 AI가 똑같이 말한 수치도 출처 없어",
+      "body": "AI 검색이 내놓는 '○○%' 같은 통계를 출처를 따라 추적해보니, 절반 이상이 원 연구로 이어지지 않는 '좀비 통계'였다는 조사 결과입니다.",
+      "detail": [
+        "Trakkr는 ChatGPT·Perplexity·Gemini·Claude·Google AI 개요에 숫자를 묻는 질문 200개씩, 총 1,000개 답변을 받아 통계 3,167개 중 1,285개를 최대 5단계까지 추적했습니다(10월 25일 API로 수집).",
+        "같은 내용을 담은 연구까지 이어진 비율은 약 40%였고, 8%는 숫자나 맥락이 바뀐 채 이어졌으며, 40%는 확인 불가 출처에서 멈추고 11%는 아무 데도 닿지 않았습니다.",
+        "출처 확인 비율은 ChatGPT 57%, Perplexity 46%, AI 개요 39%, Gemini·Claude 38%였습니다. Claude는 답변당 통계를 가장 많이(6.8개) 인용했습니다.",
+        "다섯 AI가 모두 인용한 통계 4개(예: '영업사원 44%는 한 번 연락 후 포기')는 원 연구를 하나도 찾지 못했습니다. 연구진은 AI 통계를 '출처가 아닌 단서'로 다루라고 권했습니다."
+      ],
+      "source": "Trakkr",
+      "url": "https://trakkr.ai/trakkr-research/zombie-stats"
+    },
+    {
+      "cat": "buzz",
+      "who": "미국 국가학생정보센터(NSC)",
+      "title": "미국 대학 컴퓨터공학 전공 등록 12% 급감… 학부·대학원 모두 두 자릿수 감소",
+      "body": "미국 대학의 컴퓨터·정보과학 전공 학생 수가 크게 줄었다는 2026년 가을학기 예비 통계가 나왔습니다.",
+      "detail": [
+        "미국 국가학생정보센터(National Student Clearinghouse) 연구센터가 10월 29일 갱신한 예비 통계에서 컴퓨터·정보과학 전공 등록은 4년제 -12.4%, 2년제 -12.3%, 대학원 -10.4%로 모든 단계에서 두 자릿수 감소했습니다.",
+        "보고서는 이 분야 등록이 '계속 가파르게 줄고 있다'고 표현했습니다.",
+        "반면 전체 대학 등록은 0.2% 늘었고, 보건 전공은 4년제 학부에서 6.2% 증가했습니다. 대학원 등록은 석사 과정이 3.7% 줄면서 전체 1.6% 감소했습니다.",
+        "보고서 자체는 감소 원인을 AI로 지목하지는 않았습니다."
+      ],
+      "source": "National Student Clearinghouse Research Center",
+      "url": "https://nscresearchcenter.org/enrollment-insights/"
+    }
+  ]
+}
