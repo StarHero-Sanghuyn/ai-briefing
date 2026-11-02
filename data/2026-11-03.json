@@ -1,0 +1,333 @@
+{
+  "date": "2026-11-03",
+  "headline": "Anthropic 분기 매출 170억 달러·Marvell 1,150억 달러 인수·NYT, Brave 제소",
+  "summary": "Anthropic이 수정 상장신청서에서 3분기 매출 약 170억 달러와 8,950억 달러 규모의 컴퓨팅 계약을 공개했고, Marvell은 광통신 부품업체 Lumentum을 1,150억 달러에 사들이기로 했습니다. Oracle·Alphabet이 AI 설비 자금을 위해 대규모 채권·주식 발행에 나섰지만 Oracle 주가는 9% 가까이 빠지는 등 'AI 빚'에 대한 시장의 경계가 이어졌습니다. 한편 NYT는 브라우저 회사 Brave가 기사를 긁어 AI 회사들에 팔았다며 소송을 냈고, Goldman Sachs는 은행원·트레이더의 AI 코딩 도구 사용을 막았습니다.",
+  "items": [
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Anthropic",
+      "title": "Anthropic 수정 상장신청서 공개… 3분기 매출 약 170억 달러, 컴퓨팅 약정은 8,954억 달러",
+      "body": "상장을 앞둔 Anthropic이 3분기 실적을 담은 수정 증권신고서(S-1)를 냈습니다. 매출은 폭발적으로 늘었지만, 서버·데이터센터에 쓰기로 약속한 돈도 천문학적인 규모라는 점이 드러났습니다.",
+      "detail": [
+        "11월 2일 제출된 수정 S-1에 따르면 9월 30일까지 9개월 매출은 332억 4,000만 달러로 전년보다 약 1,200% 늘었고, 3분기 매출만 약 170억 달러(전년 대비 약 1,127% 증가)였습니다.",
+        "다만 전 분기 대비 성장률은 약 47%로, 2분기 144%·1분기 132%보다 둔화했습니다.",
+        "9개월 순손실은 1,040억 달러(3분기 232억 9,000만 달러)로, 대부분 전환사채·파생상품 부채의 공정가치 변동에서 생겼습니다. 전년 같은 기간 손실은 251억 달러였습니다.",
+        "구매 약정과 임대 계약 총액은 약 8,954억 달러이며 \"거의 전부가 컴퓨팅과 인프라 관련\"이라고 밝혔습니다. 컴퓨팅·인프라 비용은 9개월간 144억 달러(329%) 늘었고, 위험 요인 설명만 90쪽이 넘습니다."
+      ],
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html"
+    },
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Marvell · Lumentum",
+      "title": "Marvell, 광통신 부품업체 Lumentum을 1,150억 달러에 인수… 발표 당일 두 회사 주가 급락",
+      "body": "AI 데이터센터용 반도체 회사 Marvell이 빛으로 데이터를 보내는 광부품 회사 Lumentum을 전액 주식 교환 방식으로 사들입니다. 전기 신호와 광 신호 기술을 한 회사에 묶겠다는 구상입니다.",
+      "detail": [
+        "Lumentum 주주는 1주당 Marvell 주식 4.5주를 받으며, Lumentum의 내재 기업가치는 1,150억 달러로 평가됐습니다. 거래 완료 목표는 2028년 상반기입니다.",
+        "발표 당일인 11월 2일 Marvell 주가는 13%, Lumentum은 약 19% 떨어졌습니다. 두 회사는 지난 1년간 주가가 각각 2배·4배 넘게 오른 상태였습니다.",
+        "맷 머피 Marvell CEO는 \"새로운 범주의 회사를 만들겠다\"며 수요가 \"폭발\"해 제품이 매진 상태라고 말했습니다.",
+        "Nvidia를 둘러싼 '순환 거래' 우려에 대해 머피 CEO는 이번 거래가 오히려 \"Nvidia 지원에 더 힘을 싣는 것\"이라고 일축했습니다. Marvell은 올해 초 광 연결 스타트업 Celestial AI 인수도 마쳤습니다."
+      ],
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/marvell-to-buy-lumentum-in-115-billion-deal-in-ai-data-center-bet-.html"
+    },
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Goldman Sachs · Anthropic · Microsoft",
+      "title": "Goldman Sachs, Claude Code·GitHub 코딩 도구를 엔지니어만 쓰게 제한… 트레이더·은행원은 사용 중단",
+      "body": "비개발자도 AI로 직접 프로그램을 짜는 '바이브 코딩'을 권장하던 Goldman Sachs가 방향을 틀었습니다. 실험 단계는 끝났다는 설명입니다.",
+      "detail": [
+        "Bloomberg가 입수한 10월 내부 지침에 따르면 Anthropic의 Claude Code와 Microsoft의 GitHub 같은 AI 코딩 도구는 이제 엔지니어만 쓸 수 있습니다.",
+        "트레이더와 은행원들은 몇 달 동안 이 도구로 거래 흐름을 살피고 자료를 만들어 왔으며, 이번 조치에 불만이 나오고 있다고 전해졌습니다.",
+        "마르코 아르젠티 CIO는 7월만 해도 트레이더가 AI로 시제품을 만들고 엔지니어가 이를 키우는 '바이브 코딩'을 칭찬했습니다.",
+        "닉 카르카테라 대변인은 \"생산성과 위험 관리 등 여러 요인\"을 이유로 들며 실험 단계가 끝났고, 장기적으로 가장 잘 활용할 사람에게 접근을 한정한다고 밝혔습니다."
+      ],
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/"
+    },
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "OpenAI · 아부다비 정부 · G42 · ADNOC",
+      "title": "아부다비, OpenAI와 무더기 계약… 법규를 AI가 읽는 '기계 판독 정부' 세계 첫 추진",
+      "body": "샘 올트먼이 아부다비 왕세자와 만난 뒤 정부 행정·투자·교육·에너지 분야 계약이 한꺼번에 체결됐습니다. 아부다비는 '세계 최초 AI 네이티브 정부'를 목표로 하고 있습니다.",
+      "detail": [
+        "'기계 판독 정부(MRG)'는 정부 정책과 규정을 AI가 읽을 수 있는 형태로 바꿔 인허가·증명서 같은 일상적 규정 준수 검토를 돕는 사업으로, 최종 결정은 공무원이 내립니다. 첫 시범 사업은 식품 수입 분야에서 이미 가동 중입니다.",
+        "이 시스템은 UAE 안에 있는 추론 인프라에서 OpenAI GPT 모델로 돌아갑니다.",
+        "G42 자회사 Inception42는 OpenAI 'Frontier' 플랫폼을 정부·기업·교육에 도입하는 5년 계약을 맺었고, 국영 석유회사 ADNOC은 에너지 기업 최초로 Frontier AI를 도입합니다. 국부펀드 Mubadala도 투자 분석에 AI를 쓰기로 했습니다.",
+        "올트먼은 UAE가 공공·민간 AI 도입에서 \"대담한 세계적 기준\"을 세우고 있다고 말했습니다. 아부다비는 디지털 인프라에 130억 디르함(35억 달러)을 배정하고 정부 업무 100% 자동화를 추진 중입니다."
+      ],
+      "source": "The National",
+      "url": "https://www.thenationalnews.com/news/uae/2026/11/02/abu-dhabi-agrees-openai-deals-to-boost-government-services-and-education"
+    },
+    {
+      "cat": "company",
+      "who": "Oracle",
+      "title": "Oracle, AI 설비 자금 200억 달러 주식·채권 발행 신청… 주가 8.8% 급락",
+      "body": "Oracle이 지난주 예고한 대로 주식 100억 달러, 채권 100억 달러 발행을 신청했습니다. 예고된 내용인데도 주가가 크게 떨어져 AI 빚에 대한 시장 불안을 보여줬습니다.",
+      "detail": [
+        "SEC 서류에 따르면 조달 자금은 설비 투자, 부채 상환 등 일반 목적에 쓰이며, Oracle은 10월 28일 투자자의 날에 2027~2030 회계연도 추가 자본시장 조달을 200억 달러로 제한하겠다고 밝혔습니다.",
+        "주가는 11월 2일 8.8% 떨어져 올해 33%, 최근 12개월 50% 하락했습니다. Oracle의 부채는 8월 31일 기준 1,253억 4,000만 달러입니다.",
+        "5년 만기 신용부도스와프(CDS)는 1년 새 265% 오른 292로, S&P Global의 개번 놀런은 투기등급 상단 수준이라고 평가했습니다. S&P는 7월 Oracle을 투기등급 바로 위인 BBB-로 낮췄습니다.",
+        "Oracle은 2030 회계연도 매출 최소 2,250억 달러를 전망했으며 2028년 하반기 잉여현금흐름 흑자 전환을 예상합니다."
+      ],
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html"
+    },
+    {
+      "cat": "company",
+      "who": "Alphabet · Google",
+      "title": "Alphabet, 60억 유로 유로화 채권 발행… 'AI 지출 공포' 이후 첫 시험대에 주문 170억 유로 몰려",
+      "body": "지난주 주가가 사상 최악의 하루를 겪은 Alphabet이 AI 설비 자금을 위해 유럽에서 채권을 팔았습니다. 투자자들이 여전히 빅테크 채권을 사 줄지 가늠하는 시험대로 여겨졌습니다.",
+      "detail": [
+        "11월 2일 시작된 발행은 60억 유로(67억 달러) 규모로, 변동금리채 1개와 고정금리채 6개, 만기 2~19년의 7개 트랜치로 구성됐고 주문은 170억 유로를 넘었습니다.",
+        "Alphabet의 올해 두 번째 유로 채권으로, 5월에는 90억 유로를 발행했습니다. 주관사는 Barclays·BNP Paribas·Deutsche Bank입니다.",
+        "Alphabet 주가는 발행 직전 목요일 12% 넘게 떨어져 사상 최악의 하루를 기록했고 시가총액 약 5,000억 달러가 사라졌습니다. 10월 한 달 하락률은 약 19%였습니다.",
+        "Alphabet은 올해 설비 투자를 최대 2,050억 달러로 예상하며, 장부에 잡히지 않은 미래 임대료 약정도 1,305억 달러에 이릅니다."
+      ],
+      "source": "TNW",
+      "url": "https://thenextweb.com/news/alphabet-6bn-euro-bond-sale-ai-debt"
+    },
+    {
+      "cat": "company",
+      "who": "OpenAI",
+      "title": "OpenAI, 전력망 비상 때 데이터센터 전기 사용 줄이는 'Grid Protectors' 프로그램 발표",
+      "body": "폭염·한파 등으로 미국 전력망이 위태로울 때 OpenAI가 직접 짓는 데이터센터의 전력 사용을 줄이겠다는 약속입니다. 데이터센터가 전기요금을 올린다는 지역 반발을 의식한 조치로 보입니다.",
+      "detail": [
+        "이 프로그램은 조지아주 Effingham 카운티의 'Project Camellia'에서 한 약속을 전국으로 넓힌 것입니다. 이 캠퍼스는 완공 시 3.2기가와트(GW)의 전력이 필요합니다.",
+        "OpenAI는 Georgia Power와 3.2GW를 2028~2032년 단계적으로 받는 25년 계약을 맺었고, 수요가 몰릴 때 최대 1GW까지 공급을 줄일 수 있는 조항을 넣었습니다. 조지아 공공서비스위원회가 8월 26일경 승인했습니다.",
+        "OpenAI는 관련 인프라·전기 비용을 100% 부담해 주민 요금 인상을 막고, 8,000만 달러 규모 지역 기금을 내놓기로 했습니다. 총 투자비는 200억~300억 달러 이상으로 추산됩니다.",
+        "다만 이 약속은 OpenAI가 직접 개발하는 캠퍼스에만 해당하며, 클라우드 파트너에게 빌려 쓰는 용량까지 포함되는지는 불분명합니다."
+      ],
+      "source": "Crypto Briefing",
+      "url": "https://cryptobriefing.com/openai-grid-protectors-program-data-centers/"
+    },
+    {
+      "cat": "company",
+      "who": "SUSE",
+      "title": "리눅스 기업 SUSE, 직원 10% 감원… CEO \"최신 도구로 일부 직무 크게 줄었다\"",
+      "body": "독일계 오픈소스 소프트웨어 회사 SUSE가 자동화와 AI를 이유로 전 세계 인력의 약 10%를 줄입니다.",
+      "detail": [
+        "디르크-페터 반 레이우엔 CEO는 11월 2일 약 1,900명 직원에게 보낸 이메일에서 현재 조직 구조와 비용으로는 앞으로의 전략을 감당할 수 없다고 밝혔습니다(The Register 단독 입수).",
+        "그는 \"최신 도구(modern tooling)\"가 이미 일상 업무를 바꾸고 있으며 일부 기존 직무의 비중이 \"크게 줄었다\"고 말했습니다. 어떤 직무가 대상인지는 공개하지 않았습니다.",
+        "대상 직원에게는 11월 4일까지 통보하고, 다음 주부터 개별 면담을 시작합니다. 2027 회계연도 전략은 11월 16일 공개됩니다.",
+        "SUSE는 9월 장기 근속자에게 자발적 퇴직을 제안했지만 신청자가 충분하지 않았습니다. 소유주 EQT가 SUSE 재매각을 검토한다는 보도도 3월에 나왔습니다."
+      ],
+      "source": "The Register",
+      "url": "https://www.theregister.com/software/2026/11/02/suse-to-cut-one-in-ten-employees-because-of-ai/5306950"
+    },
+    {
+      "cat": "product",
+      "who": "OpenAI",
+      "title": "ChatGPT 데스크톱 앱, '채팅'과 '작업' 탭 하나로 합친다… 일부 사용자부터 시범 적용",
+      "body": "생각을 정리하는 대화와 AI가 실제로 일을 처리하는 기능을 한 화면에서 쓰게 됩니다. Anthropic이 9월 Claude의 채팅과 Cowork 화면을 합친 것과 비슷한 움직임입니다.",
+      "detail": [
+        "현재 ChatGPT 데스크톱 앱의 ChatGPT 영역에는 Chat 탭과 Work 탭이 따로 있는데, OpenAI는 이메일로 두 탭을 통합할 준비를 하고 있다고 사용자들에게 알렸습니다.",
+        "새 화면은 먼저 일부 사용자에게 제공해 의견을 받은 뒤 넓게 배포합니다.",
+        "통합 화면에서는 파일과 플러그인을 붙이고 웹사이트 제작, 발표 자료 작성, 웹 작업 수행을 시키면서 진행 과정을 검토할 수 있습니다. 코딩 에이전트 Codex는 별도 화면으로 남습니다.",
+        "ChatGPT와 Codex는 같은 토큰 한도를 함께 쓰게 되며, OpenAI는 대부분 영향이 없겠지만 일부는 한도 초기화를 더 자주 기다려야 할 수 있다고 밝혔습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/"
+    },
+    {
+      "cat": "product",
+      "who": "Meituan",
+      "title": "中 Meituan, 1조 6,000억 파라미터 멀티모달 모델 'LongCat-2.5' 공개… 긴 코딩 작업 특화",
+      "body": "중국 배달·생활 플랫폼 Meituan이 이미지와 글을 함께 이해하고, AI 에이전트가 오래 걸리는 작업을 해낼 수 있도록 만든 새 모델을 내놨습니다.",
+      "detail": [
+        "11월 2일 공개된 LongCat-2.5는 전체 파라미터 1조 6,000억 개 가운데 토큰마다 약 480억 개만 쓰는 구조입니다.",
+        "긴 작업 흐름으로 학습을 늘리고 대규모 강화학습을 적용해 복잡한 코드베이스와 소프트웨어 프로젝트 전체를 다루는 능력을 높였으며, 실제 에이전트가 실패한 사례를 재현 가능한 학습 과제로 바꿔 썼습니다.",
+        "이미지와 텍스트를 하나의 토큰 체계에서 처리해 시각적 코딩, 디자인, 3D 작업을 지원합니다.",
+        "Meituan의 온라인 채팅 서비스와 API로 쓸 수 있으며, GitHub과 Hugging Face 공개도 예정돼 있습니다."
+      ],
+      "source": "TechNode",
+      "url": "https://technode.com/2026/11/02/meituan-launches-longcat-2-5-multimodal-ai-model-for-extended-coding-tasks/"
+    },
+    {
+      "cat": "product",
+      "who": "42AI",
+      "title": "\"사람의 행동을 예측하는 AI\" 이스라엘 42AI, 6,250만 달러 들고 공개… 증권사 트레이더 반응 예측",
+      "body": "사람이 새로운 상황에서 어떤 결정을 내릴지 예측하는 '행동 세계 모델'을 만든다는 이스라엘 스타트업이 베일을 벗었습니다. 악용 우려에 대한 답은 아직 부족하다는 지적도 나옵니다.",
+      "detail": [
+        "42AI는 11월 2일 시드 투자 6,250만 달러와 함께 공개됐으며, 투자금은 창업자들과 Infinity Group이 3년에 걸쳐 냈습니다. CEO는 아미트 갈-오르, CTO는 에후드 에즈라입니다.",
+        "고객 확인(KYC) 정보, 상담 통화, 송금·거래 기록에서 감정·목소리·통화 빈도 등을 분석해 성향 데이터로 바꾸고, 이를 트랜스포머 모델에 넣어 예측합니다.",
+        "현재 대형 증권사 10곳이 유동성·증거금·헤지 관리에 쓰고 있고 매출은 '수백만 달러대'라고 합니다. 회사는 정확도 98%를 내세우지만, 이는 개별 거래가 아니라 거래 흐름이 예측 범위 안에 들어오는지를 잰 것이라고 설명했습니다(자체 발표 기준).",
+        "에즈라 CTO는 증권사가 고객을 착취하는 데 쓸 수 있다는 우려가 \"타당하다\"고 인정했지만, 이를 막을 구체적 장치는 설명하지 않았습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/"
+    },
+    {
+      "cat": "product",
+      "who": "The Subvocal Company (YC F26)",
+      "title": "입 모양만으로 컴퓨터에 받아쓰기… YC 스타트업 Subvocal, '무음 말하기' 스마트 안경 공개",
+      "body": "소리 내지 않고 입만 움직여도 안경이 이를 글자로 바꿔주는 제품입니다. 카메라 없이 약한 전파로 얼굴 움직임을 읽는 방식입니다.",
+      "detail": [
+        "Y Combinator F26 기수인 Subvocal은 Hacker News 'Show HN' 게시물로 제품을 소개했습니다. 안경테 속 안테나가 블루투스와 비슷한 저전력 전파를 내고, 입 모양에 따라 달라진 신호를 AI 모델이 텍스트로 해독합니다.",
+        "창업자들은 입을 다문 채 속으로 말해도 인식되며, 지연 시간은 \"보통 0.5초 미만\"이라고 밝혔습니다. 해독은 노트북·휴대폰 앱과 클라우드를 거치므로 인터넷이 필요합니다.",
+        "첫 배치 500대 선주문을 받고 있으며 최종 가격에서 200달러를 할인해 줍니다. 최종 가격은 공개되지 않았고 배송 목표는 2027년 1분기입니다.",
+        "댓글에서는 구독료, 지원 언어, 데이터 처리 방식 등에 대한 질문이 이어졌지만 답이 나오지 않은 상태입니다(자체 발표 기준)."
+      ],
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=50340088"
+    },
+    {
+      "cat": "product",
+      "who": "DeepSeek",
+      "title": "DeepSeek 에이전트 도구 'Harness'에 '크리에이터 모드' 추가… 아이디어를 바로 플러그인으로",
+      "body": "지난주 코딩 에이전트 시제품을 공개했던 DeepSeek이 오픈소스 에이전트 도구 Harness에 새 기능을 붙였습니다.",
+      "detail": [
+        "DeepSeek Harness는 X 게시물로 사용자가 아이디어를 바로 쓸 수 있는 플러그인으로 바꿔주는 '크리에이터 모드(Creator Mode)'를 발표했습니다.",
+        "공식 예시로는 디자인 작업 공간, 샌드박스 게임, 대형 언어모델 구조를 3D로 보여주는 시각화 도구가 제시됐습니다.",
+        "Bloomberg는 이번 기능이 DeepSeek의 AI 에이전트 제품을 강화하려는 움직임이라고 분석했습니다. DeepSeek은 앞서 V4.1-Flash 모델을 Harness에 맞게 최적화한 바 있습니다."
+      ],
+      "source": "PANews",
+      "url": "https://panews.io/articles/01a19d57-6ab1-7345-934a-c0d1eb79d628"
+    },
+    {
+      "cat": "product",
+      "who": "Omen AI · Aquatic Labs",
+      "title": "데이터센터 냉각수 감시 스타트업 Omen AI, 경쟁사 Aquatic Labs 1,600만 달러에 인수",
+      "body": "AI 칩을 식히는 냉각수 상태를 실시간으로 감시하는 센서를 만드는 회사가 경쟁사를 사들였습니다. 지금은 냉각수 검사에 며칠짜리 실험실 분석이 필요합니다.",
+      "detail": [
+        "Omen AI는 현금과 주식을 섞어 1,600만 달러에 Aquatic Labs를 인수합니다. Omen은 2024년 설립돼 2026년 6월 3,100만 달러 시리즈 A를 유치했습니다.",
+        "Omen 센서는 물속 원소를, Aquatic Labs 센서는 알칼리도를 측정하며, 두 기술을 합친 센서를 2027년 초 내놓을 계획입니다. MIT 교수 출신 물리학자 앨런 애덤스 Aquatic Labs CEO는 최고과학책임자를 맡습니다.",
+        "2026년 말까지 250~300메가와트(MW)어치 칩(약 50억~70억 달러 규모)을 감시하고, 2027년 말 1GW로 늘리는 것이 목표입니다.",
+        "The Water Foundation에 따르면 미국 데이터센터는 냉각에 연간 170억~190억 갤런의 물을 쓰며, 5년 안에 3배로 늘 전망입니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/omen-ai-adds-liquid-know-how-in-16-million-aquatic-labs-acquisition/"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "The New York Times · Brave · Anthropic · Perplexity",
+      "title": "NYT, 브라우저 회사 Brave 제소… \"기사 몰래 긁어 Anthropic·Perplexity 등 AI 회사에 팔았다\"",
+      "body": "개인정보 보호 브라우저로 알려진 Brave가 언론사 기사를 무단 수집해 AI 회사들에 공급했다는 소송을 당했습니다. AI 학습·검색 데이터를 둘러싼 저작권 분쟁이 데이터 '공급업자'로까지 번졌습니다.",
+      "detail": [
+        "NYT는 11월 2일 맨해튼 연방법원에 소장을 내고, Brave를 AI 회사들에 훔친 저작물을 대는 \"공급자이자 판매상\"이라고 표현했습니다. 고객으로 지목된 곳은 Anthropic, Perplexity, Mistral, xAI, Cohere입니다.",
+        "Brave가 언론사가 막을 수 없는 정체불명의 크롤러로 웹페이지 300억 개 이상의 색인을 만들었다는 주장입니다. 유료 구독벽을 우회하는 기능과, 언론사 광고는 막고 자사 광고를 파는 관행도 소송 대상에 올랐습니다.",
+        "같은 날 Daily News, Chicago Tribune, Orlando Sentinel도 같은 법원에 비슷한 소송을 냈습니다. NYT는 OpenAI와 Perplexity를 상대로도 소송 중입니다.",
+        "NYT는 판매 금지 명령과 손해배상을 요구했으며, 지금까지 약 2억 5,000만 달러를 투자받은 Brave는 즉각 답하지 않았습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/"
+    },
+    {
+      "cat": "buzz",
+      "who": "SemiAnalysis · Anthropic · OpenAI · Google",
+      "title": "\"돈 되는 실무에서 AI는 아직 12%\"… SemiAnalysis 새 벤치마크 'GDPx', 1위는 Claude Opus 5.5",
+      "body": "반도체·AI 분석업체 SemiAnalysis가 칩 설계·금융·법률 등 경제적 가치가 큰 11개 분야의 실제 업무를 AI 에이전트에게 맡겨 보는 시험을 내놨습니다. 최고 모델도 점수가 12%에 그쳤습니다.",
+      "detail": [
+        "GDPx는 칩 설계, 사이버보안, 생물학, 금융, 법률, 퀀트 트레이딩, AI 자기개선, 하드웨어 설계, 소재과학, 정렬(alignment), 소프트웨어 공학 11개 분야로 구성됩니다. 약 2,000개 파일이 든 거래 자료실, 실제 CAD·EDA 소프트웨어 같은 현실적 환경에서 기본 8시간 동안 과제를 풉니다.",
+        "전체 1위 모델의 점수는 12%였고, SemiAnalysis는 Opus 5.5를 '가장 균형 잡힌 모델'로 꼽았습니다. 생물학은 Gemini 4 Carbon, AI 자기개선·소재과학은 GPT-6 Astra가 앞섰습니다.",
+        "금융·법률은 완전 성공률이 모든 모델에서 사실상 0%여서 부분 점수로 비교했으며, 공개된 법률 과제에서 Opus 5.5는 평균 44%, GPT-6 Astra는 25%, Gemini 4 Argon은 2%였습니다.",
+        "일부 모델은 사이버·생물학·정렬 분야에서 안전 필터 때문에 점수가 깎여, 이 분야를 뺀 결과도 따로 공개됐습니다."
+      ],
+      "source": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities"
+    },
+    {
+      "cat": "buzz",
+      "who": "MIT CSAIL · OpenAI",
+      "title": "MIT \"AI가 다른 AI의 가중치를 직접 읽고 고친다\"… 0.016%만 바꿔 수학 점수 7.9%→48.1%",
+      "body": "MIT 연구진이 최신 대형 언어모델이 학습 알고리즘 없이 신경망의 숫자(가중치)를 직접 읽고 편집할 수 있다는 결과를 발표했습니다. 연구진은 이를 '가중치 공간 프로그래밍'이라고 불렀습니다.",
+      "detail": [
+        "MIT CSAIL의 리키야 타케히, 오마르 카타브 등 4명이 11월 2일 공개한 연구로, 실험에는 OpenAI의 GPT-6 Astra가 쓰였습니다.",
+        "GPT-6 Astra는 가중치만 보고 어떤 게임을 학습한 정책인지, 작은 언어모델이 어떤 언어를 배웠는지 알아맞혔고, 실패하는 로봇 제어 정책의 가중치 3.5%를 고쳐 문제를 해결했습니다.",
+        "소형 모델 Qwen3.5-0.8B의 가중치 0.016%만 바꿔 수학 벤치마크 MATH-500 점수를 7.9%에서 48.1%로 올렸고, GSM8K는 13.8%→67.1%, 지시 따르기(IFEval)는 21.0%→62.3%로 높아졌습니다.",
+        "다만 Gemma 3 270M에서는 효과가 없었고, 연구진은 이 방법이 '막힌 능력을 풀어줄 뿐 없는 능력을 만들지는 못한다'고 해석했습니다."
+      ],
+      "source": "MIT CSAIL 연구진 블로그",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+    },
+    {
+      "cat": "buzz",
+      "who": "블라디미르 푸틴 · 러시아 정부",
+      "title": "푸틴, 민간 데이터센터에 \"용량 10%는 국가용으로 비워둬라\" 명령… 요청 시 24시간 내 제공",
+      "body": "우크라이나 드론이 러시아 데이터센터를 공격하는 가운데, 푸틴 대통령이 민간 데이터센터 용량 일부를 국가가 언제든 쓸 수 있게 하는 법령에 서명했습니다.",
+      "detail": [
+        "11월 2일 서명된 법령에 따라 러시아의 비국영 데이터센터 소유주는 용량의 10%를 예비로 남겨야 합니다. 명분은 IT 인프라의 안정적 운영입니다.",
+        "새로 꾸려지는 정부 위원회가 예비 용량 개방을 결정하면 운영사는 24시간 안에 접근을 제공해야 합니다. 디지털발전부는 전국 민간 데이터센터의 용량과 면적을 조사합니다.",
+        "연방보안국(FSB) 승인을 받으면 해외 데이터센터를 임시로 쓰는 것도 허용됩니다.",
+        "10월에는 Yandex와 Sberbank가 운영하는 시설이 우크라이나 드론 공격을 받았습니다."
+      ],
+      "source": "The Moscow Times (Reuters)",
+      "url": "https://www.themoscowtimes.com/2026/11/02/putin-orders-private-data-centers-to-set-aside-10-of-capacity-to-support-it-infrastructure-a94159"
+    },
+    {
+      "cat": "buzz",
+      "who": "이재명 대통령 · 한국 정부",
+      "title": "이재명 대통령 국회 시정연설 \"AI에 대규모 투자\"… 세계 최고 성능 '소버린 AI'에 4조 6,000억 원",
+      "body": "이재명 대통령이 2027년도 예산안 처리를 당부하며 AI와 미래 성장 산업에 대한 대규모 투자를 강조했습니다.",
+      "detail": [
+        "이 대통령은 11월 2일 국회 시정연설에서 820조 9,000억 원(약 6,145억 달러) 규모의 내년 예산안 통과에 초당적 협력을 요청했습니다. 그는 12.8% 증가율이 역대 최대라고 말했습니다.",
+        "반도체 제조 거점, 데이터센터, 피지컬 AI, AI 등 '3대 메가 프로젝트'에 21조 3,000억 원이 배정됐습니다.",
+        "세계 최고 성능의 소버린(자국 주도) AI 모델 확보에 4조 6,000억 원, 10대 전략기술 경쟁력 강화에 13조 8,000억 원이 들어갑니다.",
+        "청년 세대·성장 동력·지역 발전을 지원하는 160조 원 규모 '미래펀드'도 추진하며, 반도체 호황에 따른 세수 증가가 재원 마련에 도움이 될 것으로 정부는 보고 있습니다."
+      ],
+      "source": "The Korea Herald (연합뉴스)",
+      "url": "https://www.koreaherald.com/article/10922482"
+    },
+    {
+      "cat": "buzz",
+      "who": "Squarespace",
+      "title": "웹사이트 제작업체 Squarespace, 직원 19% 감원… 'AI로 사이트 뚝딱' 시대에 흔들리는 업계",
+      "body": "말로 지시하면 AI가 웹사이트를 만들어주는 '바이브 코딩' 도구가 퍼지면서, 기존 웹사이트 빌더 업체가 대규모 구조조정에 나섰습니다.",
+      "detail": [
+        "Squarespace는 전 세계 인력의 약 19%, 약 300명을 줄입니다. The Verge가 11월 2일 처음 보도했고 제프 시드먼 대변인이 TechCrunch에 확인했습니다.",
+        "회사는 운영을 단순화하고 우선순위를 분명히 해 더 빨리 움직이기 위한 조치라고 설명했으며, AI가 감원의 직접 이유라고 밝히지는 않았습니다.",
+        "경쟁 환경은 급변하고 있습니다. Wix는 2025년 Base44를 8,000만 달러에 샀고, Lovable은 2026년 8월 기업가치 133억 달러로 4억 달러를 유치했으며, Google은 화면 디자인 생성 도구 Stitch를 내놨습니다.",
+        "Squarespace도 2024년 AI 도구 Blueprint를 출시했고, AI 기반 새 플랫폼 Forma를 대기자 명단을 받으며 준비 중입니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Microsoft",
+      "title": "Microsoft, 생중계 영상 속 사람의 말을 AI가 실시간으로 바꾸는 특허 출원… \"입 모양까지 맞춘다\"",
+      "body": "강연·시상식·스포츠 중계 등에서 화자의 단어를 지우거나 다른 말로 바꾸고, 얼굴과 입 모양도 그에 맞게 고치는 기술입니다. 시청자가 듣고 싶은 것만 듣는 '필터 버블'을 키울 수 있다는 우려가 나옵니다.",
+      "detail": [
+        "특허 추적 서비스 Patentlyze가 처음 알렸고 Futurism이 11월 1일 보도했습니다. 특허명은 '실시간에 가까운 라이브 이벤트 영상·AR 화면의 AI 개선'입니다.",
+        "AI 에이전트가 정해진 기준이나 사용자 프로필에 따라 특정 단어를 찾아 바꾸거나 지우고, 앞뒤 음성과 영상을 다듬어 자연스럽게 만듭니다.",
+        "용도로는 실시간 번역, '음·어' 같은 군말이나 말더듬 제거, 사투리·관용 표현·불쾌한 단어 삭제 등이 제시됐고, 대체 단어를 '인터넷 검색'에서 가져올 수 있다고 적혀 있습니다.",
+        "원본 영상과 음성은 '근거 자료(ground truth)'로 저장될 수 있다고 했으며, Microsoft는 논평 요청에 답하지 않았습니다."
+      ],
+      "source": "Futurism",
+      "url": "https://futurism.com/artificial-intelligence/microsoft-patents-ai-words-in-peoples-mouths"
+    },
+    {
+      "cat": "buzz",
+      "who": "Cisco Talos",
+      "title": "정보 탈취 악성코드 'VOLTA', 훔친 정보를 Claude·Kimi·Gemini에 넣어 '돈 되는 피해자' 골라내",
+      "body": "PC에서 비밀번호·카드·코인 지갑 정보를 훔친 뒤, 그 자료를 AI 모델에 보내 피해자의 가치를 평가하게 하는 악성코드가 발견됐습니다. AI가 범죄의 '감정사' 역할을 하는 셈입니다.",
+      "detail": [
+        "Cisco Talos가 10월 31일 공개한 VOLTA는 스스로 흔적을 지우는 윈도용 정보 탈취 악성코드로, 2026년 10월 11일 처음 발견됐습니다. 브라우저 비밀번호·쿠키·결제카드·코인 지갑 복구 문구, Discord·Telegram·Steam 세션, 클라우드 키 등을 훔칩니다.",
+        "훔친 정보를 묶어 OpenRouter를 통해 AI 모델에 보내며, 기본 모델은 claude-opus-4.6이고 거절당하면 kimi-k2, gemini-2.5-flash 순으로 바꿔 시도합니다.",
+        "훔친 Gmail에서 쇼핑·배달 영수증을 찾고, Uber Eats·DoorDash 주문 내역과 Roblox 아이템 가치까지 조회해 피해자 분석 보고서를 만듭니다.",
+        "Talos는 누구나 구성을 바꿔 쓸 수 있는 '빌더형' 도구로 판단했으며, 크롬의 headless 실행을 제한하면 핵심 우회 기법을 막을 수 있다고 권고했습니다."
+      ],
+      "source": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
+    },
+    {
+      "cat": "buzz",
+      "who": "테렌스 타오 · 수학자들",
+      "title": "테렌스 타오 블로그에 \"AI 시대, '자아 없는 수학'을 하자\" 기고… 수학계 찬반 갈려",
+      "body": "AI가 수학 문제를 풀기 시작한 시대에 수학자의 가치를 어디서 찾을지에 대한 에세이가 세계적 수학자 테렌스 타오의 블로그에 실렸습니다.",
+      "detail": [
+        "11월 2일 실린 글은 카르티크 C. S., 아미트 사하이, 지에 쉬에 세 사람이 썼으며, 아이디어는 자신들의 것이지만 초안 작성에 'GPT Astra 6.0'과 'GPT 6.1 Sol'을 썼다고 밝혔습니다.",
+        "필자들은 수학계가 개인의 성과와 능력에 가치를 너무 묶어 왔고 AI가 이 문제를 드러냈다며, 수학적 진리는 누가 발견하든 가치가 같다는 '플라톤적' 관점을 제시했습니다.",
+        "창의성·직관 같은 인간만의 능력으로 기계를 앞서려는 태도도 결국 비교에 기대는 것이라 충분한 답이 아니라고 주장했습니다.",
+        "댓글에서는 공감한다는 반응과 함께, 구체적 대안이 없고 AI가 쓴 문장인 데다 일자리·연구비 문제를 다루지 않았다는 비판이 엇갈렸습니다."
+      ],
+      "source": "Terence Tao 블로그 (What's new)",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/"
+    }
+  ]
+}
