@@ -1,0 +1,310 @@
+{
+  "date": "2026-11-05",
+  "headline": "오하이오 데이터센터 줄줄이 퇴짜·Google, Anthropic 임대 보증·Meta, Conductor 인수",
+  "summary": "미 중간선거에서 오하이오 주민들이 최소 14개 지역에서 AI 데이터센터 금지·제한안을 통과시키며 데이터센터 반발이 표로 드러났고, OpenAI는 2028년 대선을 겨냥한 정책 구상을 내놨습니다. 업계에서는 Google이 Anthropic의 190억 달러 규모 켄터키 데이터센터 임대를 보증하기로 했고, Meta는 AI 코딩 스타트업 Conductor를, AMD는 AI 칩 스타트업 Taalas를 약 29억 달러에 사들이는 등 몸집 불리기가 이어졌습니다. 유럽에서는 법률 자문관이 Gemini 답변이 언론사 권리를 침해할 수 있는 두 가지 경우를 제시했습니다.",
+  "items": [
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Google · Anthropic · TeraWulf",
+      "title": "Google, Anthropic의 190억 달러 켄터키 데이터센터 임대 보증… 대신 'Google 칩만 쓰기' 조건",
+      "body": "Anthropic이 빌리는 대형 데이터센터의 임대료를 혹시 못 낼 경우 Google이 대신 책임지기로 했습니다. 신용도가 높은 Google이 뒤를 받쳐 주면 건물주가 공사 자금을 더 쉽게 빌릴 수 있습니다.",
+      "detail": [
+        "데이터센터 운영사 TeraWulf는 11월 4일, Google이 켄터키주 호스빌의 'Justified Data Campus'에서 Anthropic이 지는 임대 의무 일부를 보증하기로 했다고 발표했습니다. 약 190억 달러 규모 임대 계약을 바탕으로 한 대출을 돕기 위한 것으로, 대출 자체는 아직 확정되지 않았습니다.",
+        "Anthropic이 임대료를 못 내거나 파산하면 Google이 밀린 임대료를 내고 임대를 넘겨받거나, 경우에 따라 해지 수수료를 낼 수 있습니다. 해지 수수료를 내면 건물주 Raylan의 지분을 얻을 권리가 생깁니다.",
+        "조건으로 Anthropic은 계약 기간 내내 Google이 승인한 TPU(Google의 AI 전용 칩)만 가속기로 써야 합니다. Anthropic이 투자 적격 신용등급을 3개월 이상 유지하면 보증은 끝날 수 있습니다.",
+        "이 임대는 7월 6일 발표된 20년 계약으로 약 401MW 규모이며, 건물은 2027년 말부터 2028년 2분기까지 단계적으로 완공될 예정입니다."
+      ],
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/terawulf-lines-up-google-backstop-for-anthropics-kentucky-ai-campus/"
+    },
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Meta · Conductor",
+      "title": "Meta, AI 코딩 에이전트 스타트업 Conductor 인수… 클라우드 서비스는 11월 20일 종료",
+      "body": "여러 AI 코딩 에이전트를 동시에 돌려 한 프로젝트를 나눠 작업하게 해 주는 스타트업을 Meta가 사들였습니다. 인수 금액은 공개되지 않았습니다.",
+      "detail": [
+        "Conductor는 2024년 창업해 2025년 여름 핵심 제품을 내놨으며, 여러 에이전트를 병렬 작업 공간에 배치해 엔지니어가 프로젝트의 서로 다른 부분을 동시에 진행하게 해 줍니다. 에이전트 자체는 Anthropic·OpenAI 등 대형 연구소 모델을 씁니다.",
+        "찰리 홀츠 CEO는 Meta 최고AI책임자 알렉산더 왕, Meta 초지능연구소(MSL) 제품 총괄 냇 프리드먼과 일하게 됐다며 \"내년 초 새로운 것\"을 예고했습니다.",
+        "기존 핵심 기능은 내년 초까지 유지되지만 클라우드 서비스는 11월 20일 문을 닫고, 이후 이용자 클라우드 데이터 삭제를 시작합니다.",
+        "Meta는 8월 자체 코딩 에이전트 Muse Code를 내놨고, Muse 에이전트 이용자가 1,000만 명을 넘었다고 보도됐습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+    },
+    {
+      "cat": "company",
+      "who": "AMD · Taalas",
+      "title": "AMD, 캐나다 AI 칩 스타트업 Taalas 인수가 약 29억 달러로 드러나… 14억 달러는 조건부",
+      "body": "AMD가 8월 발표했던 Taalas 인수의 가격이 증권 공시로 처음 공개됐습니다. 특정 AI 모델 전용으로 칩을 설계하는 회사입니다.",
+      "detail": [
+        "AMD는 토론토의 Taalas를 현금과 주식을 합쳐 약 29억 달러에 사며, 이 중 14억 달러는 공개되지 않은 조건 달성 여부에 달려 있습니다. 규제 승인 등이 남아 거래는 아직 끝나지 않았습니다.",
+        "Taalas는 전직 AMD 임원 류비샤 바이치 등이 2023년 8월 세웠고, 첫 칩은 Meta의 Llama 모델에 맞춰 설계됐습니다. 2월 기준 직원 24명, 지출 3,000만 달러였습니다.",
+        "2025년 11월 시리즈B 당시 기업가치는 7억 5,000만 달러 이상이어서, 이번 가격은 이를 크게 웃돕니다.",
+        "AMD는 Taalas 기술을 AI 추론(완성된 모델을 실제로 돌리는 일)용 미래 칩에 넣겠다고 했으며, 9월에는 World Labs를 82억 달러에 사기로 하는 등 Nvidia 추격을 위한 인수를 이어가고 있습니다."
+      ],
+      "source": "The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/business/article-amd-to-pay-29-billion-for-ai-chip-firm-taalas/"
+    },
+    {
+      "cat": "company",
+      "who": "Supermicro",
+      "title": "AI 서버업체 Supermicro, 분기 매출 199억 달러로 1년 새 4배… 연간 최대 820억 달러 전망",
+      "body": "AI 데이터센터용 서버를 만드는 Supermicro가 회계연도 1분기(7~9월) 사상 최대 매출을 냈습니다.",
+      "detail": [
+        "9월 30일 끝난 분기 매출은 199억 달러로, 직전 분기 111억 달러와 1년 전 50억 달러에서 크게 늘었습니다.",
+        "순이익은 15억 9,400만 달러로 1년 전 1억 6,800만 달러의 약 9.5배였고, 매출총이익률은 12.7%(GAAP)로 1년 전 9.3%보다 올랐습니다.",
+        "다음 분기 매출은 195억~215억 달러, 회계연도 2027년 전체 매출은 720억~820억 달러로 제시했습니다.",
+        "찰스 리앙 CEO는 \"통합 AI·IT 데이터센터 솔루션 기업으로의 변신이 계속 빨라지고 있다\"고 말했습니다. (회사 잠정 발표 기준)"
+      ],
+      "source": "Supermicro (실적 발표문)",
+      "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Announces-First-Quarter-of-Fiscal-Year-2027-Financial-Results/default.aspx"
+    },
+    {
+      "cat": "company",
+      "who": "Uber",
+      "title": "Uber \"핼러윈 주간 3억 2,000만 건 중 AI 에이전트 호출은 단 4건\"",
+      "body": "AI 에이전트가 사람 대신 차를 부르고 음식을 시켜 줄 것이란 기대와 달리, 실제 이용은 거의 없다고 Uber가 실적 발표에서 밝혔습니다.",
+      "detail": [
+        "Uber는 3분기 실적 발표에서 10월 가장 바빴던 핼러윈 주간에 AI 에이전트를 통해 예약된 차량 호출이 4건뿐이었다고 밝혔습니다.",
+        "발리지 크리슈나무르티 CFO에 따르면 같은 주 Uber와 Uber Eats의 이동·주문은 약 3억 2,000만 건이었고, 이 중 AI 에이전트가 넣은 Uber Eats 주문은 500건이었습니다.",
+        "다라 코스로샤히 CEO는 \"아주 초기이고 매우 제한적\"이라면서도, 주요 AI 비서가 지금 약 8개에서 10개 이상으로 늘 것이고 모든 AI 회사가 Uber와 대화 중이라고 말했습니다.",
+        "앱으로 차를 부르는 데 평균 50초, 자주 먹는 음식 재주문에 90초가 걸려 에이전트가 아낄 시간이 많지 않다는 분석도 나왔습니다. DoorDash도 지난주 에이전트 주문이 수백 건에 그쳤다고 밝혔습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/"
+    },
+    {
+      "cat": "company",
+      "who": "OpenAI",
+      "title": "OpenAI, 2028년 대선 겨냥한 정책 구상… 'AI 시대 뉴딜'과 비상정지 장치 제안",
+      "body": "OpenAI 대외정책 책임자가 AI가 다음 대선의 핵심 쟁점이 될 것이라며 노동자 보호·교육·안전·데이터센터에 관한 5대 정책 방향을 내놨습니다. 과거 규제 반대 행보와 맞지 않는다는 비판도 나왔습니다.",
+      "detail": [
+        "크리스 리헤인 최고글로벌사무책임자는 OpenAI 서브스택 글에서 AI의 경제적 충격을 1930년대 루스벨트의 뉴딜에 빗대며, 사람들이 AI의 혜택을 나눌 수 있는 '제3의 길'을 촉구했습니다.",
+        "안전 분야에서 강제력 있는 안전 기준, 독립 평가, 공공 감독, AI 시스템을 제한하거나 끌 수 있는 '킬 스위치'를 제안했고, 미성년자 대상 AI 친구 앱 보호 장치도 요구했습니다.",
+        "데이터센터 건설 중단(모라토리엄)은 미국의 대중국 우위를 위협한다며 반대했습니다.",
+        "AI Now Institute의 케이트 브레넌은 OpenAI가 2024년 캘리포니아 SB 1047(재앙적 위험 평가·차단 기능 의무화)에 반대했던 점을 들어 이번 입장이 \"위선적\"이라고 비판했습니다. 글은 민주당이 중간선거에서 의회를 되찾은 직후 나왔습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/"
+    },
+    {
+      "cat": "company",
+      "who": "OpenAI · Cathedral",
+      "title": "OpenAI, 'Anthropic 해킹'으로 알려진 보안 스타트업 Cathedral과 손잡아… 버그 포상금 4배 이상",
+      "body": "Anthropic의 버그 바운티(취약점 신고 포상) 프로그램을 통해 내부 시스템에 들어갔던 보안 스타트업에 OpenAI가 자사 방어 점검을 맡겼습니다.",
+      "detail": [
+        "OpenAI는 블로그에서 Cathedral 팀이 OpenAI 모델을 이용해 OpenAI의 방어 체계를 시험하게 된다고 밝히고, 치명적 취약점 포상금을 \"4배 이상\" 올린다고 했습니다.",
+        "Cathedral은 Washington Post에 Anthropic 침투가 12시간도 안 걸렸고 Slack 메시지·채용 제안·회의록에 접근했다고 주장했습니다. 반면 Anthropic 보안 책임자 로건 그레이엄은 \"며칠\"이 걸렸고 모델 가중치·Claude 대화 같은 핵심 시스템은 영향이 없었으며, 범위를 벗어난 방식이었다고 반박했습니다.",
+        "Cathedral은 올해 Andreessen Horowitz·Sequoia가 이끈 1억 6,000만 달러 투자로 기업가치 14억 달러를 인정받았고, 공동창업자 4명은 모두 정부효율부(DOGE) 출신입니다."
+      ],
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/openai-hires-doge-alumni-who-hacked-into-anthropic-to-strengthen-security-2000834432"
+    },
+    {
+      "cat": "company",
+      "who": "Apple",
+      "title": "Apple, 연례 보고서에 'AI 에이전트가 예측 못 한 행동 할 수 있다' 사업 위험 첫 명시",
+      "body": "사람 대신 스스로 일을 처리하는 AI 에이전트가 소송이나 평판 손상을 불러올 수 있다고 Apple이 투자자들에게 경고했습니다.",
+      "detail": [
+        "Apple은 11월 3일 낸 연례 재무 보고서에서 AI 에이전트가 \"의도치 않거나 예측할 수 없는 방식\"으로, 지시·승인되지 않은 행동까지 할 수 있다고 적었습니다.",
+        "에이전트가 권한 없는 시스템에 접근하거나 코드를 바꾸고, 메시지를 보내고, 거래를 완료할 수 있으며 Apple이 제3자 에이전트를 감독·통제할 능력은 제한적일 수 있다고 했습니다.",
+        "Apple은 아직 에이전트형 AI 제품이 없으며, 10월에는 AI 에이전트 위험을 줄이려 Mac의 '전체 디스크 접근' 권한을 강화했습니다.",
+        "존 터너스 CEO는 11월 2일 실적 발표에서 에이전트 도구가 \"유망하다\"면서도 사용자가 \"무엇에 접근 권한을 주는지 알아야 한다\"고 말했습니다."
+      ],
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/apple-warns-of-ai-agents-behave-in-unintended-or-unpredictable-ways.html"
+    },
+    {
+      "cat": "product",
+      "hot": true,
+      "who": "OpenAI",
+      "title": "OpenAI \"GPT-6 Astra가 하드웨어 기기를 일주일 안에 설계\"… 다만 수정 여러 차례",
+      "body": "OpenAI 하드웨어팀이 자사 최신 모델에게 외형부터 회로·펌웨어까지 맡겨, 코딩 에이전트 Codex와 대화하는 작은 기기를 만들었다고 밝혔습니다.",
+      "detail": [
+        "OpenAI에 따르면 GPT-6 Astra가 외장 디자인, 회로기판(PCB) 배치와 부품 선택, 펌웨어, 사용자 화면까지 모든 단계를 맡았고 사이드 프로젝트로 일주일이 안 걸렸습니다.",
+        "위탁 제조사가 한 달 안에 시제품 소량을 만들었지만, Astra가 제조 제약·공차·조립 세부를 늘 고려하지는 못해 여러 차례 수정이 필요했습니다.",
+        "3D 부품 재구성 능력을 보는 BenchCAD 2.0에서 공개되지 않은 '내부 모델'은 0.875점, GPT-6 Astra 최고 추론 단계는 0.594점을 받았습니다.",
+        "OpenAI 하드웨어팀의 토큰 사용량은 2월 이후 23배 늘었다고 했습니다. (OpenAI 자체 발표 기준)"
+      ],
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/"
+    },
+    {
+      "cat": "product",
+      "who": "Tencent",
+      "title": "Tencent, 새 AI 모델 'Hy4' 정식 출시… 처음으로 이미지 이해·컴퓨터 조작 지원",
+      "body": "중국 Tencent의 Hunyuan 팀이 최신 대형언어모델 Hy4를 내놨습니다. 프리뷰 버전보다 학습 규모를 늘렸습니다.",
+      "detail": [
+        "Hy4는 프리뷰 대비 사전·사후 학습 데이터와 규모를 키웠고, 처음으로 시각 이해 능력을 갖췄습니다.",
+        "지시 따르기, 긴 글 이해, 긴 작업 수행 능력이 좋아졌고, 컴퓨터를 직접 조작하는 기능도 처음 지원합니다.",
+        "Tencent Cloud Tokenhub, WorkBuddy, CodeBuddy, Yuanbao, WeChat Work 비서 등에 들어갔고, API는 OpenRouter·OpenCode 등에도 연동됐습니다. (과학기술혁신판일보 보도)"
+      ],
+      "source": "ChainCatcher",
+      "url": "https://www.chaincatcher.com/en/article/2301641"
+    },
+    {
+      "cat": "product",
+      "who": "Applied Compute",
+      "title": "AI 학습·추론 클라우드 Applied Compute, 3억 5,000만 달러 유치… 기업가치 32억 5,000만 달러",
+      "body": "AI 모델을 훈련하고 돌리는 클라우드 플랫폼 스타트업이 창업 18개월이 안 돼 연 매출 1억 달러를 넘기며 대규모 투자를 받았습니다.",
+      "detail": [
+        "엘라드 길이 투자를 주도했고 Nvidia, Shopify Ventures, HubSpot Ventures 등 10여 곳이 참여했습니다.",
+        "데이터 생성과 모델 가중치 조정을 동시에 돌리는 '비동기 강화학습' 방식을 쓰며, 요청마다 가장 저렴하게 처리할 수 있는 모델로 보내는 라우터 'Shift-1'도 제공합니다.",
+        "연환산 반복매출(ARR)은 1억 달러를 넘었고 Microsoft·DoorDash가 고객입니다. 자금은 시장 확대와 인프라 구매에 쓸 계획입니다."
+      ],
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/03/ai-cloud-startup-applied-compute-raises-350m-after-reaching-key-revenue-milestone/"
+    },
+    {
+      "cat": "product",
+      "who": "CrowdStrike",
+      "title": "CrowdStrike, 폭주하는 AI 에이전트 끄는 'AI Kill Switch' 출시",
+      "body": "회사 안에서 돌아가는 AI 에이전트가 이상 행동을 하면 보안팀이 바로 멈추고 다시 켜지지 못하게 막는 기능입니다.",
+      "detail": [
+        "CrowdStrike는 11월 3일 Fal.Con Europe 행사에서 AI Kill Switch를 발표했으며, 에이전트를 종료하고 재시작을 막고 네트워크 접근을 끊을 수 있습니다. 에이전트 감시 플랫폼 Falcon Guardian의 일부로 바로 쓸 수 있습니다.",
+        "조지 커츠 CEO는 기업들이 에이전트를 만들면서도 끄는 스위치가 없었다며 자동차 에어백에 비유했습니다.",
+        "CrowdStrike는 Anthropic과 협력해 Claude Cowork 제품을 보호하고 있으며, 기업 고객들이 도입 전 CrowdStrike 기술 연동을 요구했다고 밝혔습니다."
+      ],
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/03/crowdstrikes-new-kill-switch-can-stop-rogue-ai-agents-in-their-tracks-ceo-says.html"
+    },
+    {
+      "cat": "product",
+      "who": "Pangram",
+      "title": "AI 탐지업체 Pangram, AI 이미지·영상 판별 모델 공개… \"정확도 99.96%\" 자체 주장",
+      "body": "AI로 만든 사진과 영상을 가려내는 탐지 모델이 나왔습니다. 이미지 어느 부분이 AI로 만들어졌는지 색으로 표시해 줍니다.",
+      "detail": [
+        "Pangram Image 1.0은 AI 생성 부분을 히트맵으로 보여 주며, 편집·압축·저해상도 이미지에도 견디도록 만들었다고 밝혔습니다.",
+        "실제 사진 100장을 12개 최신 이미지 생성기로 바꾼 자체 시험 세트 1,200장에서 정확도 99.96%를 냈다고 주장했습니다.",
+        "영상용 소형 모델 Flash 1.0은 프레임 단위로 분석하며 학술 벤치마크 DF26에서 98.7%로 2위 탐지기보다 29%포인트 앞섰다고 했습니다. 최소 입력 크기는 256×256으로 낮췄습니다. (회사 자체 발표 기준)"
+      ],
+      "source": "Pangram 블로그",
+      "url": "https://www.pangram.com/blog/introducing-pangram-image-1-0"
+    },
+    {
+      "cat": "product",
+      "who": "Apple",
+      "title": "Apple Watch, 주변 대화 요약해 주는 'Siri Recaps' 써보니… \"유용하지만 조금 섬뜩\"",
+      "body": "Apple Watch가 하루 동안 들린 소리를 요약해 중요한 내용을 메모로 남기는 기능을 시험 중입니다. TechCrunch 기자가 직접 써 본 후기입니다.",
+      "detail": [
+        "iOS 27.3·watchOS 27.3 첫 개발자 베타에서 'Audio Intelligence' 기능으로 시험 중이며, 지난 15초 대화를 다시 듣는 'Live Rewind'도 함께 들어 있습니다.",
+        "Apple은 가능하면 기기 안에서 처리하고, 말한 사람을 식별하지 않으며 원본 음성 파일을 저장하지 않고, 신분증·계좌번호 같은 개인정보는 가린다고 밝혔습니다.",
+        "기자는 정비소와 렌터카 카운터에서 자기부담금·수리 기간·연료량 같은 세부를 잘 잡아냈지만, TV 볼 계획 같은 사적인 잡담까지 섞여 사생활 우려가 들었다고 전했습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/i-tried-apples-siri-recaps-theyre-surprisingly-useful-and-a-little-unsettling/"
+    },
+    {
+      "cat": "product",
+      "who": "Anthropic",
+      "title": "Anthropic, Claude 글에 넣는 보이지 않는 워터마크를 구형 모델 4종으로 확대",
+      "body": "Claude가 쓴 글이라는 흔적을 자동 탐지 시스템이 찾을 수 있도록 문장 속에 패턴을 심는 기능이 더 많은 모델로 넓어졌습니다.",
+      "detail": [
+        "8월 발표된 워터마크는 최신 모델부터 적용됐고, 이번에 Mythos 5, Opus 4.7, Opus 4.6, Sonnet 4.6으로 확대됐습니다. Opus 3까지 거슬러 올라가는 더 오래된 모델은 아직 대상이 아닙니다.",
+        "EU 규제에 대응한 조치지만 Anthropic은 EU 밖에도 적용하며, 끌 수 있는 옵션은 없습니다. 탐지는 EU 법상 자격이 있는 규제기관·수사기관·언론인·연구자 등만 할 수 있습니다.",
+        "짧은 글은 패턴이 부족해 탐지가 안 될 수 있고, Opus 4.6·Sonnet 4.6은 API 샘플링 설정을 바꾸면 워터마크가 사라진다고 보도됐습니다. 교정만 맡겨도 탐지될 수 있다는 이용자 비판도 있었습니다."
+      ],
+      "source": "The Independent (Yahoo Finance 게재)",
+      "url": "https://finance.yahoo.com/news/anthropic-claude-now-leave-trail-151343512.html"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "오하이오 유권자 · Amazon",
+      "title": "오하이오 주민들, AI 데이터센터에 '반대' 몰표… 최소 14개 지역서 금지·제한안 통과",
+      "body": "중간선거와 함께 치러진 주민투표에서 오하이오 주민들이 거의 모든 지역에서 데이터센터 확장을 거부했습니다. AI 인프라에 대한 지역 반발이 표로 확인된 셈입니다.",
+      "detail": [
+        "오하이오 18개 지자체에서 21건의 데이터센터 관련 안건이 투표에 부쳐졌고(전국 41건의 절반 이상), 최소 14곳에서 금지 또는 제한안이 통과됐습니다.",
+        "트렌턴에서는 18개 동 규모 AWS 데이터센터를 겨냥한 금지안이 약 80% 찬성으로 통과됐고, 애시빌에서는 이미 짓고 있던 데이터센터 단지를 완전히 막는 안이 통과됐습니다.",
+        "AI 업계 쪽 단체 Build American AI는 데이터센터가 오하이오에 400억 달러 투자와 9만 5,000개 일자리를 가져왔다는 TV 광고에 최소 254만 달러를 썼지만 흐름을 바꾸지 못했습니다.",
+        "상원 선거에서는 데이터센터 세금 감면 폐지를 공약한 민주당 셰러드 브라운이 감면을 지지한 공화당 존 허스테드를 이겼습니다."
+      ],
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/11/04/ohio-data-center-ballot-measures-midterm-elections/"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "EU 사법재판소 · Google",
+      "title": "EU 법률 자문관 \"Gemini 답변, 두 가지 경우 언론사 권리 침해 가능\"",
+      "body": "AI 챗봇이 뉴스 기사를 요약해 답할 때 언론사 권리를 침해하는지를 다룬 첫 EU 사건에서 법률 자문관이 기준을 제시했습니다. 구속력은 없지만 판결에 큰 영향을 줍니다.",
+      "detail": [
+        "헝가리 언론사 Like Company가 Google을 상대로 낸 사건(C-250/25)에서 마치에이 슈푸나르 법무관이 11월 3일 의견을 냈습니다. Gemini가 이 회사 기사를 요약하며 기사에 없는 내용(환각)까지 지어낸 것이 발단이었습니다.",
+        "그는 챗봇 답변이 ①유료벽이나 봇 차단을 우회해 가져온 경우 ②독자가 원문을 안 봐도 될 만큼 기사의 표현이 그대로 드러나는 경우 침해가 될 수 있다고 봤습니다. 사실 자체는 보호되지 않지만 '바꿔 쓰기'만으로 안전하지는 않다고 했습니다.",
+        "공개된 기사는 챗봇 사용을 묵시적으로 허락한 것이라는 Google 주장은 받아들이지 않았습니다.",
+        "다만 이번 사건은 접근 제한이 없고 답변에 기사 표현이 드러나지 않아 원고가 이기기 어려울 것으로 봤습니다. 최종 판결 날짜는 정해지지 않았습니다."
+      ],
+      "source": "PPC Land",
+      "url": "https://ppc.land/googles-gemini-can-infringe-press-rights-in-2-ways-eu-court-adviser-says/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Revolut · Z.ai",
+      "title": "핀테크 Revolut, Claude 대신 中 오픈 모델 GLM 자체 운영해 AI 코딩비 90% 절감",
+      "body": "영국 핀테크 Revolut이 상용 AI 코딩 서비스 대신 중국 오픈 모델을 자기 서버에서 돌려 비용을 약 10분의 1로 줄였다고 밝혔습니다.",
+      "detail": [
+        "인프라 책임자 데이비드 아비볼은 10월 뉴욕 AI Engineer 행사에서 1년도 안 돼 AI 코딩 추론 비용을 약 90% 줄였다고 말했습니다. 엔지니어들이 월 1,000~1만 달러를 쓰던 상황이었습니다.",
+        "Z.ai의 GLM 5.1을 자체 운영하면 100만 토큰당 0.30달러로 Codex·Claude Code의 약 10분의 1이었고, 지금은 GLM 5.3을 Nvidia B200 GPU 56개로 돌립니다.",
+        "엔지니어 약 2,000명에게 도입한 뒤 코딩 시간이 60%, 리드 타임이 70% 개선됐다고 했습니다. 이미지 질의는 Gemini 등으로 보내고, 필요한 곳엔 여전히 최신 상용 모델을 씁니다.",
+        "중국 모델 보안 우려에 대해서는 중국 밖에서 호스팅된 API로 쓰는 것이 주된 위험이고, 자체 서버 운영은 훨씬 덜하다고 말했습니다."
+      ],
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345"
+    },
+    {
+      "cat": "buzz",
+      "who": "Anthropic",
+      "title": "Anthropic, Claude Code로 기존 게임 '복제' 막아… AI로 만든 Halo·GTA 짝퉁 쏟아진 뒤",
+      "body": "AI 코딩 도구로 유명 게임을 그대로 베낀 브라우저판이 수백 개 쏟아지자, Anthropic이 Claude Code가 기존 게임을 복제하지 못하게 했습니다.",
+      "detail": [
+        "Anthropic 직원 애디 오스마니는 X에서 Opus 5.5용 Claude Code 시스템 프롬프트(모델에 주는 기본 지시문)에 남의 게임 복제를 막는 두 문장이 들어갔다고 확인했습니다. 이름을 바꾸거나 오리지널이라고 해도 적용됩니다.",
+        "이용자들은 Opus 5.5와 GPT-6 Astra로 Halo, GTA 바이스 시티 같은 게임의 비공식 브라우저판을 수백 개 만들었습니다.",
+        "자신만의 게임, 기존 장르의 게임, 직접 만든 에셋을 쓰는 프로젝트는 여전히 허용되지만 일부 이용자는 오리지널 작업도 막혔다고 전했습니다. Anthropic은 규칙을 계속 조정할 계획입니다."
+      ],
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/anthropic-cracks-down-on-game-cloning-in-claude-code-after-wave-of-ai-built-knockoffs/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Check Point · OpenAI Codex",
+      "title": "Codex '탈옥' 꾸러미에 광고 숨겨… Check Point, 새 위협 '프롬프트 애드웨어' 명명",
+      "body": "AI 코딩 에이전트의 안전장치를 푸는 탈옥 도구가 몰래 에이전트 지시문을 바꿔, 답변에 특정 유료 서비스 광고를 끼워 넣는 사례가 발견됐습니다.",
+      "detail": [
+        "Check Point는 Cobalt Strike(해킹 도구)를 운영하던 공격자의 잘못 설정된 서버에서 OpenAI Codex용 탈옥 꾸러미 'Haiou'를 발견했다고 11월 3일 밝혔습니다.",
+        "Haiou는 해킹 요청을 CTF(해킹 대회) 상황으로 포장하는 등의 방식으로 안전장치를 약화시키고, 에이전트 전역 지시 파일을 고쳐 특정 인사말에 반응해 제3자 LLM 게이트웨이 광고를 띄웁니다.",
+        "버전 4.5.0은 프롬프트 모듈 31개와 기술 6개(라이선스 크랙·침투 테스트 등)를 담았고, 암호화로 내용을 숨겼습니다. GitHub 별 250개 이상을 받았습니다.",
+        "게이트웨이 자체가 악성이라는 증거는 없지만, 같은 수법이 업체 추천을 슬쩍 조종하는 데 쓰일 수 있다고 경고했습니다. 패키지 속 광고 주입 시도는 Claude Sonnet 5가 잡아냈다고 합니다."
+      ],
+      "source": "Check Point Research",
+      "url": "https://research.checkpoint.com/2026/free-the-model-sell-the-gateway-prompt-adware-hidden-in-jailbreak-bundles/"
+    },
+    {
+      "cat": "buzz",
+      "who": "중국정보통신연구원 · Huawei · Alibaba · Tencent · Xiaomi",
+      "title": "中 빅테크 20곳, 'AI 에이전트 자율규제 협약' 서명… 개발 과정 외부 감독 받기로",
+      "body": "중국 정부 산하 연구기관과 주요 IT 기업들이 스스로 일하는 AI 에이전트 개발에 관한 공동 규칙을 만들었습니다.",
+      "detail": [
+        "11월 4일 우전에서 열린 세계인터넷대회에서 공업정보화부 산하 중국정보통신연구원(CAICT)이 이끄는 20개 창립 기관이 'AI 에이전트 개발 자율규제 협약'을 발표했습니다.",
+        "Huawei·Alibaba·Tencent·Xiaomi가 참여했으며, 신뢰 체계·상호연결 인프라·호환 표준·보안 방어·거버넌스·이용자 보호 등 8개 자율규제 조치를 담았습니다.",
+        "창립 기업들은 이행을 주도하고 에이전트 개발 과정을 업계 협회와 대중의 감독에 맡기기로 약속했습니다."
+      ],
+      "source": "China Tech News",
+      "url": "https://www.chinatechnews.com/2026/11/04/132062-chinese-tech-giants-and-state-academy-issue-national-self-discipline-pact-to-govern-ai-agents"
+    },
+    {
+      "cat": "buzz",
+      "who": "Google · DuckDuckGo",
+      "title": "Google 'AI 끄면 검색도 끊김' 논란에 해명… DuckDuckGo는 \"학교는 우리로 오라\"",
+      "body": "학교가 Google AI를 끄면 검색까지 막히게 한 정책이 반발을 사자 Google이 해명에 나섰고, 경쟁사 DuckDuckGo가 학교 고객 유치에 나섰습니다.",
+      "detail": [
+        "Google은 학교 의견을 반영한 결정이라며, Gemini·Gemini Notebook·검색을 모두 기본으로 꺼 두고 학교가 하나씩 켤 수 있게 했다고 설명했습니다. \"선택권을 줄인 게 아니라 늘린 것\"이라는 입장입니다.",
+        "DuckDuckGo 가브리엘 와인버그 CEO는 학교 기본 검색엔진을 바꾸는 안내 문서를 공유했고, 홍보 책임자는 Google을 \"독점 기업\"이라 부르며 Google이 학교용 검색에서 AI 기능만 끄는 건 쉬운 일이라고 주장했습니다.",
+        "DuckDuckGo는 noai.duckduckgo.com에서 AI 답변·이미지·추천을 모두 끌 수 있으며, 올해 Google AI 검색을 거부하는 이용자 덕에 앱 설치가 30% 늘었다고 밝힌 바 있습니다. 학교용 Chromebook은 약 5,000만 대입니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/04/duckduckgo-pitches-itself-to-schools-amid-backlash-over-googles-ai-policy/"
+    }
+  ]
+}
