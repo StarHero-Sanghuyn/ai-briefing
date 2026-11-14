@@ -1,0 +1,364 @@
+{
+  "date": "2026-11-15",
+  "headline": "Nvidia 주주들 \"후임 서두르지 말라\"… Cursor는 가짜 Claude Code 확장 유포 사고",
+  "summary": "젠슨 황이 물러난 Nvidia를 두고 대주주들이 황의 복귀 가능성까지 열어 둔 신중한 후임 인선을 요구했고, 복직 청원에는 11만 5,000명 넘게 서명했습니다. 사임의 발단이 된 기밀 메모를 루비오 국무장관이 CIA 보고서보다 강한 표현으로 다시 썼다는 보도도 나왔습니다. AI 코드 편집기 Cursor는 Fireworks AI에서 새어 나간 접속 키 때문에 악성 Claude Code 확장이 배포됐다고 밝혔고, 미국 전역 항공기 운항 중단을 두고는 AI 관제 도구와 무관하다는 당국 해명이 나왔습니다. 다음 주에는 Nvidia 실적 발표와 Anthropic 상장이 이틀 간격으로 이어집니다.",
+  "items": [
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Nvidia · Altimeter · Atreides",
+      "title": "Nvidia 대주주 2곳 \"후임 CEO 서두르지 말라\"… 젠슨 황 복귀 가능성도 검토 요구",
+      "body": "합쳐서 약 21억 달러어치 Nvidia 주식을 가진 투자사 두 곳이 이사회에 공개 서한을 보냈습니다. 즉각 복직을 요구한 것은 아니고, 사실관계가 다 밝혀지기 전에 성급히 후임을 정하지 말라는 내용입니다.",
+      "detail": [
+        "Altimeter Capital의 브래드 거스트너 CEO와 Atreides Management의 개빈 베이커가 13일 X에 서한을 올렸습니다. 이사회에 \"느리고 신중하며 숙고된 절차\"를 밟고 \"젠슨 황의 복귀 가능성\"도 고려하라고 요구했습니다.",
+        "미 증권 당국 신고 자료(6월 30일 기준)에 따르면 Altimeter는 Nvidia 주식 940만 주(약 19억 달러), Atreides는 120만 주(약 2억 5,000만 달러)를 보유했습니다. Nvidia는 Altimeter의 최대 보유 종목입니다.",
+        "서한은 임시 CEO 콜레트 크레스가 회사를 잘 이끌 것이라고 평가하면서도, 창업자인 황이 \"모든 사실이 알려지기 전에\" 교체되어서는 안 된다고 주장했습니다.",
+        "하워드 러트닉 상무장관은 12월 10일 상원 은행위원회 출석에 동의했습니다. 하원 정보위원회 민주당 의원들도 13일 Megaspeed 문제로 러트닉 장관의 증언을 요구하는 서한을 보냈습니다.",
+        "트럼프 대통령은 18~19일 선전에서 열리는 APEC 정상회의 참석차 중국을 방문합니다. 미 관리들은 시진핑 주석과의 만남에서 Nvidia 문제를 꺼낼 계획이 없다고 밝혔습니다."
+      ],
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"
+    },
+    {
+      "cat": "company",
+      "who": "Nvidia · 일론 머스크",
+      "title": "\"젠슨 황을 복직시켜라\" 청원 11만 5,000명 서명… 머스크·팀 스위니도 동참",
+      "body": "젠슨 황이 정당한 절차 없이 밀려났다며 이사회에 복직을 요구하는 온라인 청원이 빠르게 불어나고 있습니다. 서명자 수는 청원 사이트 자체 집계입니다.",
+      "detail": [
+        "청원 사이트 standwithjensen.com은 14일(현지 시간) 오후 기준 서명이 11만 5,000건을 넘었다고 밝혔습니다. 사이트는 현직 Nvidia 직원 5,965명, 전직 직원 1,108명, 주주 63,063명이 포함됐다고 집계했습니다.",
+        "Tesla·SpaceX의 일론 머스크 CEO, Replit의 암자드 마사드 CEO, Epic Games의 팀 스위니 CEO가 지지자로 이름을 올렸습니다.",
+        "청원은 독립 조사가 사실을 밝히는 동안 황을 복귀시키고, 공정한 조사와 더 많은 정보 공개를 보장하라고 요구합니다. \"젠슨에게 필요한 것은 여론 재판이 아니라 정당한 절차\"라는 문구를 내걸었습니다.",
+        "CNBC에 따르면 머스크는 14일 황이 없으면 일부 \"핵심 거래를 잃게 될 것\"이라고 말했습니다. Nvidia 주가는 13일 2% 내렸습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"
+    },
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "루비오 국무장관 · CIA · Nvidia",
+      "title": "\"젠슨 황 관련 기밀 메모, 루비오가 CIA 보고서를 더 강한 표현으로 다시 썼다\" 보도",
+      "body": "젠슨 황 사임의 발단이 된 경고 메모의 작성 경위에 대한 Washington Post 보도입니다. 익명 취재원 한 명에 기댄 보도이며, 간첩 의혹 자체는 공개적으로 입증되지 않았습니다.",
+      "detail": [
+        "Washington Post는 13일, 마코 루비오 국무장관 겸 국가안보보좌관이 CIA 보고서를 바탕으로 트럼프 대통령에게 올릴 경고문을 만들면서 내용을 \"자신의 더 단정적인 표현으로\" 다시 썼다고 사정을 아는 관계자를 인용해 보도했습니다.",
+        "경고의 대상은 젠슨 황과 Megaspeed 임원 출신 중국인 사업가 앨리스 황의 관계입니다. 미 정보 당국은 그를 중국 정보기관의 협력자로 의심하지만 공개적으로 입증된 적은 없습니다. 두 사람은 친척이 아닙니다.",
+        "Post는 이번 일을 대중국 정책을 두고 트럼프의 귀를 차지하려는 '그림자 전쟁'으로 묘사했습니다. 한 전직 관리는 황의 반대파가 대통령에 대한 그의 영향력을 줄이고 싶어 했다고 말했습니다.",
+        "루비오 장관은 이번 주 파리 G7 회의에서 자신의 역할에 대한 질문에 거듭 답하지 않았습니다. Nvidia와 백악관은 논평 요청에 응하지 않았고 CIA는 논평을 거부했습니다.",
+        "트럼프 대통령은 사임 발표 뒤 황을 \"전설\"이라 부르며 \"환상적으로 일했다\"고 말했습니다."
+      ],
+      "source": "Clash Report (Washington Post 인용)",
+      "url": "https://clashreport.com/world/articles/rubio-reportedly-recasts-cia-report-in-memo-on-nvidia-s-huang-l48noxg0yt9"
+    },
+    {
+      "cat": "company",
+      "hot": true,
+      "who": "Nvidia · Anthropic",
+      "title": "다음 주 AI 증시 분수령… 17일 Nvidia 실적, 이틀 뒤 Anthropic 상장",
+      "body": "흔들리던 AI 관련주가 CEO를 잃은 Nvidia의 실적 발표와 Anthropic의 대형 상장이라는 두 시험대를 연달아 맞습니다. Reuters의 주간 전망 기사입니다.",
+      "detail": [
+        "Nvidia는 17일(현지 시간) 장 마감 뒤 분기 실적을 발표합니다. 시장 조사 업체 LSEG 집계로 애널리스트들은 매출 1,090억 달러, 이익 90% 증가를 예상합니다.",
+        "Nvidia 시가총액은 10월 초 약 5조 8,000억 달러에서 13일 기준 3조 9,000억 달러로 줄었습니다. 임시 CEO 콜레트 크레스가 투자자 신뢰를 되찾아야 하는 상황입니다.",
+        "Anthropic 주식은 Nvidia 실적 이틀 뒤 Nasdaq에서 거래를 시작할 예정입니다. 8억 2,500만 주를 팔아 최대 644억 달러를 조달하며, 기업가치는 최대 1조 4,000억 달러로 평가될 수 있습니다.",
+        "6월 상장한 SpaceX는 750억 달러를 조달했고, 공모가 135달러였던 주가는 8월 약 105달러까지 떨어졌다가 최근 약 139달러에 거래됐습니다.",
+        "Madison Investments의 패트릭 라이언은 Anthropic의 첫 거래가 부진하면 AI에 대한 투자자 불안이 커지고 있다는 신호가 될 것이라고 말했습니다. S&P 500은 4주 연속 하락 뒤 이번 주 반등했습니다."
+      ],
+      "source": "Regional Media News (Reuters)",
+      "url": "https://www.regionalmedianews.com/news/national/business/nvidia-results-anthropic-ipo-pose-tests-for-tumultuous-ai-trade/"
+    },
+    {
+      "cat": "company",
+      "who": "Nvidia · 한국 · 대만 · 일본 · 중국 · 싱가포르",
+      "title": "한국 과기정통부 \"Nvidia, GPU 26만 개 공급 계획 재확인\"… 아시아 각국 정부 반응",
+      "body": "젠슨 황 사임이 자국 AI 산업에 미칠 영향을 두고 아시아 정부들이 잇따라 입장을 냈습니다. 한국 정부는 긴급 회의를 열었다고 현지 언론이 전했습니다.",
+      "detail": [
+        "한국 과학기술정보통신부는 Nvidia가 첨단 GPU 26만 개 공급 계획과 공동 AI 사업을 계속한다는 방침을 재확인했다고 밝혔습니다. 현지 보도에 따르면 정부의 AI 전략 기구가 13일 긴급 회의를 열어 영향을 점검했습니다.",
+        "대만 궁밍신 경제부장은 황의 퇴진이 세계 AI 산업 성장에 큰 변화를 주지 않을 것이라고 말했고, 타이베이시는 Nvidia 해외 본부 건설 계획이 예정대로 진행 중이라고 밝혔습니다.",
+        "일본 경제산업성은 Nvidia 상황을 면밀히 지켜보겠다고 했고, 관방 부장관은 세계 AI 산업에 미칠 영향을 평가하기에는 이르다고 말했습니다.",
+        "중국 외교부는 10일 간첩 의혹을 \"근거 없는 중상\"이라고 반박했습니다. Reuters 분석에 따르면 Nvidia의 수출 제한 칩에 의존하는 30억 달러 이상 규모의 중국 AI 컴퓨팅 사업이 불확실해졌습니다.",
+        "싱가포르 당국은 Megaspeed와 다른 6명에 대한 수사가 진행 중이라고 밝혔습니다. 앨리스 황은 올해 2월 경고 처분과 함께 싱가포르 재입국이 금지됐습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit"
+    },
+    {
+      "cat": "company",
+      "who": "Nvidia",
+      "title": "\"폭탄이 터진 것 같다\"… 젠슨 황 퇴장에 AI 스타트업 투자 공백 우려",
+      "body": "Nvidia는 AI 스타트업의 가장 큰 돈줄 가운데 하나였습니다. 투자 결정을 직접 내리던 젠슨 황이 떠나면서 투자 규모가 줄 것이라는 전망이 벤처 업계에서 나옵니다.",
+      "detail": [
+        "시장 조사 업체 PitchBook에 따르면 Nvidia는 올해에만 105건의 투자 라운드에 참여했고, 최대 투자자인 경우가 많았습니다. 스타트업 투자액은 연간 수백억 달러 규모입니다.",
+        "Seligman Ventures의 우메시 파드발은 주요 스타트업 투자 결정 대부분을 황이 직접 내렸다고 말했습니다. 한 투자자는 임시 CEO 크레스가 훨씬 보수적이어서 초기 기업에 같은 규모의 돈을 넣지 않을 것으로 봤습니다.",
+        "한 벤처 투자자에 따르면 GPU 구매에 1억~5억 달러가 필요한 인프라 기업들은 그 절반가량을 Nvidia에서 조달하는 경우가 많았습니다.",
+        "Battery Ventures의 다르메시 타커는 빅테크가 그 자리를 두고 경쟁하겠지만, 매출도 없는 인프라 스타트업에 수억 달러를 넣을지는 의문이라고 말했습니다.",
+        "다만 Nvidia의 후퇴만으로 AI 호황이 멈출 것으로 보는 사람은 거의 없다고 기사는 전했습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
+    },
+    {
+      "cat": "company",
+      "who": "Nvidia · 이스라엘",
+      "title": "Nvidia '제2의 고향' 이스라엘, 투자 지속 여부 촉각… 벤처 업계는 \"경쟁사에 기회\"",
+      "body": "Nvidia가 미국 밖 최대 연구개발 거점을 둔 이스라엘에서 경영진 교체의 영향을 둘러싼 우려와 기대가 함께 나오고 있습니다.",
+      "detail": [
+        "Nvidia는 이스라엘에서 약 6,000명을 고용하고 있습니다. 젠슨 황은 2019년 이스라엘 칩 회사 Mellanox를 69억 달러에 인수하는 거래를 이끌었고, 북부에 수십억 달러 규모의 캠퍼스도 계획해 왔습니다.",
+        "Vertex Ventures Israel의 야나이 오론은 \"Nvidia의 의사결정이 느려지면 경쟁사에 틈이 생긴다\"면서도, 불확실성으로 AI 지출이 줄면 경쟁사는 더 작아진 시장에서 몫만 늘릴 수 있다고 경고했습니다.",
+        "Selah Ventures의 아디 레바논은 황이 떠나도 Nvidia의 기술과 생태계가 무너지지는 않으며, 경영진 교체만으로 도전자들이 고객을 얻지는 못할 것이라고 말했습니다.",
+        "후임 후보로 거론되는 이름에는 Apple의 조니 스루지와 Nvidia의 마이클 케이건 등 이스라엘인 2명이 있지만, 유력 후보군 상단은 아니라고 기사는 전했습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/"
+    },
+    {
+      "cat": "product",
+      "hot": true,
+      "who": "Google",
+      "title": "Google, AI 에이전트 여럿이 협업하는 '/teamwork' 공개… 수학 난제 증명·검증 성과 대거 발표",
+      "body": "Google의 AI 개발 도구 Antigravity에 연구자와 AI 에이전트 여러 개가 함께 문제를 푸는 기능이 들어갔습니다. 아래 성과는 모두 Google 자체 발표 기준입니다.",
+      "detail": [
+        "Google Research가 13일 공개했습니다. /teamwork는 요청 내용에 따라 분산 코딩, 반복 문제 풀이, 긴 증명, 문서 검토 같은 작업 방식을 골라 에이전트들에게 나눠 맡깁니다. 성과 대부분에는 Gemini 4 Argon 모델이 쓰였습니다.",
+        "수학에서는 2013년 제기된 쿠르타드-쿠마르 추측을 증명하고 컴퓨터 증명 검증 언어 Lean 4로 확인했다고 밝혔습니다. 베유 추측은 에이전트를 28,800번 호출해 약 180만 줄 분량으로 사람 개입 없이 검증 가능한 형태로 옮겼다고 합니다.",
+        "코딩에서는 영상 디코더 libgav1을 Rust 약 17만 줄로 옮겨, 원래의 C++ 코드보다 20~30% 빠르게 만들었다고 밝혔습니다.",
+        "논문 검토 기능 'Deep Review'는 이론 컴퓨터과학 학회 STOC 2027 투고작 578편에 쓰였습니다. 설문 응답자 70명 중 90%가 다시 쓰겠다고 답했고, 30% 이상은 증명의 실질적 오류나 중요한 오타를 잡아냈다고 답했습니다.",
+        "외부 연구자와 개발자도 지금 Antigravity에서 쓸 수 있습니다. 학계 연구자 1만 명에게는 최고 사용 등급을 6개월간 무료로 제공하는 프로그램의 신청을 받고 있습니다."
+      ],
+      "source": "Google Research 블로그",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+    },
+    {
+      "cat": "product",
+      "who": "Google Cloud · Google DeepMind",
+      "title": "Google Cloud, 슈퍼컴퓨팅용 AI 에이전트 기능 공개… 코드 최적화 AI 'AlphaEvolve'도 클라우드에서",
+      "body": "과학·공학 계산에 쓰는 고성능 컴퓨팅(HPC) 환경을 AI 에이전트가 구성하고 운영하도록 돕는 기능 묶음입니다. 15일 시카고에서 개막하는 슈퍼컴퓨팅 학회 SC26에 맞춰 발표됐습니다.",
+      "detail": [
+        "Google Cloud는 14일 HPC 클러스터 구축 도구 Cluster Toolkit에 에이전트용 '스킬'을 결합했다고 밝혔습니다. 에이전트는 자원 할당량과 지역별 여유 용량을 점검하고, 사람의 승인을 받은 뒤에 배포 명령을 실행합니다.",
+        "유체 해석 OpenFOAM, 분자 시뮬레이션 GROMACS, 단백질 구조 예측 AlphaFold 3 같은 작업별 스킬도 제공하며, GitHub의 Google·DeepMind 저장소에서 내려받을 수 있습니다.",
+        "AlphaEvolve는 Gemini가 코드를 조금씩 바꾸고 성능을 재는 과정을 반복해 최적화하는 DeepMind의 시스템입니다. Cloud Batch에서 후보 수백 개를 동시에 평가하도록 구성할 수 있습니다.",
+        "하드웨어로는 Nvidia Vera Rubin 기반 A5X 인스턴스가 새로 제공되고, 자체 칩 TPU 8t(학습용)와 TPU 8i(추론용)도 소개됐습니다. 가격은 공개되지 않았습니다."
+      ],
+      "source": "Google Cloud 블로그",
+      "url": "https://cloud.google.com/blog/topics/hpc/whats-new-in-hpc-and-ai-at-sc26"
+    },
+    {
+      "cat": "product",
+      "who": "Sierra · Shopify · Meta",
+      "title": "개인 AI 비서와 기업을 잇는 규약 'Poppy' 1.0 공개… Shopify 전 매장에 기본 적용",
+      "body": "사용자의 AI 비서가 쇼핑몰이나 은행, 항공사 사이트에서 자신을 밝히고 허용된 일만 하도록 정한 공통 규칙입니다. 고객 응대 AI 회사 Sierra가 주도하며, 수치는 Sierra 발표 기준입니다.",
+      "detail": [
+        "Sierra는 13일 Personal Agent Protocol(Poppy) 1.0을 공개했습니다. 10월 Meta, Shopify, Stripe, Walmart 등 8개사와 초안을 내놓은 지 약 5주 만입니다.",
+        "인증에는 기존 로그인 위임 표준인 OAuth를 써서, 고객이 AI 비서에게 무엇을 허용할지 정하고 나중에 바꿀 수 있습니다.",
+        "Shopify는 모든 입점 매장에 Poppy를 켰습니다. 매장마다 안내 파일이 자동으로 게시되며, 특정 행동 전에 AI 비서가 고객에게 물어보도록 요구합니다.",
+        "Meta의 AI 에이전트 Muse는 방문하는 모든 사이트에서 Poppy를 먼저 찾습니다. 금융 서비스 Mercury와 Turkish Airlines 등도 적용을 시작했습니다.",
+        "Delta Air Lines, Hyatt, Intuit, Salesforce 등 60개사가 새로 합류해 참여 기업은 100곳을 넘었습니다."
+      ],
+      "source": "Sierra",
+      "url": "https://sierra.ai/blog/releasing-poppy"
+    },
+    {
+      "cat": "product",
+      "who": "Cloudflare",
+      "title": "Cloudflare, AI 에이전트용 초경량 브라우저 엔진 'Kitesurf' 오픈소스로 공개",
+      "body": "AI 에이전트가 웹페이지를 읽고 조작할 때 무거운 Chrome을 통째로 띄우지 않아도 되게 하려는 실험적 프로젝트입니다.",
+      "detail": [
+        "Cloudflare는 13일 Kitesurf를 Apache 2.0 라이선스로 GitHub에 공개했습니다. 8월에 처음 소개한 뒤 9월에 기능을 보강한 프로젝트입니다.",
+        "브라우저 전용 컨테이너 없이 Cloudflare Workers 위에서 HTML 해석, CSS 적용, 자바스크립트 실행, 화면 캡처를 처리합니다. 기존 자동화 도구 Puppeteer로도 연결할 수 있습니다.",
+        "Rust로 만든 오픈소스 부품 Blitz(화면 구성), Stylo(스타일 처리), Boa(자바스크립트 엔진)를 조합했습니다.",
+        "아직 실험 단계로 빠르게 바뀌고 있으며, 자기 계정에 직접 배포하려면 Workers 유료 요금제가 필요합니다."
+      ],
+      "source": "Cloudflare 블로그",
+      "url": "https://blog.cloudflare.com/kitesurf-open-source"
+    },
+    {
+      "cat": "product",
+      "who": "OpenAI · Databricks",
+      "title": "ChatGPT에서 사내 데이터에 바로 질문… OpenAI·Databricks, 기업용 연동 3종 정리 공개",
+      "body": "기업 데이터 플랫폼 Databricks에 쌓인 회사 데이터를 권한 규칙을 지키면서 ChatGPT와 코딩 도구 Codex에서 쓰는 방법을 Databricks가 소개했습니다.",
+      "detail": [
+        "Databricks는 13일 블로그에서 세 가지 사용 방식을 설명했습니다. 두 회사는 2025년 9월 다년 계약을 맺었고 서로의 고객이기도 합니다.",
+        "첫째, 직원이 ChatGPT에서 질문하면 'Genie' 플러그인이 회사가 정한 지표 정의대로 Databricks에서 조회해 차트로 답합니다. 사용자는 자기 권한이 있는 데이터만 볼 수 있습니다.",
+        "둘째, 개발자는 Databricks 계정으로 Codex에 로그인해 씁니다. 모든 요청이 기록되고 관리자가 팀별 예산을 정할 수 있습니다.",
+        "셋째, GPT 모델을 Databricks 안에서 직접 돌려 맞춤 에이전트를 만들 수 있습니다. 이 경우 외부 API 키가 필요 없습니다.",
+        "가격이나 고객 수는 글에 나와 있지 않습니다."
+      ],
+      "source": "Databricks 블로그",
+      "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data"
+    },
+    {
+      "cat": "product",
+      "who": "Tesla",
+      "title": "Tesla, 자율주행 2인승 'Cybercab' 개인 판매 사전 주문 시작… 2만 9,990달러에 월 299달러",
+      "body": "운전대 없이 스스로 달리는 Tesla의 로보택시용 차량을 일부 고객이 개인용으로 살 수 있게 됐습니다. 다만 지역 제한과 월 이용료가 붙습니다.",
+      "detail": [
+        "Tesla는 13일 저녁 '선별된 고객'이 Cybercab을 개인용으로 사전 주문할 수 있다고 밝혔습니다. 주문 페이지 기준 가격은 2만 9,990달러, 예상 인도 시기는 2026년 12월입니다.",
+        "차를 운행하려면 월 299달러를 추가로 내야 합니다. 구매자는 텍사스의 일부 도시에서 차를 인도받아야 하고, 차는 정해진 구역 안에서만 운행됩니다.",
+        "일론 머스크 CEO는 규제 승인을 받으면 전국에서 판매하겠다고 했습니다. 또 월 299달러는 너무 비싸며 다른 차종의 자율주행·통신 요금 수준인 약 115달러에 맞춰야 한다고 말했습니다.",
+        "Tesla는 최근 판매가 부진한 Cybertruck 생산을 2027년에 중단하고 그 설비로 Cybercab을 더 만들겠다고 밝혔습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/"
+    },
+    {
+      "cat": "product",
+      "who": "Mercor · Nvidia · Salesforce",
+      "title": "AI 학습용 전문가 인력 플랫폼 Mercor, 7억 5,000만 달러 유치… 기업가치 200억 달러",
+      "body": "AI 모델을 가르치고 평가할 분야별 전문가를 AI 회사에 연결해 주는 스타트업이 1년여 만에 기업가치를 두 배로 키웠습니다. 매출 수치는 CEO의 주장입니다.",
+      "detail": [
+        "샌프란시스코의 Mercor는 시리즈 D로 7억 5,000만 달러를 유치했습니다. 2025년 10월 시리즈 C 당시 기업가치는 100억 달러였습니다.",
+        "투자자로는 Nvidia, Salesforce, Benchmark, Felicis, General Catalyst, Apollo 계열 펀드, Zoom 등이 이름을 올렸고, 직원 보유 주식 매입도 포함됐습니다.",
+        "브렌던 푸디 CEO는 LinkedIn에서 연 환산 매출이 27개월 만에 100만 달러에서 30억 달러로 늘었다고 밝혔습니다.",
+        "공동 창업자 3명은 모두 23세입니다. 회사는 올해 3월 데이터 유출 사고를 공개한 바 있습니다."
+      ],
+      "source": "Staffing Industry Analysts",
+      "url": "https://www.staffingindustry.com/news/global-daily-news/mercor-lands-750m-funding-round-valuing-staffing-platform-at-20b"
+    },
+    {
+      "cat": "product",
+      "who": "Databento",
+      "title": "직원 39명의 금융 데이터 회사 Databento, 기업가치 11억 달러… \"6대 AI 연구소 중 5곳이 고객\"",
+      "body": "주식·선물·옵션 시세 데이터를 개발자가 쓰기 쉬운 방식으로 제공하는 스타트업이 유니콘(기업가치 10억 달러 이상)이 됐습니다. 고객과 실적 수치는 회사 발표 기준입니다.",
+      "detail": [
+        "Databento는 시리즈 C로 1억 달러를 유치했습니다. 초기 투자자인 Fifth Down Capital이 주도했고 NEA, DRW Venture Capital, Tribe Capital 등 기존 투자자 대부분이 다시 참여했습니다. 신용평가사 계열 Fitch Ventures가 전략 투자자로 합류했습니다.",
+        "올해 초 9,700만 달러 시리즈 B를 받은 지 몇 달 만이며, 그 뒤 매출이 두 배 넘게 늘었고 계속 흑자라고 회사는 밝혔습니다.",
+        "회사는 최대 규모 AI 연구소 6곳 중 5곳과 기업 계약을 맺었다고 밝혔습니다. 퀀트 투자사, 증권사, 자산운용사도 고객입니다.",
+        "크리스티나 치 CEO는 \"AI 시대에는 놀랄 만큼 작은 팀이 10억 달러 회사를 만든다\"고 말했습니다."
+      ],
+      "source": "FinTech Global",
+      "url": "https://fintech.global/2026/11/13/databento-hits-1-1bn-valuation-with-100m-series-c/"
+    },
+    {
+      "cat": "product",
+      "who": "Operand · Khosla Ventures",
+      "title": "매각 측 협조 없이 AI로 기업 실사하는 Operand, 3,100만 달러 유치",
+      "body": "사모펀드가 인수 대상 회사를 조사할 때, 상대가 자료를 주지 않아도 공개 기록과 인터넷 흔적만으로 사업 실태를 재구성해 준다는 스타트업입니다.",
+      "detail": [
+        "뉴욕의 Operand는 시드와 시리즈 A를 합쳐 3,100만 달러를 유치했고 기업가치는 2억 2,000만 달러로 평가됐습니다. Khosla Ventures가 주도했습니다.",
+        "Felicis, SV Angel, Soma Capital, Y Combinator가 참여했고 투자자 키스 라보이스가 이사회에 합류했습니다.",
+        "AI 에이전트가 공개 기록, 고객 중복, 시장 내 위치를 분석해 고객 행동, 가격 불일치, 운영 지표를 찾아내도록 설계됐습니다.",
+        "기사는 이 기술을 쓰는 사모펀드의 예로 Clearlake Capital을 들었습니다. 창업자는 람 고르티, 아킬 아이옌가르, 아르준 사니입니다."
+      ],
+      "source": "Implicator.ai",
+      "url": "https://www.implicator.ai/operand-which-offers-ai-powered-due-diligence-tools-pe-firms/"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "Cursor · Fireworks AI · Anthropic",
+      "title": "Cursor, 해킹으로 악성 'Claude Code' 확장 11시간 배포… 최대 5,000명 영향 가능",
+      "body": "AI 코드 편집기 Cursor가 Fireworks AI에서 유출된 접속 키로 시작된 침해 사고를 공개했습니다. Anthropic의 정식 확장 프로그램 자체가 뚫린 것은 아닙니다.",
+      "detail": [
+        "Cursor의 사고 보고서에 따르면 공격자는 AI 모델 제공 업체 Fireworks AI에 저장돼 있던 접속 키를 훔쳐, Cursor가 Fireworks와 데이터를 공유하던 읽기 전용 저장소를 복사했습니다.",
+        "저장소에는 주로 2025년의 AI 코딩 작업 기록이 있었고, 일부에 가려지지 않은 인증 정보가 남아 있어 공격자가 다른 Cursor 시스템에도 접근했습니다. 개인정보 보호 모드를 켠 사용자의 코드와 입력 내용은 영향이 없었습니다.",
+        "10월 29일 공격자는 Cursor의 확장 프로그램 장터에 악성 Claude Code 확장(버전 2.1.312, 2.1.313)을 올렸고 약 11시간 뒤 삭제됐습니다. 그동안 해당 버전을 요청한 최대 5,000명이 받았을 수 있습니다.",
+        "악성 코드는 시스템 정보를 모으고 공격자의 원격 접속 키를 심으려 했지만, 코드 오류 때문에 Windows와 macOS 상당수에서는 제대로 작동하지 않았을 것으로 보안 연구자들은 봤습니다.",
+        "Cursor는 AI 연산 처리를 모두 Fireworks 밖으로 옮기고 확장 장터를 새로 구축했습니다. 보안 업체 Wiz는 AI 개발 플랫폼을 노린 연쇄 공격을 '검은 10월'이라 부르며, Railway는 훔친 인증 정보로 약 74만 달러의 AI 사용료가 부정 청구됐다고 전해졌습니다."
+      ],
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension"
+    },
+    {
+      "cat": "buzz",
+      "who": "Uber · Fireworks AI",
+      "title": "Uber \"기사 수천 명 운전면허 정보 유출\"… 원인은 또 Fireworks AI 해킹",
+      "body": "Fireworks AI 해킹의 피해가 Notion과 Cursor에 이어 Uber로도 확인됐습니다. 전체 피해 규모는 아직 공개되지 않았습니다.",
+      "detail": [
+        "Uber는 이번 주 캘리포니아 등 여러 주 법무장관에게 낸 통지에서, 기술 제공 업체가 10월에 해킹당해 기사들의 개인 정보와 운전면허 정보가 도난당했다고 밝혔습니다. Uber는 10월 9일 업체로부터 통보받았습니다.",
+        "TechCrunch는 이 업체가 Fireworks AI라고 확인했습니다. 해커가 내부 인증 정보를 훔쳐 Uber 데이터에 접근한 것으로 전해졌습니다.",
+        "통지서 기준 피해자는 매사추세츠 2,567명, 사우스캐롤라이나 3,430명, 로드아일랜드 1,873명이며, 통지가 이어지면서 합계는 더 늘 전망입니다.",
+        "Fireworks는 일부 시스템에 대한 무단 접근으로 고객 데이터가 영향을 받았다고 확인했습니다. 범행을 자처한 해킹 조직은 아직 없습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach"
+    },
+    {
+      "cat": "buzz",
+      "hot": true,
+      "who": "미 연방항공청(FAA)",
+      "title": "미국 전역 4시간 넘게 운항 중단… 당국 \"AI 관제 도구와 무관, 통신 장비 교체 탓\"",
+      "body": "미국 항공 당국이 AI 관제 보조 도구 확대를 발표한 직후 전국 이륙이 멈추자 AI가 원인이 아니냐는 의문이 제기됐습니다. 당국은 통신 장비 문제라고 밝혔습니다.",
+      "detail": [
+        "13일(현지 시간) 오후 통신 장애로 미국 전역의 항공기 출발이 4시간 넘게 중단됐습니다. 항공 데이터 업체 Cirium에 따르면 13일 저녁 8,200편 이상이 취소됐고, 14일에도 최소 3,000편이 추가로 취소됐습니다.",
+        "숀 더피 교통장관은 14일, 외딴 지역의 구리선을 광케이블로 바꾸는 정기 작업 뒤 라우터 한 대가 핵심 통신 시스템에 과부하를 일으켰다고 설명했습니다. 작업은 FAA의 오랜 협력 업체 L3Harris가 맡았습니다.",
+        "브라이언 베드퍼드 FAA 청장은 \"악의적 행위의 증거도, AI와 관련된 증거도 전혀 없다\"며 장비 문제임을 분명히 했습니다.",
+        "의문이 나온 것은 FAA가 관제사용 AI 도구 확대를 발표한 직후였기 때문입니다. 관제사 노조는 이 시스템 설계 과정에서 의견을 요청받지 못했다고 밝혔습니다.",
+        "FAA는 통신망에 4~5초마다 약 1,000건씩 접속을 시도하던 발신원 두 곳을 차단해 망을 안정시켰고, 근본 원인을 분석 중입니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/"
+    },
+    {
+      "cat": "buzz",
+      "who": "FBI",
+      "title": "FBI \"AI 자동 해킹 도구 'ARTEX' 악용 확산\"… 3시간 안에 관리자 권한 탈취, 한국서 약 6만 7,000명 정보 유출",
+      "body": "원래 보안 점검용으로 만든 AI 모의 해킹 도구가 실제 공격에 쓰이고 있다는 FBI 경보입니다. 사람이 말로 목표를 주면 AI 에이전트들이 침투 과정을 알아서 수행합니다.",
+      "detail": [
+        "FBI는 13일 자 경보에서 2026년 8월부터 ARTEX를 이용한 공격이 관찰됐으며, 일부는 표적 선정부터 관리자 권한 확보까지 3시간이 걸리지 않았다고 밝혔습니다. 금융, 정부, 국방, 의료, 에너지, 통신 분야가 피해를 봤습니다.",
+        "ARTEX는 자체 AI 모델을 싣지 않고 Claude, GPT, DeepSeek, Grok 등 외부 모델에 연결해 씁니다. 경보는 공격자들이 비용과 성능, 느슨한 안전장치 때문에 중국 모델, 특히 DeepSeek Flash를 주로 쓴다고 했습니다.",
+        "보고된 공격으로 한국에서 약 6만 7,000명의 개인 정보가 도난당했고, 백업 서비스 ConnectWise Cloud Backup이 뚫려 그 고객사 2,250곳 이상에 접근이 가능해졌습니다.",
+        "개발자는 7월에 도구를 공개했다가 악용 신고가 이어지자 10월 8일 GitHub 저장소를 지웠지만 복제본이 계속 돌고 있습니다. 11월 초 인터넷에 노출된 조작 화면이 1,600개 넘게 확인됐습니다.",
+        "FBI는 인터넷에 노출된 시스템 점검, 최소 권한 원칙 적용, 예상치 못한 AI 서비스 접속 기록 조사를 권고했습니다."
+      ],
+      "source": "GBHackers",
+      "url": "https://gbhackers.com/fbi-warns-artex-ai-framework/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Alibaba · Hugging Face",
+      "title": "Hugging Face 인기 모델 내려받기의 52%가 Alibaba… \"젠슨 황 스캔들, 무료 중국 AI에 불똥\"",
+      "body": "미국 기업들이 비용을 아끼려 무료로 공개된 중국 AI 모델을 많이 쓰는데, Nvidia 스캔들이 그 모델들이 의존하는 칩 조달 경로를 막을 수 있다는 Yahoo Finance 분석입니다.",
+      "detail": [
+        "Yahoo Finance 계산으로 최근 한 달 Hugging Face에서 제작사가 확인되는 내려받기 가운데 Alibaba의 Qwen 모델이 52%였습니다. Google과 OpenAI는 각 7%, DeepSeek과 Meta는 각 4%였습니다.",
+        "Duolingo의 루이스 폰 안 CEO는 앱의 AI 통화 연습 1회 비용이 약 30센트에서, 작업 대부분을 공개 모델로 옮긴 뒤 \"1센트 미만\"으로 내려갔다고 말했습니다.",
+        "Financial Times 보도에 따르면 Alibaba는 Megaspeed의 창립 고객이자 지금도 최대 고객입니다. 미국의 수사 대상은 Alibaba가 아니라 Megaspeed이며, Megaspeed는 칩을 빼돌렸다는 의혹을 부인합니다.",
+        "Alibaba 주가는 12일 7% 내려 2025년 1월 이후 가장 낮은 종가를 기록했습니다. 미 상무부가 중국 AI 기업의 해외 데이터센터 내 첨단 칩 사용을 막는 규정을 마무리 중이라는 The Information 보도가 배경입니다.",
+        "누리엘 루비니 뉴욕대 명예교수는 중국 공개 모델이 미국 모델의 약 95% 수준이지만, 미국 모델 베끼기와 싱가포르 경유 칩 조달이 막히면 뒤처질 것이라고 주장했습니다."
+      ],
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/article/jensen-huang-scandal-trail-leads-to-alibaba-the-king-of-free-chinese-ai-chart-of-the-day-110000329.html"
+    },
+    {
+      "cat": "buzz",
+      "who": "미 국방부",
+      "title": "미 국방부 AI 총괄 조직, '초지능실'로 개명… 트럼프의 \"AI 대신 SI\" 방침 따라",
+      "body": "이름만 바뀌고 임무와 사업은 그대로입니다. '초지능'은 원래 인간을 넘어서는 가상의 AI를 뜻해, 용어를 둘러싼 지적도 나옵니다.",
+      "detail": [
+        "미 국방부는 최고디지털·AI책임자실(CDAO)을 '초지능실(Super Intelligence Office, SIO)'로 바꾼다고 13일 발표했습니다. 임무 변화는 없다고 밝혔습니다.",
+        "트럼프 대통령은 9월 '인공(artificial)'이라는 말이 기술을 가짜처럼 들리게 한다며 모든 연방 기관에 AI를 '초지능(SI)'으로 바꿔 부르라고 지시했습니다.",
+        "조직을 이끄는 캐머런 스탠리는 \"우리는 실험적 시제품 단계를 넘어섰다\"고 말했습니다. 새 웹 주소 SI.mil도 개설됐습니다.",
+        "AI 기반 정보·표적 분석 체계 Maven Smart System 등 기존 사업과 계약은 새 이름 아래 그대로 이어집니다.",
+        "Breaking Defense는 '초지능'이 전통적으로 인간 지능 전반을 넘어서는 가상의 AI를 가리키는 말이며, 그런 능력은 아직 존재하지 않는다고 짚었습니다."
+      ],
+      "source": "Breaking Defense",
+      "url": "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office/"
+    },
+    {
+      "cat": "buzz",
+      "who": "Ai2(앨런 AI 연구소)",
+      "title": "\"AI, 사용자의 잘못된 전제 알면서도 답에서 강조는 안 해\"… Ai2, 새 평가 'XYBench' 공개",
+      "body": "사용자가 진짜 목표 대신 엉뚱한 방법을 물었을 때 AI가 이를 알아채고 진짜 목표 중심으로 답하는지 재는 시험입니다. 결과는 연구진 자체 평가입니다.",
+      "detail": [
+        "Ai2는 13일 프로그래밍과 일상 과제에 걸친 8,115개 질문으로 구성된 XYBench를 공개했습니다. 사용자가 목표 X를 원하면서 방법 Y가 통할 것이라 잘못 믿고 Y만 묻는 이른바 'XY 문제'를 다룹니다.",
+        "Claude Sonnet 4.6, GPT-5, Gemini 3.1 Pro, Qwen3.5-9B, DeepSeek-V4 Pro를 평가했습니다.",
+        "개발자 질문 사이트 Stack Overflow 문항에서 진짜 목표의 해법이 답에 들어간 비율은 59~71%였지만, 그 목표를 답의 중심에 둔 비율은 35~41%에 그쳤습니다.",
+        "반면 여러 답 중 고르게 하는 시험에서는 모델들이 71~84% 확률로 목표 중심 답을 골랐습니다. 좋은 답을 알아보는 능력이 직접 만들어 내는 능력보다 앞선다는 뜻입니다.",
+        "질문이 영어이고 절차형 문제에 치우쳐 있으며, 일부 문항은 합성된 것이라는 한계가 있습니다."
+      ],
+      "source": "CASRAI",
+      "url": "https://casrai.org/news/allenai-xybench-user-misconceptions-benchmark-2026"
+    },
+    {
+      "cat": "buzz",
+      "who": "Character.ai · OpenAI · Ollie",
+      "title": "\"기업 AI 사업의 42%는 결국 중단\"… TechCrunch, 사라진 AI 서비스 'AI 묘지' 정리",
+      "body": "Character.ai 파산과 개인 비서 앱 Ollie 종료를 계기로, 문을 닫거나 접힌 AI 제품과 스타트업을 모은 기사입니다.",
+      "detail": [
+        "S&P Global Market Intelligence에 따르면 기업 AI 사업의 약 42%가 결국 중단됩니다. 자금 부족, 기술적 난관, 경쟁, 수요 부족이 이유로 꼽혔습니다.",
+        "AI 캐릭터 대화 서비스 Character.ai는 10월 초 법적·규제 문제 등을 들어 파산을 신청했습니다. Disney가 일부 지식재산 사용권에 2,000만 달러를 첫 입찰가로 냈고, 앱은 아직 운영 중입니다.",
+        "가족 일정을 문자로 정리해 주던 Ollie는 6월 출시 뒤 Muse, Instinct 등과의 경쟁에서 차별화하지 못하고 자금도 부족해 11월 6일 종료를 발표했습니다.",
+        "OpenAI의 영상 서비스 Sora는 운영비와 이용자 이탈 문제로 3월에, 자체 웹 브라우저 ChatGPT Atlas는 출시 1년이 안 된 8월 9일에 중단됐습니다.",
+        "Zapier의 대안을 내세운 업무 자동화 도구 Relay는 대형 플랫폼들이 비슷한 기능을 직접 넣으면서 8월에 문을 닫았습니다."
+      ],
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/"
+    }
+  ]
+}
